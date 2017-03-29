@@ -1,1 +1,5 @@
-<h1>Forside!</h1>
+<div id="header">
+
+
+    
+</div>
