@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.php" media="screen">
     </head>
     <body>
         <?php require 'header.php' ?>
