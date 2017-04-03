@@ -6,26 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Template</title>
 
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-      
-    <!-- Custom CSS -->
-    <link href="../css/custom.css" rel="stylesheet">
   </head>
   <body>
         
         <div class="row">
-
-            <div class="col-md-3" style="text-align: center; background-color: black;">
-                <h1>Test</h1>
-                <p>SKdjhskjdhksjhdkjsd</p>
-            </div>
+            <div class="col-md-3 eventcard">
+                <img src="../pic/200x200.png" class="image-responsive">
+                <h4>Titel</h4>
+                <p>Time</p>
+                <p>Place</p>
+                <p>Beskrivning</p>
+            </div>    
+            
+            <div class="col-md-3 eventcard">
+                <img src="../pic/200x200.png" class="image-responsive">
+                <h4>Titel</h4>
+                <p>Time</p>
+                <p>Place</p>
+                <p>Beskrivning</p>
+            </div>   
+            
+            <div class="col-md-3 eventcard">
+                <img src="../pic/200x200.png" class="image-responsive">
+                <h4>Titel</h4>
+                <p>Time</p>
+                <p>Place</p>
+                <p>Beskrivning</p>
+            </div>   
+            
+            <div class="col-md-3 eventcard">
+                <img src="../pic/200x200.png" class="image-responsive">
+                <h4>Titel</h4>
+                <p>Time</p>
+                <p>Place</p>
+                <p>Beskrivning</p>
+            </div>   
+            
+            <div class="col-md-3 eventcard">
+                <img src="../pic/200x200.png" class="image-responsive">
+                <h4>Titel</h4>
+                <p>Time</p>
+                <p>Place</p>
+                <p>Beskrivning</p>
+            </div>   
+            
+            <div class="col-md-3 eventcard">
+                <img src="../pic/200x200.png" class="image-responsive">
+                <h4>Titel</h4>
+                <p>Time</p>
+                <p>Place</p>
+                <p>Beskrivning</p>
+            </div>   
             
         </div>
       
-      
-    <!-- jquery og bootstrap script -->  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

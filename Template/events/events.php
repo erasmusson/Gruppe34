@@ -15,9 +15,7 @@
   <body>
       
         <?php require '../header.php' ?>
-      
-      
-            <?php require 'slideshow.php' ?>
+        <?php require 'slideshow.php' ?>
             
   
       <div class="container">
