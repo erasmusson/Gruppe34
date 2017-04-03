@@ -1,6 +1,7 @@
 <?php
 
     require '../vendor/autoload.php';
+    use Illuminate\Database\Capsule\Manager as Database;
     use Carbon\Carbon;
     Carbon::setLocale('no');
     
