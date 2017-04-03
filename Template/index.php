@@ -14,34 +14,61 @@
   </head>
   <body>
       
-        <?php require 'header.php' ?>
+      <div class="container-fluid" style="background-color:#F44336; height:500px;">
+      </div>
       
-    <div class="container-fluid">
-        
-        <div class="jumbotron">
-            <h1>Fjerdingen</h1> 
-            <p>Velkommen til Fjerdingen</p> 
-  </div>
-    <h3>Events</h3>
-        <div class="row">
-            <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, ad mel nobis intellegat. Sed persius mandamus ne, quidam nostro adipiscing ad vim. Eu volumus nominavi quo, est id possim expetendis. Option probatus concludaturque an vis, habemus nominavi deleniti duo ad. No perpetua sapientem vim, cum nihil option timeam et. In tibique honestatis sea, omnes graecis salutatus at vis, no mei case debet suscipit.</p>
-            </div>
-            
-            <div class="col-md-6">
-                  <p>Lorem ipsum dolor sit amet, ad mel nobis intellegat. Sed persius mandamus ne, quidam nostro adipiscing ad vim. Eu volumus nominavi quo, est id possim expetendis. Option probatus concludaturque an vis, habemus nominavi deleniti duo ad. No perpetua sapientem vim, cum nihil option timeam et. In tibique honestatis sea, omnes graecis salutatus at vis, no mei case debet suscipit.</p>
-            </div>
-        </div>
-        
-        <h3>Latest news & updates</h3>
-        <div class ="row">
-            <div class="col-md-4"><img src="Bilder/placeholder.png" class="img-responsive" alt="Placeholder"></div>
-            <div class="col-md-4"><img src="Bilder/placeholder.png" class="img-responsive" alt="Placeholder"></div>
-            <div class="col-md-4"><img src="Bilder/placeholder.png" class="img-responsive" alt="Placeholder"></div>
-        </div>
+      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="500">
+          <div class="navbar-header">
+              <div class="navbar-brand" href="#">FJERDINGEN</div>
+          </div>
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Kart</a></li>
+              <li><a href="#">Events</a></li>
+          </ul>
+      </nav>
+      
+      <div class="container">
+          <h1>Latest news & updates</h1>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="thumbnail">
+                      <a href="#">
+                          <img id="picNews" src="http://placehold.it/300x300">
+                          <div class="caption newsTekst">
+                              <h3>Konsert</h3>
+                              <p>Lorem ipsum...</p>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                   <div class="thumbnail">
+                      <a href="#">
+                          <img id="picNews" src="http://placehold.it/300x300">
+                          <div class="caption newsTekst">
+                              <h3>Konsert</h3>
+                              <p>Lorem ipsum...</p>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                   <div class="thumbnail">
+                      <a href="#">
+                          <img id="picNews" src="http://placehold.it/300x300">
+                          <div class="caption newsTekst">
+                              <h3>Konsert</h3>
+                              <p>Lorem ipsum...</p>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          
+          <?php require'EventsSlide.php' ?>
         
       </div>
-     <?php require 'footer.php' ?>
       
     <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

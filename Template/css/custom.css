@@ -4,3 +4,27 @@
     text-align: center;
     padding-bottom: 3%;
 }
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top:70px;
+}
+
+.newsTekst
+{
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.navbar
+{
+    z-index: 10;
+}
