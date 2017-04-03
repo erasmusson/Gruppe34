@@ -1,9 +1,9 @@
-          
+
           <div class="col-md-12">
               <h1>Events</h1>
               
               <div class="well">
-                  <div id="myCarousel" class="carousel slide">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                       <div class="carousel-inner">
                           <div class="item active">
                         <div class="row">
@@ -52,4 +52,6 @@
                       <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
                   </div>
               </div>
+              
           </div>
+

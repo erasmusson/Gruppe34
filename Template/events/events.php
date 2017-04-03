@@ -15,7 +15,11 @@
   <body>
       
         <?php require '../header.php' ?>
-        <?php require 'slideshow.php' ?>
+      
+      
+        <?php require '../EventsSlide.php' ?>
+        
+        
             
   
       <div class="container">

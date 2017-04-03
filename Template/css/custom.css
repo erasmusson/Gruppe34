@@ -28,3 +28,11 @@ h1
 {
     z-index: 10;
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control {
+   display: none;
+}
