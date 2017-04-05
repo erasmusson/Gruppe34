@@ -1,6 +1,6 @@
 <?php 
 
-    require '../vendor/autoload.php';
+    require 'vendor/autoload.php';
     $port = 8889;
     $username = 'root';
     $password = 'root';

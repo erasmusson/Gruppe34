@@ -1,3 +1,29 @@
+<?php
+
+    require 'vendor/autoload.php';
+    $port = 8889;
+    $username = 'root';
+    $password = 'root';
+    $name = 'campusfjerdingen';
+
+    $connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
+
+
+    use Carbon\Carbon;
+    Carbon::setLocale('no');
+
+    $statement = $connection->prepare('SELECT * FROM events');
+    $statement->execute();
+
+    $events = [];
+    
+    while($row = $statement->fetch(PDO::FETCH_ASSOC)){
+        $row['starts_at'] = new Carbon($row['starts_at']);
+        $events[] = $row;
+    }
+
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,7 +94,7 @@
               </div>
           </div>
           
-          <?php require'EventsSlide.php' ?>
+          <?php require'events/EventsSlide.php' ?>
         
       </div>
       

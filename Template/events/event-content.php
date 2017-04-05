@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  </head>
-  <body>
-        
-        <div class="row">
+<!-- Prints out events in the future -->
+<div class="row">
 
-        <?php foreach ($events as $event) {
-            if($event['starts_at']->isFuture()) { ?>
-
-            <div class="col-md-3 eventcard">
-                <img src="<?= $event['image_path'] ?>" class="image-responsive"  style="height: 150px;">
-                <h4><?= $event['title'] ?></h4>
-                <p><?= $event['starts_at'] ?></p>
-                <p><?= $event['location'] ?></p>
-                <p><?= $event['description'] ?></p>
-            </div>   
-
-            <?php } }?>
+    <?php foreach ($events as $event) {
+        if($event['starts_at']->isFuture()) { ?>
+        <div class="col-md-3 eventcard">
+            <img src="<?= $event['image_path'] ?>" class="image-responsive"  style="height: 150px;">
+            <h4><?= $event['title'] ?></h4>
+            <p><?= $event['starts_at'] ?></p>
+            <p><?= $event['location'] ?></p>
+            <p><?= $event['description'] ?></p>
+        </div>   
+    <?php } }?>
             
-        </div>
+</div>
       
-  </body>
-</html>

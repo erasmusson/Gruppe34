@@ -1,6 +1,7 @@
+<!-- Connects with database and fetches all from table events -->
 <?php
 
-    require '../connection.php';
+    require 'connection.php';
     use Carbon\Carbon;
     Carbon::setLocale('no');
 
@@ -14,7 +15,7 @@
         $events[] = $row;
     }
 
-    ?>
+?>
       
 <!DOCTYPE html>
 <html lang="en">
@@ -22,28 +23,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Template</title>
+    <title>Events</title>
 
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
       
     <!-- Custom CSS -->
-    <link href="../css/custom.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
       
-        <?php require '../header.php' ?>
-        <?php require 'EventsSlide.php' ?>
-        
-      <div class="container">
-        <?php require 'event-content.php' ?>
-        <?php require 'search_function.php' ?>
-      </div>
+        <!-- Fetches all parts of events -->
+        <?php require 'navbar.php' ?>
+        <?php require 'events/EventsSlide.php' ?>
 
-        <?php require '../footer.php' ?>
+        <div class="container">
+            <?php require 'events/event-content.php' ?>
+        </div>
+
+        <?php require 'footer.php' ?>
       
     <!-- jquery og bootstrap script -->  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
