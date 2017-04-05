@@ -1,4 +1,4 @@
-<div class="nav-wrapper" style="height:80px;">
+<div class="nav-wrapper" style="height:50px;">
 <nav class="navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
