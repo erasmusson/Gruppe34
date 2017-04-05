@@ -12,9 +12,8 @@
         
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#"></a></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Kart</a></li>
+                <li class="active"><a href="#">Kart</a></li>
                 <li><a href="#">Events</a></li>
             </ul>
         </div>
