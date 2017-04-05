@@ -7,20 +7,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">FJERDINGEN</a>
+            <a class="navbar-brand" href="index.php">FJERDINGEN</a>
         
         </div>
         
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-<<<<<<< HEAD
-                <li class="active"><a href="#">Kart</a></li>
-                <li><a href="#">Events</a></li>
-=======
-                <li><a href="#">Kart</a></li>
-                <li class="active"><a href="#">Events</a></li>
->>>>>>> fe153e7fe99844526c814f1b51b77b0b3531329f
+                <li><a href="index.php">Home</a></li>
+                <li><a href="kart.php">Kart</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="campus-main.php">Campus</a></li>
             </ul>
         </div>
         
