@@ -35,7 +35,7 @@
       
         <!-- Fetches all parts of events -->
         <?php require 'navbar.php' ?>
-        <?php require 'events/EventsSlide.php' ?>
+        <?php require 'events/slideshow.php' ?>
 
         <div class="container">
             <?php require 'events/event-content.php' ?>
