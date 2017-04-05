@@ -24,6 +24,7 @@
             var checkbox = document.getElementById("chk");
             var hiddeninputs = document.getElementsByClassName("hidden");
             
+            
             for(var i = 0; i != hiddeninputs.length; i++){
                 if(checkbox.checked){
                     hiddeninputs[i].style.display = "block";
@@ -41,28 +42,39 @@
 
     <form action="#">
         
-        <input type="checkbox" name="Kategori" id="chk" onclick="showHide()"/>
-        <label for="chk">Click to show/hide</label>
+        <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked"/>
+        <label for="chk">Helse</label>
         <br />
         <br />
         
-        <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()"/>
-        <label for="chk2">Click to show/hide</label>
+        <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked"/>
+        <label for="chk2">Musikk</label>
         <br />
         <br />
         
-        <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()"/>
-        <label for="chk3">Click to show/hide</label>
+        <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked"/>
+        <label for="chk3">Butikk</label>
         <br />
         <br />
         
-        <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()"/>
-        <label for="chk4">Click to show/hide</label>
+        <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
+        <label for="chk4">Uteliv</label>
         <br />
         <br />
         
-        <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()"/>
-        <label for="chk5">Click to show/hide</label>
+        <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked"/>
+        <label for="chk5">Trening</label>
+        <br />
+        <br />
+        
+        <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
+        <label for="chk4">Personlig Utvikling</label>
+        <br />
+        <br />
+        
+        <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
+        <label for="chk4">Campus</label>
+        <br />
         <br />
 
         

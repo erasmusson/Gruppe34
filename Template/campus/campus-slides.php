@@ -1,6 +1,8 @@
     <div class="col-md-12">
-              <h1>Events</h1>
-              
+             
+        <br />
+        <br />
+            
               <div class="well">
                   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                       <div class="carousel-inner">
@@ -56,5 +58,10 @@
                   </div>
               </div>
               
+            <br />
+            <br />
+            <br />
+            <br />
+            
           </div>
 
