@@ -17,7 +17,8 @@
       <div class="container-fluid" style="background-color:#F44336; height:500px;">
       </div>
       
-      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="500">
+      <div class="nav-wrapper" style="height:80px;">
+      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="497">
           <div class="navbar-header">
               <div class="navbar-brand" href="#">FJERDINGEN</div>
           </div>
@@ -27,6 +28,7 @@
               <li><a href="#">Events</a></li>
           </ul>
       </nav>
+    </div>
       
       <div class="container">
           <h1>Latest news & updates</h1>
@@ -69,6 +71,14 @@
           <?php require'EventsSlide.php' ?>
         
       </div>
+      
+      <footer class="footer">
+          <div class="container-fluid">
+              <p class="text-muted">Webprosjekt.</p>
+          </div>
+      </footer>
+      
+      
       
     <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
