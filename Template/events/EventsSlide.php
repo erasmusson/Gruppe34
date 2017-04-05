@@ -2,11 +2,11 @@
               <h1>Events</h1>
               
               <div class="well">
+                <h4>Highlighted events</h4>
                   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                       <div class="carousel-inner">
                           <div class="item active">
                         <div class="row">
-                            
                             <?php  
                             
                                 $i = 1;
