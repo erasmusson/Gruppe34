@@ -23,7 +23,7 @@
           </div>
           <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Kart</a></li>
+              <li><a href="kart.php">Kart</a></li>
               <li><a href="#">Events</a></li>
           </ul>
       </nav>
