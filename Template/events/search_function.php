@@ -17,7 +17,7 @@
 
     <?php 
 
-$db = new mysqli('localhost', 'root', 'root', 'event', 8889);
+$db = new mysqli('localhost', 'root', 'root', 'campusfjerdingen', 8889);
 
 if(isset($_GET['keywords'])){
     
@@ -25,7 +25,7 @@ if(isset($_GET['keywords'])){
     $query = $db->query("
         SELECT title, description, category
         FROM events
-        WHERE title LIKE '%{$keywords}%' OR description LIKE '%{$keywords}%' OR category LIKE '%{$keywords}%'
+        WHERE title LIKE '%{$keywords}%' OR description LIKE '%{$keywords}%' OR category LIKE '%{$keywords}%' OR location LIKE '%{$keywords}%'
     ");
     
     ?>

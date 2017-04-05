@@ -15,13 +15,11 @@
                                 while($i < $x) {
                                     $statement = $connection->query("SELECT * FROM events where id = '$i'"); 
                                     $row = $statement->fetch(PDO::FETCH_ASSOC); 
-                                    
-                                
                                     ?>
                                     
                                        <div class="col-sm-3">
-                                        <img src="<?= $row['image_path']?>" alt="Image" class="img-responsive">
-                                        <h3><?= $row['title'] ?></h3> 
+                                        <img src="<?= $row['image_path']?>" alt="Image" class="img-responsive" style="height:200px;">
+                                        <h5><?= $row['title'] ?></h5>
                                     </div>
                                 
                                     <?php
