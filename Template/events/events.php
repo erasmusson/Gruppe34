@@ -1,3 +1,21 @@
+<?php
+
+    require '../connection.php';
+    use Carbon\Carbon;
+    Carbon::setLocale('no');
+
+    $statement = $connection->prepare('SELECT * FROM events');
+    $statement->execute();
+
+    $events = [];
+    
+    while($row = $statement->fetch(PDO::FETCH_ASSOC)){
+        $row['starts_at'] = new Carbon($row['starts_at']);
+        $events[] = $row;
+    }
+
+    ?>
+      
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,13 +33,8 @@
   <body>
       
         <?php require '../header.php' ?>
-      
-      
-        <?php require '../EventsSlide.php' ?>
+        <?php require 'EventsSlide.php' ?>
         
-        
-            
-  
       <div class="container">
         <?php require 'event-content.php' ?>
         <?php require 'search_function.php' ?>
