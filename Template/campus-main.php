@@ -7,25 +7,25 @@
     <title>Template</title>
 
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
       
     <!-- Custom CSS -->
-    <link href="../css/custom.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
       
-        <?php require '../header.php' ?>
+        <?php require 'header.php' ?>
       
-        <?php require 'campus-slides.php' ?>
+        <?php require '../template/campus/campus-slides.php' ?>
       
     <div class="container">
-        <?php require'campus-content.php' ?>
+        <?php require '../template/campus/campus-content.php' ?>
         
       </div>
-     <?php require '../footer.php' ?>
+     <?php require 'footer.php' ?>
       
     <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../template/js/bootstrap.min.js"></script>
+    <script src="../Template/js/bootstrap.min.js"></script>
   </body>
 </html>

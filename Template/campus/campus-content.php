@@ -22,13 +22,15 @@
         
     }
     
+
+    
 </style>
     
 </head>
 <body>
-
+    
     <div>
-        <h1 style="text-align: center;">Hva skjer på Campus Fjerdingen?</h1>
+        <h1 style="text-align: center; font-size: 60px; font-family: seriff; color: #61b0cb;">Hva skjer på Campus Fjerdingen?</h1>
     </div>
     
     <div class="boxed">
