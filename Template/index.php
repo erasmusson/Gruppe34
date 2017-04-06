@@ -42,19 +42,33 @@
       </div>
       
       <div class="nav-wrapper" style="height:50px;">
-      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="497">
+      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="280">
           <div class="container-fluid">
           <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+              </button>
               <div class="navbar-brand" href="index.php">FJERDINGEN</div>
           </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">   
               <li><a href="index.php">Home</a></li>
               <li><a href="kart.php">Kart</a></li>
               <li><a href="events.php">Events</a></li>
               <li><a href="campus-main.php">Campus</a></li>
           </ul>
-        </div>  
-      </nav>
+              
+          <form class="navbar-form navbar-right">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button> 
+          </form>
+        </div>
+      </div>
+      </nav>   
     </div>
       
       <div class="container">

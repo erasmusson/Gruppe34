@@ -18,6 +18,13 @@
                 <li><a href="events.php">Events</a></li>
                 <li><a href="campus-main.php">Campus</a></li>
             </ul>
+            
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button> 
+            </form>
         </div>
         
     </div>
