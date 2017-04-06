@@ -1,4 +1,25 @@
+<script type="text/javascript">
+                function myFunction(id1) {
 
+                var x = document.getElementById(id1);
+                var children = [].slice.call(document.getElementById('lol').getElementsByTagName('*'),0);
+                var arrayLength = children.length;          
+
+                for (var i = 0; i < arrayLength; i++) {
+                var name = children[i].getAttribute('id');
+                var z = document.getElementById(name);
+                  if(z){
+                z.style.display = 'none';}
+              }
+
+                    if(x){
+                        
+                        x.style.display = 'block';
+                    }
+  
+                }   
+                    
+                </script>
 
 <!--Search box -->
     
@@ -40,25 +61,11 @@
                 <br/>
                 <?php echo $r->name; ?> <br/>
                 <?php echo $r->category; ?> <br/>
-                <?php echo $r->openinghours; ?> <br/>
+                <?php echo $r->openinghours; ?>
+                <br/>
                 <a target="_blank" href="<?php echo $r->directions; ?>">Veibeskrivelse</a><br/>
-                <button onclick="myFunction()" id="clockButton">Show clock</button>
-                <script type="text/javascript">
-    
-                function myFunction() {
-                var x = document.getElementById('a');
-                var z = document.getElementById('lol');
-                if (x.style.display === 'block') {
-                        z.style.display = 'none';
-                        x.style.display = 'block';
-                } 
-                else{ 
-                    z.style.display = 'none';
-                    x.style.display = 'block';
-                }
-                            }
-                    
-                </script>
+
+                <button onclick="myFunction('<?= $r->cssid;?>')" id="clockButton">Show clock</button>         
                 
             </div>
     <?php            

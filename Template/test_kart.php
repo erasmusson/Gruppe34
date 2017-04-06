@@ -92,11 +92,14 @@
             
             display: none;
         }
-
-        #lol{
+        
+        #lol>* {
             
             display: block;
         }
+
+        
+
     </style>
 
 
@@ -111,7 +114,7 @@
         <a href="#meny" onclick="toggle_visibility('acontent', 'bcontent', 'ccontent', 'sok')"><div id="a" class="box"></div></a>
         <a href="#meny" onclick="toggle_visibility('bcontent', 'acontent', 'ccontent', 'sok')"><div id="b" class="box"></div></a>
         <a href="#meny" onclick="toggle_visibility('ccontent', 'bcontent', 'acontent', 'sok')"><div id="c" class="box"></div></a>
-        </div>
+    </div>
     
     <div id="result">
         <a href="#sok" onclick="toggle_visibility('sok', 'bcontent', 'acontent', 'ccontent')">Sök!</a>
@@ -126,7 +129,7 @@
         <p id="bcontent">This is b </p>
         <p id="ccontent"> this is c</p>
         
-        </div>
+    </div>
 </div>
 
 </body>
