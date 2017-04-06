@@ -16,8 +16,8 @@
                 var a = document.getElementById(id2);
                 var b = document.getElementById(id3);
                 var c = document.getElementById(id4);
-                   if(e.style.display == 'none')
-                        e.style.display = 'block';
+                   if(e.style.display == 'block')
+                        e.style.display = 'none';
                    else
                         e.style.display = 'block';
                         a.style.display = 'none';
@@ -79,18 +79,18 @@
         }
         
         #acontent{
-            display: block;
+            display: none;
         }
         
 
         #bcontent{
             
-            display: block;
+            display: none;
         }
         
         #ccontent{
             
-            display: block;
+            display: none;
         }
 
         #lol{
@@ -116,7 +116,6 @@
     <div id="result">
         <a href="#sok" onclick="toggle_visibility('sok', 'bcontent', 'acontent', 'ccontent')">Sök!</a>
         <div id="sok"><?php require 'events/search_function.php' ?></div>
-
         <p id="acontent">
            <?php $statement = $connection->query("SELECT * FROM location where name = '4Sound Schous Plass'"); 
             $row = $statement->fetch(PDO::FETCH_ASSOC);
@@ -127,7 +126,7 @@
         <p id="bcontent">This is b </p>
         <p id="ccontent"> this is c</p>
         
-    </div>
+        </div>
 </div>
 
 </body>
