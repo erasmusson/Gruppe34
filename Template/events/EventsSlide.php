@@ -14,7 +14,9 @@
                             
                                 while($i < $x) {
                                     $statement = $connection->query("SELECT * FROM events where id = '$i'"); 
-                                    $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                                    $row = $statement->fetch(PDO::FETCH_ASSOC);
+                                    
+                                    if($row['starts_at']->isFuture()){
                                     ?>
                                     
                                        <div class="col-sm-3">
@@ -25,6 +27,8 @@
                                     <?php
                                         
                                       $i++;
+                                    }
+                                    else{$i++; $x++;}
                                     }
                                     ?>
                             

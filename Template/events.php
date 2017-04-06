@@ -17,6 +17,7 @@
 
 ?>
       
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,16 +31,17 @@
       
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+      
   </head>
   <body>
       
         <!-- Fetches all parts of events -->
         <?php require 'navbar.php' ?>
-       <p>skdjhasjkdhsjkdhjskhdskjhdksjhdjkshdkj</p>
         <?php require 'events/slideshow.php' ?>
 
         <div class="container">
             <?php require 'events/event-content.php' ?>
+            <?php require 'events/search_function.php' ?>
         </div>
 
         <?php require 'footer.php' ?>

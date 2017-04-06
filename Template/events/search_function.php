@@ -1,5 +1,6 @@
 
-    <!--Search box -->
+
+<!--Search box -->
     
     <form method="get">
         <label>
@@ -19,9 +20,9 @@
     
         $keywords = $db->escape_string($_GET['keywords']);
         $query = $db->query("
-        SELECT title, description, category
-        FROM events
-        WHERE title LIKE '%{$keywords}%' OR description LIKE '%{$keywords}%' OR category LIKE '%{$keywords}%' OR location LIKE '%{$keywords}%'");
+        SELECT *
+        FROM location
+        WHERE name LIKE '%{$keywords}%' OR category LIKE '%{$keywords}%'");
     
     ?>
 
@@ -37,9 +38,28 @@
             while($r = $query->fetch_object()){ ?>
             <div class="result">
                 <br/>
-                <?php echo $r->title; ?> <br/>
-                <?php echo $r->description; ?> <br/>
+                <?php echo $r->name; ?> <br/>
                 <?php echo $r->category; ?> <br/>
+                <?php echo $r->openinghours; ?> <br/>
+                <a target="_blank" href="<?php echo $r->directions; ?>">Veibeskrivelse</a><br/>
+                <button onclick="myFunction()" id="clockButton">Show clock</button>
+                <script type="text/javascript">
+    
+                function myFunction() {
+                var x = document.getElementById('a');
+                var z = document.getElementById('lol');
+                if (x.style.display === 'block') {
+                        z.style.display = 'none';
+                        x.style.display = 'block';
+                } 
+                else{ 
+                    z.style.display = 'none';
+                    x.style.display = 'block';
+                }
+                            }
+                    
+                </script>
+                
             </div>
     <?php            
             
