@@ -1,12 +1,6 @@
 <?php
 
-    require 'vendor/autoload.php';
-    $port = 8889;
-    $username = 'root';
-    $password = 'root';
-    $name = 'campusfjerdingen';
-
-    $connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
+    require 'connection.php';
 
 
     use Carbon\Carbon;
@@ -37,23 +31,44 @@
       
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+      
   </head>
   <body>
       
-      <div class="container-fluid" style="background-color:#F44336; height:500px;">
+      <div class="container-fluid">
+          <div class="row">
+            <img class="img-responsive" src="events/concert.jpg">
+          </div>
       </div>
       
-      <div class="nav-wrapper" style="height:80px;">
-      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="497">
+      <div class="nav-wrapper">
+      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="280">
+          <div class="container-fluid">
           <div class="navbar-header">
-              <div class="navbar-brand" href="#">FJERDINGEN</div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+              </button>
+              <div class="navbar-brand" href="index.php">FJERDINGEN</div>
           </div>
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+          <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">   
+              <li><a href="index.php">Home</a></li>
               <li><a href="kart.php">Kart</a></li>
-              <li><a href="#">Events</a></li>
+              <li><a href="events.php">Events</a></li>
+              <li><a href="campus-main.php">Campus</a></li>
           </ul>
-      </nav>
+              
+          <form class="navbar-form navbar-right">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button> 
+          </form>
+        </div>
+      </div>
+      </nav>   
     </div>
       
       <div class="container">
@@ -94,16 +109,12 @@
               </div>
           </div>
           
-          <?php require'events/EventsSlide.php' ?>
-        
+          <div class="row">
+            <?php require'events/EventsSlide.php' ?>
+          </div>
       </div>
       
-      <footer class="footer">
-          <div class="container-fluid">
-              <p class="text-muted">Webprosjekt.</p>
-          </div>
-      </footer>
-      
+      <?php require'footer.php' ?>
       
       
     <!-- jquery og bootstrap script -->  
