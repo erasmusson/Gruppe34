@@ -1,8 +1,6 @@
 <?php
 
     require 'connection.php';
-
-
     use Carbon\Carbon;
     Carbon::setLocale('no');
 
@@ -110,11 +108,10 @@
           </div>
           
           <div class="row">
-            <?php require'events/EventsSlide.php' ?>
           </div>
       </div>
       
-      <?php require'footer.php' ?>
+      <?php require 'footer.php' ?>
       
       
     <!-- jquery og bootstrap script -->  
