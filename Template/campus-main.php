@@ -14,7 +14,7 @@
   </head>
   <body>
       
-        <?php require 'header.php' ?>
+        <?php require 'navbar.php' ?>
       
         <?php require '../template/campus/campus-slides.php' ?>
       
