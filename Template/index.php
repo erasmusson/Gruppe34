@@ -41,7 +41,7 @@
           </div>
       </div>
       
-      <div class="nav-wrapper" style="height:50px;">
+      <div class="nav-wrapper">
       <nav class="navbar navbar-default " data-spy="affix" data-offset-top="280">
           <div class="container-fluid">
           <div class="navbar-header">

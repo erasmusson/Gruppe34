@@ -35,7 +35,6 @@
       
         <!-- Fetches all parts of events -->
         <?php require 'navbar.php' ?>
-       <p>skdjhasjkdhsjkdhjskhdskjhdksjhdjkshdkj</p>
         <?php require 'events/slideshow.php' ?>
 
         <div class="container">
