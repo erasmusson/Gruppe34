@@ -67,6 +67,18 @@
              display: block;
         }
         
+        #d{
+            top: 0;
+            left: 150px;
+             display: block;
+        }
+        
+        #e{
+            top: 0;
+            left: 200px;
+             display: block;
+        }
+        
         #result{
             
             background-color: blue;
@@ -114,6 +126,8 @@
         <a href="#meny" onclick="toggle_visibility('acontent', 'bcontent', 'ccontent', 'sok')"><div id="a" class="box"></div></a>
         <a href="#meny" onclick="toggle_visibility('bcontent', 'acontent', 'ccontent', 'sok')"><div id="b" class="box"></div></a>
         <a href="#meny" onclick="toggle_visibility('ccontent', 'bcontent', 'acontent', 'sok')"><div id="c" class="box"></div></a>
+        <a href="#meny" onclick="toggle_visibility('ccontent', 'bcontent', 'acontent', 'sok')"><div id="d" class="box"></div></a>
+         <a href="#meny" onclick="toggle_visibility('acontent', 'bcontent', 'ccontent', 'sok')"><div id="e" class="box"></div></a>
     </div>
     
     <div id="result">

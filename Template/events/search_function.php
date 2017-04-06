@@ -9,7 +9,7 @@
                 var name = children[i].getAttribute('id');
                 var z = document.getElementById(name);
                   if(z){
-                z.style.display = 'none';}
+                    z.style.display = 'none';}
               }
 
                     if(x){
