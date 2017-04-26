@@ -34,3 +34,15 @@ $lang['FOOTER_CONTACT_TITLE'] = 'Kontakt oss';
 $lang['FOOTER_CONTACT_CONTENT'] = 'Har du et spørsmål eller noe vi kan forbedre oss på? Kontakt oss her';
 $lang['FOOTER_CONTACT_LINK'] = 'Kontakt';
 
+// Events
+$lang['EVENTS_PIC_TITLE1'] = 'Konserter i Oslo';
+$lang['EVENTS_PIC_TITLE2'] = 'Kinoer';
+$lang['EVENTS_PIC_TITLE3'] = 'Sports arrangement';
+$lang['EVENTS_PIC_LINK'] = 'Klikk her!';
+
+
+// Campus
+$lang['CAMPUS_TITLE'] = 'Hva skjer på Campus Fjerdingen';
+$lang['CAMPUS_CONTENT'] = 'Navigasjon';
+
+?>
