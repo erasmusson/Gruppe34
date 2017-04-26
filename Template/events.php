@@ -2,10 +2,11 @@
 <?php
 
     require 'connection.php';
+    
     use Carbon\Carbon;
     Carbon::setLocale('no');
 
-    $language = ($_COOKIE['lang']!='' ? $_COOKIE['lang'] : 'Guest'); 
+    $language = ($_COOKIE['lang']!='' ? $_COOKIE['lang'] : ''); 
 
     switch ($language) {
     case 'no':
@@ -56,6 +57,7 @@
         <?php require 'events/slideshow.php' ?>
         
         <div class="container">
+            <a href="#" onclick="window.location.reload(true);" >Update</a>
             <?php require 'events/event-content.php' ?>
         </div>
 

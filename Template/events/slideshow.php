@@ -1,3 +1,5 @@
+
+
 <div class="container-fluid">
     <div class="row">
     <!-- Indicators -->
@@ -7,22 +9,22 @@
             <div class="item active">
                 <img src="events/concert.jpg" alt="Chania">
                 <div class="carousel-caption">
-                    <h5>Konsert i Oslo?</h5>
-                    <a href="http://www.ticketmaster.no/teater-show/konserter/1221/events"> Klicka här!</a>
+                    <h5><?php echo $lang['EVENTS_PIC_TITLE1']; ?></h5>
+                    <a href="http://www.ticketmaster.no/teater-show/konserter/1221/events"> <?php echo $lang['EVENTS_PIC_LINK']; ?></a>
                 </div>
             </div>
             <div class="item">
                 <img src="events/movies.jpg" alt="Chania">
                 <div class="carousel-caption">
-                    <h5>Kino</h5>
-                    <a href="http://www.nfkino.no/oslo/"> Klicka här!</a>
+                    <h5><?php echo $lang['EVENTS_PIC_TITLE2']; ?></h5>
+                    <a href="http://www.nfkino.no/oslo/"> <?php echo $lang['EVENTS_PIC_LINK']; ?></a>
                 </div>
             </div>
             <div class="item">
                 <img src="events/soccer.jpg">
                 <div class="carousel-caption">
-                    <h5>Sport</h5>
-                    <a href="http://www.ticketmaster.no/sport/alle-sport/10004/events"> Klicka här!</a>
+                    <h5><?php echo $lang['EVENTS_PIC_TITLE3']; ?></h5>
+                    <a href="http://www.ticketmaster.no/sport/alle-sport/10004/events"><?php echo $lang['EVENTS_PIC_LINK']; ?></a>
                 </div>
             </div>
         </div>
