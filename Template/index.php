@@ -14,7 +14,9 @@
         $events[] = $row;
     }
 
+    require 'common.php';
     ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +24,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Template</title>
+    <title><?php echo $lang['PAGE_TITLE']; ?></title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -52,17 +54,28 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">   
-              <li><a href="index.php">Home</a></li>
-              <li><a href="kart.php">Kart</a></li>
-              <li><a href="events.php">Events</a></li>
-              <li><a href="campus-main.php">Campus</a></li>
+              <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
+              <li><a href="kart.php"><?php echo $lang['MENU_MAP']; ?></a></li>
+              <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
+              <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
           </ul>
+              
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $lang['MENU_LANGUAGE']; ?>
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="?lang=no">Norsk</a></li>
+                    <li><a href="?lang=en">English</a></li>
+                </ul>
+              </li>
+          </ul>    
               
           <form class="navbar-form navbar-right">
               <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
+                  <input type="text" class="form-control" placeholder="<?php echo $lang['MENU_SEARCH']; ?>">
               </div>
-              <button type="submit" class="btn btn-default">Submit</button> 
+              <button type="submit" class="btn btn-default"><?php echo $lang['MENU_SUBMIT']; ?></button> 
           </form>
         </div>
       </div>
@@ -70,7 +83,7 @@
     </div>
       
       <div class="container">
-          <h1>Latest news & updates</h1>
+          <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
           <div class="row">
               <div class="col-md-4">
                   <div class="thumbnail">
