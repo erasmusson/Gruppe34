@@ -10,7 +10,7 @@
                 var z = document.getElementById(name);
                   if(z){
                     z.style.display = 'none';}
-              }
+                }
 
                     if(x){
                         
