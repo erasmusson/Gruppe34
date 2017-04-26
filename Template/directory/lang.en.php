@@ -17,25 +17,33 @@ $lang['MENU_SEARCH'] = 'Search';
 $lang['MENU_SUBMIT'] = 'Submit';
 
 // Homepage
-$lang['HOMEPAGE_FIRST_TITLE'] = 'Campus';
-$lang['HOMEPAGE_SECOND_TITLE'] = 'Campus';
+$lang['HOMEPAGE_FIRST_TITLE'] = 'Latest news and updates';
+$lang['HOMEPAGE_SECOND_TITLE'] = 'Upcoming events';
 
 
 // Footer
-$lang['FOOTER_NAVIGATION'] = 'Campus';
-$lang['FOOTER_NAVIGATION_HOME'] = 'Campus'; 
-$lang['FOOTER_NAVIGATION_MAP'] = 'Campus';  
-$lang['FOOTER_NAVIGATION_EVENTS'] = 'Campus';
+$lang['FOOTER_NAVIGATION'] = 'Navigation';
+$lang['FOOTER_NAVIGATION_HOME'] = 'Home'; 
+$lang['FOOTER_NAVIGATION_MAP'] = 'Maps';  
+$lang['FOOTER_NAVIGATION_EVENTS'] = 'Events';
 $lang['FOOTER_NAVIGATION_CAMPUS'] = 'Campus';
-$lang['FOOTER_NAVIGATION_SUPPORT'] = 'Campus';
-$lang['FOOTER_ADRESS'] = 'Campus';
-$lang['FOOTER_CONTACT_TITLE'] = 'Campus';
-$lang['FOOTER_CONTACT_CONTENT'] = 'Campus';
-$lang['FOOTER_CONTACT_LINK'] = 'Campus';
+$lang['FOOTER_NAVIGATION_SUPPORT'] = 'Support';
+$lang['FOOTER_ADRESS'] = 'Adress';
+$lang['FOOTER_CONTACT_TITLE'] = 'Contact us';
+$lang['FOOTER_CONTACT_CONTENT'] = "If you have any questions, don't hesitate to contact us. Click on the link below.";
+$lang['FOOTER_CONTACT_LINK'] = 'Contact';
+
+// Events
+$lang['EVENTS_PIC_TITLE1'] = 'Concerts in Oslo';
+$lang['EVENTS_PIC_TITLE2'] = 'Cinema';
+$lang['EVENTS_PIC_TITLE3'] = 'Sport events';
+$lang['EVENTS_PIC_LINK'] = 'Click here!';
+
+
+// Campus
+$lang['CAMPUS_TITLE'] = 'What is happening on Campus Fjerdingen?';
+$lang['CAMPUS_CONTENT'] = 'Navigation';
 
 
 
-
-
-    
 ?>
