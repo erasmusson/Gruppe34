@@ -41,7 +41,6 @@
 
         <div class="container">
             <?php require 'events/event-content.php' ?>
-            <?php require 'events/search_function.php' ?>
         </div>
 
         <?php require 'footer.php' ?>
