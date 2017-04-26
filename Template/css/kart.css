@@ -91,15 +91,25 @@ label{
 }
 
 
-
-.campus{
+.category7{
      width: 200px;
     height: 200px;
+}
+.category6{
+     width: 200px;
+    height: 200px;
+}
+#ting1{
+    
     background: blue;
+}
+#ting2{
+    background: white;
 }
 
 #testbox; {
     width: 200px;
     height: 200px;
     background: blue;
+    
 }

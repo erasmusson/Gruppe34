@@ -31,10 +31,24 @@
     
     <!--mats tester ting start-->
     
+    <script type="text/javascript">                
+        function valueChanged()
+        {
+            for(var i = 0; i < 7 ; i++){
+                    if($('#chk' + (i+1)).is(":checked"))   
+                        $('.category' +(i+1)).show();
+                    else
+                        $('.category' +(i+1)).hide();
+            }
+        }
+        
+    </script> 
     
     <!--mats tester ting slutt-->
     
-  <!--  <script type="text/javascript">                
+    
+    
+  <!-- <script type="text/javascript">                
         function valueChanged()
 {
     if($('#chk7').is(":checked"))   
@@ -44,8 +58,9 @@
         
 }
         
-    </script>
-    -->
+    </script> 
+-->
+    
 </head>
     <body>
         <?php require'navbar.php' ?>
@@ -90,7 +105,7 @@
                                     <br />
                                     <br />
 
-                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked"/>
+                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked"value="1" onchange="valueChanged()"/>
                                     <label for="chk6">Personlig Utvikling</label>
                                     <br />
                                     <br />
@@ -107,12 +122,15 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="campus"  id="testbox;"></div>
+                    <div class="category7" id="ting1"></div>
+                        <div class="category6" id="ting2"></div>
+                        
+                        
+                        
+                        
+                        
                     <div id="infobox">
-                        <div id="klikketing">
-                            
-                            
-                        </div>
+                        <div id="klikketing"></div>
                     </div>
                 </div>
                 
