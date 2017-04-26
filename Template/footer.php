@@ -2,24 +2,24 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h3>Navigasjon</h3>
+                <h3><?php echo $lang['FOOTER_NAVIGATION']; ?></h3>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="kart.php">Kart</a></li>
-                    <li><a href="events.php">Events</a></li>
-                    <li><a href="campus-main.php">Campus</a></li>
-                    <li><a href="#">Support</a></li>    
+                    <li><a href="index.php"><?php echo $lang['FOOTER_NAVIGATION_HOME']; ?></a></li>
+                    <li><a href="kart.php"><?php echo $lang['FOOTER_NAVIGATION_MAP']; ?></a></li>
+                    <li><a href="events.php"><?php echo $lang['FOOTER_NAVIGATION_EVENTS']; ?></a></li>
+                    <li><a href="campus-main.php"><?php echo $lang['FOOTER_NAVIGATION_CAMPUS']; ?></a></li>
+                    <li><a href="#"><?php echo $lang['FOOTER_NAVIGATION_SUPPORT']; ?></a></li>    
                 </ul>
             </div>
             <div class="col-md-4">
-                <h3>Adresse</h3>
+                <h3><?php echo $lang['FOOTER_ADRESS']; ?></h3>
                 <p>Christian Kroghs gate 32, 0186 Oslo, Norway</p>
             </div>
             
             <div class="col-md-4">
-                <h3>Kontakt oss</h3>
-                <p>Har du et spørsmål eller noe vi kan forbedre oss på? Kontakt oss her</p>
-                <p><a href="#" title="Kontakt oss!">    Contact</a></p>
+                <h3><?php echo $lang['FOOTER_CONTACT_TITLE']; ?></h3>
+                <p><?php echo $lang['FOOTER_CONTACT_CONTENT']; ?></p>
+                <p><a href="#" title="Kontakt oss!"><?php echo $lang['FOOTER_CONTACT_LINK']; ?></a></p>
                 
             </div>
         </div>
