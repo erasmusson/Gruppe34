@@ -6,6 +6,7 @@
     position: relative;
     margin:auto;
     background-color: red;
+    margin-top: 50px;
 }
 
 
@@ -55,10 +56,9 @@ body,html {
 
 
 #containerkartside {
-    top: 50px;
     width: 100%;
     position: relative;
-    margin: auto;
+    margin:auto;
 }
 
 #containerkartside>*{
@@ -89,3 +89,5 @@ label{
     cursor: pointer;
     
 }
+
+

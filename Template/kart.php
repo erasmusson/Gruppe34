@@ -32,8 +32,6 @@
 </head>
     <body>
         <?php require'navbar.php' ?>
-         
-            
                 
                 <div id="containerkartside">
                     <!--<div id="kartmeny">
