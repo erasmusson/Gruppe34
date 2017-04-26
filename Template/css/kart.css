@@ -1,12 +1,12 @@
 
 #kartcontainer {
-    top: 50px;
     max-width: 1366px;
     height: 900px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     margin:auto;
     background-color: red;
+    margin-top: 50px;
 }
 
 
@@ -58,7 +58,7 @@ body,html {
 #containerkartside {
     width: 100%;
     position: relative;
-    margin: auto;
+    margin:auto;
 }
 
 #containerkartside>*{
@@ -78,14 +78,36 @@ body,html {
     height: 50px;
     width: 35px;
     margin-left: 100%;
-    visibility:hidden;
     
 }
 label{
-    display: block;
+    display: inline-block;
     background: lightgrey;
     width: 35px;
     height: 50px;
     cursor: pointer;
     
+}
+
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} }
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+#funkdaforfaen{height: 200px;
+width: 200px;
+background: hsla(220, 80%, 50%, .8)}
+
+input[type=checkbox]:checked ~ #funkdaforfaen{
+    background: hsla(310,60%,50%, .8);
+    padding: 1em;
+    left: -100px;
+}
+
+input[type=checkbox]:checked ~ label{
+    background: hsla(220, 80%, 50%, .8)
 }

@@ -32,8 +32,6 @@
 </head>
     <body>
         <?php require'navbar.php' ?>
-         
-            
                 
                 <div id="containerkartside">
                     <!--<div id="kartmeny">
@@ -143,7 +141,8 @@
                     <div id="infobox">
                         <div id="klikketing">
                             <input type="checkbox" id="kartmenycheckbox"/>
-                            <label for="kartmenycheckbox"></label>
+                            <label for="kartmenycheckbox" onclick></label>
+                            
                         </div>
                     </div>
                 </div>
