@@ -132,6 +132,8 @@
     
     <div id="result">
         <a href="#sok" onclick="toggle_visibility('sok', 'bcontent', 'acontent', 'ccontent')">Sök!</a>
+        <a href="#musikk">Musik</a>
+        
         <div id="sok"><?php require 'events/search_function.php' ?></div>
         <p id="acontent">
            <?php $statement = $connection->query("SELECT * FROM location where name = '4Sound Schous Plass'"); 
@@ -144,7 +146,11 @@
         <p id="ccontent"> this is c</p>
         
     </div>
+    
+    
 </div>
+    
+    
 
 </body>
 </html>

@@ -45,5 +45,4 @@ $lang['CAMPUS_TITLE'] = 'What is happening on Campus Fjerdingen?';
 $lang['CAMPUS_CONTENT'] = 'Navigation';
 
 
-
 ?>
