@@ -29,61 +29,29 @@
         
     </script>
     
+    <!--mats tester ting start-->
+    
+    
+    <!--mats tester ting slutt-->
+    
+  <!--  <script type="text/javascript">                
+        function valueChanged()
+{
+    if($('#chk7').is(":checked"))   
+            $(".campus").show();
+        else
+            $(".campus").hide();
+        
+}
+        
+    </script>
+    -->
 </head>
     <body>
         <?php require'navbar.php' ?>
                 
                 <div id="containerkartside">
-                    <!--<div id="kartmeny">
-                        <div id="flyttdrittentilhoyre">
-                        <button class="btn btn-primary pull-right btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier!</button>
-
-                            <div id="demo" class="collapse">
-                                <div id="collapsebakgrund">
-                                
-                                <form action="#">
-        
-                                    <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked"/>
-                                    <label for="chk">Helse</label>
-                                    <br />
-                                    <br />
-
-                                    <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked"/>
-                                    <label for="chk2">Musikk</label>
-                                    <br />
-                                    <br />
-
-                                    <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked"/>
-                                    <label for="chk3">Butikk</label>
-                                    <br />
-                                    <br />
-
-                                    <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
-                                    <label for="chk4">Uteliv</label>
-                                    <br />
-                                    <br />
-
-                                    <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked"/>
-                                    <label for="chk5">Trening</label>
-                                    <br />
-                                    <br />
-
-                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked"/>
-                                    <label for="chk6">Personlig Utvikling</label>
-                                    <br />
-                                    <br />
-
-                                    <input type="checkbox" name="Kategori7" id="chk7" onclick="showHide()" checked="checked"/>
-                                    <label for="chk7">Campus</label>
-                                    <br />
-                                    <br />
-
-
-                                </form>
-                                </div>
-                            </div>
-                        </div>-->
-                    
+                 
               
                     <!--Kart boxen og menyen -->
                 <div id="kartcontainer">
@@ -127,8 +95,10 @@
                                     <br />
                                     <br />
 
-                                    <input type="checkbox" name="Kategori7" id="chk7" onclick="showHide()" checked="checked"/>
+                                    <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
                                     <label for="chk7">Campus</label>
+                                    
+                                    
                                     <br />
                                     <br />
 
@@ -137,11 +107,10 @@
                                 </div>
                             </div>
                         </div>
-                    
+                    <div class="campus"  id="testbox;"></div>
                     <div id="infobox">
                         <div id="klikketing">
-                            <input type="checkbox" id="kartmenycheckbox"/>
-                            <label for="kartmenycheckbox" onclick></label>
+                            
                             
                         </div>
                     </div>

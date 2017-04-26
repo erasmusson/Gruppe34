@@ -78,7 +78,8 @@ body,html {
     height: 50px;
     width: 35px;
     margin-left: 100%;
-    
+    background: white;
+    cursor: pointer;
 }
 label{
     display: inline-block;
@@ -89,25 +90,16 @@ label{
     
 }
 
-body { -webkit-animation: bugfix infinite 1s; }
-@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} }
 
-input[type=checkbox] {
-   position: absolute;
-   top: -9999px;
-   left: -9999px;
+
+.campus{
+     width: 200px;
+    height: 200px;
+    background: blue;
 }
 
-#funkdaforfaen{height: 200px;
-width: 200px;
-background: hsla(220, 80%, 50%, .8)}
-
-input[type=checkbox]:checked ~ #funkdaforfaen{
-    background: hsla(310,60%,50%, .8);
-    padding: 1em;
-    left: -100px;
-}
-
-input[type=checkbox]:checked ~ label{
-    background: hsla(220, 80%, 50%, .8)
+#testbox; {
+    width: 200px;
+    height: 200px;
+    background: blue;
 }
