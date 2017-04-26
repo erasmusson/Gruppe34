@@ -10,36 +10,147 @@
 <link href="css/custom.css" rel="stylesheet">
 <link href="css/kart.css" rel="stylesheet">
     
+     <script type="text/javascript">
+    
+        function showHide(){
+            var checkbox = document.getElementById("chk");
+            var hiddeninputs = document.getElementsByClassName("hidden");
+            
+            
+            for(var i = 0; i != hiddeninputs.length; i++){
+                if(checkbox.checked){
+                    hiddeninputs[i].style.display = "block";
+                }
+                else{
+                    hiddeninputs[i].style.display = "none";
+                }
+            }
+        }
+        
+    </script>
+    
 </head>
     <body>
         <?php require'navbar.php' ?>
          
-        <div class="container-fluid" id="idkwhatimdoing">
             
-            <div class= "row">
                 
-                <div class="col-md-3">
-                    
-                </div>
-                <div class="col-md-9">
-                    <div id="kartmeny">
-                        <div class="dropdown">
-                              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Kategorier
-                                  
-                              <span class="caret"></span></button>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">kategori 1</a></li>
-                                <li><a href="#">kategori 2</a></li>
-                                <li><a href="#">kategori 3</a></li>
-                              </ul>
-                        </div>
+                <div id="containerkartside">
+                    <!--<div id="kartmeny">
+                        <div id="flyttdrittentilhoyre">
+                        <button class="btn btn-primary pull-right btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier!</button>
 
-                    </div>
-                    <div id="rod"></div>
-                </div>
-            </div>
-        </div>
+                            <div id="demo" class="collapse">
+                                <div id="collapsebakgrund">
+                                
+                                <form action="#">
         
+                                    <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked"/>
+                                    <label for="chk">Helse</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked"/>
+                                    <label for="chk2">Musikk</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked"/>
+                                    <label for="chk3">Butikk</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
+                                    <label for="chk4">Uteliv</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked"/>
+                                    <label for="chk5">Trening</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked"/>
+                                    <label for="chk6">Personlig Utvikling</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori7" id="chk7" onclick="showHide()" checked="checked"/>
+                                    <label for="chk7">Campus</label>
+                                    <br />
+                                    <br />
+
+
+                                </form>
+                                </div>
+                            </div>
+                        </div>-->
+                    
+              
+                    <!--Kart boxen og menyen -->
+                <div id="kartcontainer">
+                    
+                    <div id="kartmeny">
+                        <div id="flyttdrittentilhoyre">
+                        <button class="btn btn-primary pull-right btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier!</button>
+
+                            <div id="demo" class="collapse">
+                                <div id="collapsebakgrund">
+                                
+                                <form action="#">
+        
+                                    <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked"/>
+                                    <label for="chk">Helse</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked"/>
+                                    <label for="chk2">Musikk</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked"/>
+                                    <label for="chk3">Butikk</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
+                                    <label for="chk4">Uteliv</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked"/>
+                                    <label for="chk5">Trening</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked"/>
+                                    <label for="chk6">Personlig Utvikling</label>
+                                    <br />
+                                    <br />
+
+                                    <input type="checkbox" name="Kategori7" id="chk7" onclick="showHide()" checked="checked"/>
+                                    <label for="chk7">Campus</label>
+                                    <br />
+                                    <br />
+
+
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <div id="infobox">
+                        <div id="klikketing">
+                            <input type="checkbox" id="kartmenycheckbox"/>
+                            <label for="kartmenycheckbox"></label>
+                        </div>
+                    </div>
+                </div>
+                
+                    
+                    </div>
+        </div>
          <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
