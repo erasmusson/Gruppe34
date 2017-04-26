@@ -1,5 +1,11 @@
 
 <?php require 'common.php' ?>
+<script>
+function reload() {
+    window.reload();
+}
+</script>
+
 <div class="nav-wrapper">
 <nav class="navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -26,8 +32,8 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $lang['MENU_LANGUAGE']; ?>
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="?lang=no">Norsk</a></li>
-                    <li><a href="?lang=en">English</a></li>
+                    <li><a href="?lang=no" onclick="window.location.reload(true);" >Norsk</a></li>
+                    <li><a href="?lang=en" onclick="window.location.reload(true);" >English</a></li>
                 </ul>
               </li>
             </ul>    

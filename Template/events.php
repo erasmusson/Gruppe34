@@ -5,8 +5,24 @@
     use Carbon\Carbon;
     Carbon::setLocale('no');
 
-    $statement = $connection->prepare('SELECT * FROM events');
+    $language = ($_COOKIE['lang']!='' ? $_COOKIE['lang'] : 'Guest'); 
+
+    switch ($language) {
+    case 'no':
+        $statement = $connection->prepare('SELECT * FROM events');
+        $statement->execute();
+    break;
+            
+    case 'en':
+    $statement = $connection->prepare('SELECT * FROM eventseng');
     $statement->execute();
+    break;
+            
+    default:
+        $statement = $connection->prepare('SELECT * FROM events');
+        $statement->execute();
+    }
+    
 
     $events = [];
     
@@ -38,7 +54,7 @@
         <!-- Fetches all parts of events -->
         <?php require 'navbar.php' ?>
         <?php require 'events/slideshow.php' ?>
-
+        
         <div class="container">
             <?php require 'events/event-content.php' ?>
         </div>
