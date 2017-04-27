@@ -1,7 +1,9 @@
+body
+{
+    background-color: #EFEFEF;
+}
+
 /* Events content */
-
-
-
 .eventcard{
     text-align: center;
     padding-bottom: 3%;
@@ -32,7 +34,7 @@ h1
 }
 
 .carousel-control.left, .carousel-control.right {
-    background-image: none
+    background-image: none;
 }
 
 .carousel-control {
@@ -42,8 +44,9 @@ h1
     background-color: red;
 }
 
+/* Footer customization */
 .footer {
-    background:#EDEFF1;
+    background:#FFFFFF;
     height: auto;
     padding-bottom: 30px;
     position: relative;
@@ -61,7 +64,8 @@ h1
 	color: #7F8C8D;
 }
 
-.nav-wrapper
+.navbar-default
 {
-    height: 50px;
+    background-image: none;
+    background-color: #FFFFFF;
 }
