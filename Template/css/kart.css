@@ -69,7 +69,7 @@ body,html {
     background-color: darkgrey;
     width: 25%;
     height: 900px;
-    position: absolute;
+    position: relative;
     left: 0;
 }
 
@@ -91,25 +91,22 @@ label{
 }
 
 
-.category7{
-     width: 200px;
-    height: 200px;
+.category1, .category2, .category3, .category4, .category5, .category6, .category7{
+     width: 50px;
+    height: 50px;
+    position: absolute;
 }
-.category6{
-     width: 200px;
-    height: 200px;
-}
+
 #ting1{
-    
+    top: 450px;
+    left: 500px;
     background: blue;
 }
 #ting2{
-    background: white;
+    top: 200px;
+    left: 700px;
+    background: purple;
 }
 
-#testbox; {
-    width: 200px;
-    height: 200px;
-    background: blue;
-    
-}
+
+

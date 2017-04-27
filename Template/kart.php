@@ -122,21 +122,27 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="category7" id="ting1"></div>
-                        <div class="category6" id="ting2"></div>
                         
                         
-                        
-                        
-                        
-                    <div id="infobox">
-                        <div id="klikketing"></div>
                     </div>
+                    <div class="category7" id="ting1"></div>
+                    <div class="category6" id="ting2"></div>
+                        
+                        
+                        
+                          
+                            <div id="infobox">
+                                <div id="klikketing">
+
+                                </div>
+                            </div>
+                            
+                      
                 </div>
                 
                     
-                    </div>
-        </div>
+            </div>
+        
          <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
