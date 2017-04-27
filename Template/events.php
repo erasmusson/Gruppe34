@@ -22,8 +22,7 @@
     default:
         $statement = $connection->prepare('SELECT * FROM events');
         $statement->execute();
-    }
-    
+    } 
 
     $events = [];
     
@@ -32,6 +31,15 @@
         $events[] = $row;
     }
 
+    // Sorts events array in ascending order by date.
+    function cmp($a, $b) {
+        if ($a['starts_at'] == $b['starts_at']) {
+            return 0;
+        }
+            return ($a['starts_at'] < $b['starts_at']) ? -1 : 1;
+        }
+
+    uasort($events,'cmp');
 ?>
 
 <!-- End of connection -->
