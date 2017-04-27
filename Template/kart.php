@@ -29,7 +29,7 @@
         
     </script>
     
-    <!--mats tester ting start-->
+    <!--mats er best og fikk det til :D-->
     
     <script type="text/javascript">                
         function valueChanged()
@@ -44,7 +44,7 @@
         
     </script> 
     
-    <!--mats tester ting slutt-->
+    <!--mats klarte fortsatt å fucke det opp med å skrive i feil språk da-->
     
     
     
