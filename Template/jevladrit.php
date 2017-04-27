@@ -8,7 +8,7 @@
 <title>Kart</title>
 <link href="css/bootstrap.min.css" rel = "stylesheet" type="text/css">
 <link href="css/custom.css" rel="stylesheet" type="text/css">
-<link href="css/kart.css" rel="stylesheet" type="text/css">
+<link href="css/jevladrit.css" rel="stylesheet" type="text/css">
     
      <script type="text/javascript">
     
