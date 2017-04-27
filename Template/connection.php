@@ -1,7 +1,7 @@
 <?php 
 
     require 'vendor/autoload.php';
-    $port = 3307;
+    $port = 8889;
     $username = 'root';
     $password = 'root';
     $name = 'campusfjerdingen';

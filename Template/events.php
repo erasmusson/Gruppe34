@@ -33,12 +33,14 @@
     }
 
 ?>
+
+<!-- End of connection -->
       
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Events</title>
@@ -56,11 +58,17 @@
         <?php require 'navbar.php' ?>
         <?php require 'events/slideshow.php' ?>
         
+        <!-- Event content-->
         <div class="container">
-            <a href="#" onclick="window.location.reload(true);" >Update</a>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" onclick="window.location.reload(true);" ><h5>Update</h5></a> <br/>
+                </div>
+            </div>
             <?php require 'events/event-content.php' ?>
         </div>
 
+        <!-- Fetches footer -->
         <?php require 'footer.php' ?>
       
     <!-- jquery og bootstrap script -->  

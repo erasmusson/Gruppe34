@@ -1,6 +1,6 @@
 <!-- Prints out events in the future -->
-<div class="row">
 
+<div class="row">
     <?php foreach ($events as $event) {
         if($event['starts_at']->isFuture()) { ?>
         <div class="col-md-3 eventcard">
