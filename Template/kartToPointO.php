@@ -8,7 +8,7 @@
 <title>Kart</title>
 <link href="css/bootstrap.min.css" rel = "stylesheet" type="text/css">
 <link href="css/custom.css" rel="stylesheet" type="text/css">
-<link href="css/jevladrit.css" rel="stylesheet" type="text/css">
+<link href="css/kartToPointO.css" rel="stylesheet" type="text/css">
     
      <script type="text/javascript">
     
@@ -41,9 +41,32 @@
             }
         }
         
-    </script> 
+        
+        </script> 
     
-    <!--mats klarte fortsatt å fucke det opp med å skrive i feil språk da-->
+        <!--mats klarte fortsatt å fucke det opp med å skrive i feil språk da-->
+    
+        <script type="text/javascript">
+                function toggle_visibility(id, id2, id3) {
+                var e = document.getElementById(id);
+                var a = document.getElementsByClassName(id2);
+                var b = document.getElementById(id3);
+                
+                
+                   if(e.style.display == 'block')
+                        e.style.display = 'none';
+                   else
+                        e.style.display = 'block';
+                        a.style.display = 'none';
+                        b.style.display = 'none';
+                        
+                }
+            
+    </script>
+        
+    
+    
+
     
     
     
@@ -128,12 +151,17 @@
                     <div class="category6" id="ting2"></div>
                         
                         
-                          
-                            <div id="infobox">
-                                <div id="klikketing">
-
-                                </div>
-                            </div>
+                          <div id="infoboxcontainer">
+                              
+                            <div class="infoboxclass" id="infobox"></div>
+                              
+                            <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'sok')">
+                            <div id="klikketing"></div>
+                            </a>
+                              
+                          </div>
+                    
+                            
                             
                       
                 </div>

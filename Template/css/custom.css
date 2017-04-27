@@ -67,6 +67,7 @@ h1
 .navbar-default
 {
     background-image: none;
+<<<<<<< HEAD
     background-color: #CDCDCD;
 }
 
@@ -74,3 +75,8 @@ h1
 {
     height: 70px;
 }
+=======
+    background-color: #FFFFFF;
+}
+
+>>>>>>> 372451d58bcfba67ab784be8a803599fb496aae5
