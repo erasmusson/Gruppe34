@@ -6,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Kart</title>
-<link href="css/bootstrap.min.css" rel = "stylesheet">
-<link href="css/custom.css" rel="stylesheet">
-<link href="css/kart.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel = "stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/kart.css" rel="stylesheet" type="text/css">
     
      <script type="text/javascript">
     
@@ -105,7 +105,7 @@
                                     <br />
                                     <br />
 
-                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked"value="1" onchange="valueChanged()"/>
+                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
                                     <label for="chk6">Personlig Utvikling</label>
                                     <br />
                                     <br />
@@ -129,7 +129,6 @@
                     <div class="category6" id="ting2"></div>
                         
                         
-                        
                           
                             <div id="infobox">
                                 <div id="klikketing">
@@ -142,7 +141,7 @@
                 
                     
             </div>
-        
+        <?php require'footer.php'?>
          <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
