@@ -1,6 +1,6 @@
 body
 {
-    background-color: #EFEFEF;
+    background-color: #E9E9E9;
 }
 
 /* Events content */
@@ -46,7 +46,7 @@ h1
 
 /* Footer customization */
 .footer {
-    background:#FFFFFF;
+    background:#CDCDCD;
     height: auto;
     padding-bottom: 30px;
     position: relative;
@@ -67,6 +67,16 @@ h1
 .navbar-default
 {
     background-image: none;
+<<<<<<< HEAD
+    background-color: #CDCDCD;
+}
+
+.nav-wrapper
+{
+    height: 70px;
+}
+=======
     background-color: #FFFFFF;
 }
 
+>>>>>>> 372451d58bcfba67ab784be8a803599fb496aae5
