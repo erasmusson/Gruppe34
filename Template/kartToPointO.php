@@ -46,20 +46,21 @@
     
         <!--mats klarte fortsatt å fucke det opp med å skrive i feil språk da-->
     
-        <script type="text/javascript">
+         <script type="text/javascript">
                 function toggle_visibility(id, id2, id3) {
                 var e = document.getElementById(id);
                 var a = document.getElementsByClassName(id2);
                 var b = document.getElementById(id3);
                 
-                
-                   if(e.style.display == 'block')
+                   if(e.style.display == 'block'){
                         e.style.display = 'none';
-                   else
+
+                   }
+                   else{
                         e.style.display = 'block';
                         a.style.display = 'none';
                         b.style.display = 'none';
-                        
+                   }
                 }
             
     </script>
@@ -84,7 +85,7 @@
 -->
     
 </head>
-    <body>
+    <body id="kart">
         <?php require'navbar.php' ?>
                 
                 <div id="containerkartside">
@@ -151,15 +152,28 @@
                     <div class="category6" id="ting2"></div>
                         
                         
-                          <div id="infoboxcontainer">
+
+
+
+                            <div class="infoboxclass"id="infoboxcontainer">
                               
-                            <div class="infoboxclass" id="infobox"></div>
+                                <div  id="infobox"></div>
                               
-                            <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'sok')">
-                            <div id="klikketing"></div>
-                            </a>
+                                
                               
-                          </div>
+                                <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'tingeling')">
+                                    <div id="klikketing" ></div>
+                                </a>
+                                
+                                
+                    
+                            </div>
+
+
+                    <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'tingeling')">
+                                    <div id="tingeling"></div>
+                                </a>
+                    
                     
                             
                             
@@ -172,5 +186,6 @@
          <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     </body>
 </html>
