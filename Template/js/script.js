@@ -16,4 +16,9 @@ $(document).ready(function(){
     });
     
         $("#campus a:contains('Campus')").parent().addClass('active');
+    
+    var array3 = ['Contact', 'Kontakt']
+    $(array3).each(function (){
+        $("#contact a:contains(" + this + ")").parent().addClass('active');
+    });
 });

@@ -19,7 +19,7 @@
             <div class="col-md-4">
                 <h3><?php echo $lang['FOOTER_CONTACT_TITLE']; ?></h3>
                 <p><?php echo $lang['FOOTER_CONTACT_CONTENT']; ?></p>
-                <p><a href="#" title="Kontakt oss!"><?php echo $lang['FOOTER_CONTACT_LINK']; ?></a></p>
+                <p><a href="contact.php" title="Kontakt oss!"><?php echo $lang['FOOTER_CONTACT_LINK']; ?></a></p>
                 
             </div>
         </div>

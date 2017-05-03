@@ -13,6 +13,7 @@ $lang['MENU_HOME'] = 'Hjem';
 $lang['MENU_MAP'] = 'Kart';
 $lang['MENU_EVENTS'] = 'Eventer';
 $lang['MENU_CAMPUS'] = 'Campus';
+$lang['MENU_CONTACT'] = 'Kontakt';
 $lang['MENU_LANGUAGE'] = 'Språk';
 $lang['MENU_SEARCH'] = 'Søk her';
 $lang['MENU_SUBMIT'] = 'Søk';

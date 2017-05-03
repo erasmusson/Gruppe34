@@ -57,6 +57,7 @@
               <li><a href="kartToPointO.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
               <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
+              <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
           </ul>
               
           <ul class="nav navbar-nav navbar-right">

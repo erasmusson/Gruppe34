@@ -2,7 +2,6 @@ body
 {
     background-color: #E9E9E9;
 }
-
 /* Events content */
 .eventcard{
     text-align: center;
@@ -45,11 +44,12 @@ h1
 }
 
 /* Footer customization */
-.footer {
+#footer {
     background:#CDCDCD;
-    height: auto;
+    height: 200px;
     padding-bottom: 30px;
-    position: relative;
+    bottom: 0;
+    left: 0;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #DDDDDD;
@@ -159,7 +159,6 @@ h1
 .navbar-default
 {
     background-image: none;
-<<<<<<< HEAD
     background-color: #CDCDCD;
 }
 
@@ -167,9 +166,5 @@ h1
 {
     height: 70px;
 }
-=======
-    background-color: #FFFFFF;
-}
 
->>>>>>> 372451d58bcfba67ab784be8a803599fb496aae5
 
