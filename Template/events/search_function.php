@@ -1,5 +1,7 @@
 <!-- Function that hides other pins when you want to se location of a specifik-->
 <script type="text/javascript">
+    
+    
 
     function myFunction(id1) {
         var x = document.getElementById(id1);
@@ -9,12 +11,15 @@
          for (var i = 0; i < arrayLength; i++) {
             var name = children[i].getAttribute('id');
             var z = document.getElementById(name);
+
              if(z){
-                z.style.display = 'none';}
-            }
+                z.style.display = 'none';
+             }
+            
             if(x){
                  x.style.display = 'block';
-             } 
+             }
+         }
     }   
                       
 </script>
@@ -55,9 +60,11 @@
                     <?php echo $r->name; ?> <br/>
                     <?php echo $r->category; ?> <br/>
                     <?php echo $r->openinghours; ?>
+                    <h1><?php echo $r->category; ?></h1>
                     <br/>
                     <a target="_blank" href="<?php echo $r->directions; ?>">Veibeskrivelse</a><br/>
-                    <button onclick="myFunction('<?= $r->cssid;?>')" id="clockButton">Show pin</button>                    
+                    <button onclick="myFunction('a')" id="clockButton">Show pin</button>
+                    
                  </div>
     <?php            
             

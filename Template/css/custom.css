@@ -64,6 +64,21 @@ h1
 	color: #7F8C8D;
 }
 
+#image2{
+    
+    float: right;
+    padding-right: 5.5%;
+}
+
+#updateDiv{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#myCarousel{
+    margin-top: -1.4%;
+    
+}
 .navbar-default
 {
     background-image: none;
@@ -80,3 +95,4 @@ h1
 }
 
 >>>>>>> 372451d58bcfba67ab784be8a803599fb496aae5
+
