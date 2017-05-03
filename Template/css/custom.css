@@ -70,15 +70,92 @@ h1
     padding-right: 5.5%;
 }
 
-#updateDiv{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 #myCarousel{
     margin-top: -1.4%;
     
 }
+
+
+/* Events */
+
+#wrapper{
+    margin: 0 auto;
+    margin-left:12%;
+}
+
+.circles{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    display: inline-block; 
+    position: relative;
+    background-size: 100%;
+    background-repeat: none; 
+}
+
+#circle1{
+    background-image:url(../pic/football.png);
+    margin-right: -80px;
+    transition: height width 0.5s ease;
+   
+}
+#circle2{
+    background-image:url(../pic/camera.png);
+    height:400px;
+    width: 400px;
+    z-index: 3;
+    transition: height width 0.5s ease;
+    
+}
+#circle3{
+    background-image:url(../pic/concert.png);
+    margin-left: -80px;
+    transition: height width 0.5s ease;
+    
+}
+
+.circleWrapper{
+    display: inline-block;
+    text-align: center;
+}
+
+#circle1Text{
+    visibility: hidden;
+    margin-left: 75px;
+}
+#circle2Text{
+     visibility: hidden;
+}
+#circle3Text{
+     visibility: hidden;
+    margin-right: 75px;
+}
+
+#circleWrapper1:hover #circle1Text{
+    visibility: visible;
+}
+#circleWrapper2:hover #circle2Text{
+    visibility: visible;
+}
+#circleWrapper3:hover #circle3Text{
+    visibility: visible;
+}
+#circleWrapper1:hover #circle1{
+    height: 400px;
+    width: 400px;
+}
+
+#circleWrapper2:hover #circle2{
+    height: 420px;
+    width: 420px;
+}
+
+#circleWrapper3:hover #circle3{
+    height: 400px;
+    width: 400px;
+}
+
+
 .navbar-default
 {
     background-image: none;
