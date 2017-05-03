@@ -15,8 +15,8 @@
     break;
             
     case 'en':
-    $statement = $connection->prepare('SELECT * FROM eventseng');
-    $statement->execute();
+        $statement = $connection->prepare('SELECT * FROM eventseng');
+        $statement->execute();
     break;
             
     default:
@@ -48,7 +48,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-16">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Events</title>
@@ -60,7 +60,7 @@
     <link href="css/custom.css" rel="stylesheet">
       
   </head>
-  <body>
+  <body id="events">
       
         <!-- Fetches all parts of events -->
         <?php require 'navbar.php' ?>
@@ -69,8 +69,8 @@
         <!-- Event content-->
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <a href="#" onclick="window.location.reload(true);" ><h5>Update</h5></a> <br/>
+                <div class="col-md-12" id="updateDiv">
+                    <a href="#" id="image2" onclick="window.location.reload(true);" ><img style="height:35px;" src="pic/refresh.png">                                                                 </a> <br/>
                 </div>
             </div>
             <?php require 'events/event-content.php' ?>
@@ -82,5 +82,6 @@
     <!-- jquery og bootstrap script -->  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
   </body>
 </html>

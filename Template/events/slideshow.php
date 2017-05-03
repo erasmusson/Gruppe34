@@ -14,8 +14,7 @@
                 <div class="item active">
                     <img src="events/concert.jpg" alt="Chania">
                     <div class="carousel-caption">
-                        <h5><?php echo $lang['EVENTS_PIC_TITLE1']; ?></h5>
-                        <a href="http://www.ticketmaster.no/teater-show/konserter/1221/events"> <?php echo $lang['EVENTS_PIC_LINK']; ?></a>
+                        
                     </div>
                 </div>
 
@@ -41,11 +40,7 @@
             </div>
 
             <!-- Circles for indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            
 
         <!-- Slideshow end -->
         </div>

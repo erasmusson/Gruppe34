@@ -85,7 +85,7 @@
 -->
     
 </head>
-    <body>
+    <body id="kart">
         <?php require'navbar.php' ?>
                 
                 <div id="containerkartside">
@@ -186,5 +186,6 @@
          <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     </body>
 </html>
