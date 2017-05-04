@@ -32,6 +32,18 @@ body {
     z-index: 10;
 }
 
+.navbar-default
+{
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+.nav-wrapper
+{
+    height: 70px;
+}
+
+
 .carousel-control.left, .carousel-control.right {
     background-image: none;
 }
@@ -177,14 +189,7 @@ body {
     margin-bottom: 30px;
 }
 
-
-
-<<<<<<< HEAD
-
-/*Mats kart side cssssssss*/
-=======
 /*Mats kart side cssssssss */
->>>>>>> 327b6cd05c969889517d4863834cf10a15d6dcd1
 
 #containerkartside>*{
     position: relative;   
