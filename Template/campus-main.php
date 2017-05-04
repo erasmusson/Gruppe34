@@ -21,6 +21,7 @@
     <div class="container">
         <?php require '../template/campus/campus-content.php' ?>
         
+        <div class="push"></div>
       </div>
      <?php require 'footer.php' ?>
       
