@@ -82,38 +82,23 @@
       </nav>   
     </div>
       
-      <div class="container">
+      <div class="container-fluid">
           <div class="row row-margin">
-              <div class="col-md-12">
-                <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
+              <div class="col-md-5 kartTekst">
+                  <h1>Kart</h1>
+              </div>
+              <div class="col-md-7 kartBilde">
+                  
               </div>
           </div>
-          <div class="row row-margin">
-              <div class="col-md-4">
-                  <img src="http://placehold.it/300x300" class="img-rounded" alt="Placeholder" width="300" height="300">
-                  <h2>Konsert</h2>
-                  <p>Konsert på Westerdals den 28.04.2017. Trykk <a href="#">her</a> eller på bildet for å lese mer.</p>
-                  </div>
-              
-              <div class="col-md-4">
-                  <img src="http://placehold.it/300x300" class="img-rounded" alt="Placeholder" width="300" height="300">
-                   <h2>Konsert</h2>
-                  <p>Konsert på Westerdals den 28.04.2017. Trykk <a href="#">her</a> eller på bildet for å lese mer.</p>
-              </div>
-              <div class="col-md-4">
-                  <img src="http://placehold.it/300x300" class="img-rounded" alt="Placeholder" width="300" height="300">
-                  <h2>Konsert</h2>
-                  <p>Konsert på Westerdals den 28.04.2017. Trykk <a href="#">her</a> eller på bildet for å lese mer.</p>
-              </div>
-          </div>
-      </div>
+    
           
           <div class="row row-margin">
               <div class="col-md-12">
                   <?php require 'events/EventsSlide.php' ?>
               </div>
           </div>
-      
+        </div>
       <?php require 'footer.php' ?>
       
       

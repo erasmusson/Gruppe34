@@ -63,9 +63,10 @@
   <body id="events">
       
         <!-- Fetches all parts of events -->
+      <div class="container-fluid">
         <?php require 'navbar.php' ?>
         <?php require 'events/slideshow.php' ?>
-        
+      </div>
         <!-- Event content-->
         <div class="container">
             <div class="row">
