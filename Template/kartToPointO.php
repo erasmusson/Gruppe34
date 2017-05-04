@@ -8,7 +8,6 @@
 <title>Kart</title>
 <link href="css/bootstrap.min.css" rel = "stylesheet" type="text/css">
 <link href="css/custom.css" rel="stylesheet" type="text/css">
-<link href="css/kartToPointO.css" rel="stylesheet" type="text/css">
     
      <script type="text/javascript">
     
@@ -54,12 +53,13 @@
                 
                    if(e.style.display == 'block'){
                         e.style.display = 'none';
-                        b.style.left = '0px';
+                        b.style.left = '0';
                    }
                    else{
+                        b.style.left = '25%';
                         e.style.display = 'block';
                         a.style.display = 'none';
-                        b.style.left = '341.5px';
+                       
                    }
                 }
             

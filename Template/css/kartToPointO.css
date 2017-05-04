@@ -63,6 +63,7 @@ body,html {
     height: 900px;
     position: relative;
     left: 0;
+    display: none;
 }
 
 .category7{
@@ -107,7 +108,7 @@ body,html {
     cursor: pointer;
     height: 50px;
     width: 35px;
-    left: 341.5px;
+    left: 0;
     z-index: 1;
 }
 
