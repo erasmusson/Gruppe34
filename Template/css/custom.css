@@ -1,3 +1,7 @@
+*
+{
+    margin: 0;
+}
 html
 {
     position: relative;
@@ -6,6 +10,7 @@ html
 
 body {
     background-color: #E9E9E9;
+    margin-bottom: 60px;
 }
 /* Events content */
 .eventcard{
@@ -42,17 +47,15 @@ body {
 
 #footer {
     background:#FFFFFF;
-    height: 175px;
+    height: auto;
     bottom: 0;
-    left: 0;
     position: absolute;
-    overflow: hidden;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #DDDDDD;
 }
 
-.footer ul {
+#footer ul {
 	font-size: 13px;
 	list-style-type: none;
 	margin-left: 0;
@@ -61,6 +64,10 @@ body {
 	color: #7F8C8D;
 }
 
+#footer, .push
+{
+    height: 175px;
+}
 #image2{
     
     float: right;
@@ -172,9 +179,7 @@ body {
 
 
 
-
-//-----------------------------------------------------------------------------------------
-//Mats kart side cssssssss
+/*Mats kart side cssssssss */
 
 #containerkartside>*{
     position: relative;   

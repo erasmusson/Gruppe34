@@ -82,13 +82,14 @@
       </nav>   
     </div>
       
-      <div class="container-fluid">
+      <div class="container">
           <div class="row row-margin">
               <div class="col-md-5 kartTekst">
                   <h1>Kart</h1>
+                  <p>Lorem ipsum dolor sit amet, id exerci labitur usu, tamquam disputationi ea eam. Eu iriure qualisque mei, qui ne quod audiam, eu delenit reprimique scribentur vis. Per clita inermis deterruisset id. Nec quem libris eu, no consul corpora eam. Laboramus voluptatibus ius an, minim noster voluptaria sed no, ne paulo audire definitionem est. Duis ubique accumsan pro ex, aeque consulatu laboramus vix eu, cum te tantas percipitur. Pro eu omnis numquam, ad quis melius nostrum eam. Vim natum rebum temporibus cu, eum liber reformidans ea. Nemore sententiae at cum, cum ea aliquid insolens intellegat, illud recusabo disputationi ex vis.</p>
               </div>
               <div class="col-md-7 kartBilde">
-                  
+                  <img src="kart.jpg" class="img-responsive img-rounded" alt="Kart over nærområdet">
               </div>
           </div>
     
@@ -98,6 +99,19 @@
                   <?php require 'events/EventsSlide.php' ?>
               </div>
           </div>
+          
+          <div class="row row-margin">
+              <div class="col-md-7 campusBilde">
+                  <img src="pic/CampusBilde.jpg" class="img-responsive img-rounded" alt="Campus Fjerdingen">
+              </div>
+              
+              <div class="col-md-5 campusTekst">
+                  <h1>Campus</h1>
+                  <p>Lorem ipsum dolor sit amet, id exerci labitur usu, tamquam disputationi ea eam. Eu iriure qualisque mei, qui ne quod audiam, eu delenit reprimique scribentur vis. Per clita inermis deterruisset id. Nec quem libris eu, no consul corpora eam. Laboramus voluptatibus ius an, minim noster voluptaria sed no, ne paulo audire definitionem est. Duis ubique accumsan pro ex, aeque consulatu laboramus vix eu, cum te tantas percipitur. Pro eu omnis numquam, ad quis melius nostrum eam. Vim natum rebum temporibus cu, eum liber reformidans ea. Nemore sententiae at cum, cum ea aliquid insolens intellegat, illud recusabo disputationi ex vis.</p>
+              </div>
+          </div>
+          
+          <div class="push"></div>
         </div>
       <?php require 'footer.php' ?>
       

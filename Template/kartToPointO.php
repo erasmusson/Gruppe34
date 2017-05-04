@@ -173,8 +173,6 @@
                             
                       
                 </div>
-                
-                    
             </div>
         <?php require'footer.php'?>
          <!-- jquery og bootstrap script -->  
