@@ -1,5 +1,10 @@
-body
+html
 {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
     background-color: #E9E9E9;
 }
 /* Events content */
@@ -35,17 +40,13 @@ body
 
 /* Footer customization */
 
-.footer {
-    background-color:#FFFFFF;
-    height: auto;
-    
-}
 #footer {
-    background:#CDCDCD;
-    height: 200px;
-    padding-bottom: 30px;
+    background:#FFFFFF;
+    height: 175px;
     bottom: 0;
     left: 0;
+    position: absolute;
+    overflow: hidden;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #DDDDDD;
@@ -76,7 +77,7 @@ body
 
 #wrapper{
     margin: 0 auto;
-    margin-left:12%;
+    text-align: center;
 }
 
 .circles{

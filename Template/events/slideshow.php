@@ -3,7 +3,7 @@
 
     <!-- Start row -->
     <div class="row">
-        <div class="col-md-12"> 
+        <div class="col-md-12 hidden-xs hidden-sm"> 
                 <div id="wrapper">
                    <div class="circleWrapper" id="circleWrapper1">
                         <div class="circles" id="circle1">

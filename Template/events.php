@@ -65,7 +65,10 @@
         <!-- Fetches all parts of events -->
       <div class="container-fluid">
         <?php require 'navbar.php' ?>
-        <?php require 'events/slideshow.php' ?>
+      </div>
+      
+      <div class="container-fluid">
+          <?php require 'events/slideshow.php' ?>
       </div>
         <!-- Event content-->
         <div class="container">
