@@ -46,7 +46,7 @@ h1
 
 /* Footer customization */
 .footer {
-    background:#CDCDCD;
+    background-color:#FFFFFF;
     height: auto;
     padding-bottom: 30px;
     position: relative;
@@ -67,16 +67,21 @@ h1
 .navbar-default
 {
     background-image: none;
-<<<<<<< HEAD
-    background-color: #CDCDCD;
+    background-color: #FFFFFF;
 }
 
 .nav-wrapper
 {
     height: 70px;
 }
-=======
-    background-color: #FFFFFF;
+
+.row-margin
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
->>>>>>> 372451d58bcfba67ab784be8a803599fb496aae5
+.nyheter
+{
+    margin: auto;
+}

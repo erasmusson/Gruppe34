@@ -83,49 +83,36 @@
     </div>
       
       <div class="container">
-          <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
-          <div class="row">
-              <div class="col-md-4">
-                  <div class="thumbnail">
-                      <a href="#">
-                          <img id="picNews" src="http://placehold.it/300x300">
-                          <div class="caption newsTekst">
-                              <h3>Konsert</h3>
-                              <p>Lorem ipsum...</p>
-                          </div>
-                      </a>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                   <div class="thumbnail">
-                      <a href="#">
-                          <img id="picNews" src="http://placehold.it/300x300">
-                          <div class="caption newsTekst">
-                              <h3>Konsert</h3>
-                              <p>Lorem ipsum...</p>
-                          </div>
-                      </a>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                   <div class="thumbnail">
-                      <a href="#">
-                          <img id="picNews" src="http://placehold.it/300x300">
-                          <div class="caption newsTekst">
-                              <h3>Konsert</h3>
-                              <p>Lorem ipsum...</p>
-                          </div>
-                      </a>
-                  </div>
+          <div class="row row-margin">
+              <div class="col-md-12">
+                <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
               </div>
           </div>
+          <div class="row row-margin">
+              <div class="col-md-4">
+                  <img src="http://placehold.it/300x300" class="img-rounded" alt="Placeholder" width="300" height="300">
+                  <h2>Konsert</h2>
+                  <p>Konsert på Westerdals den 28.04.2017. Trykk <a href="#">her</a> eller på bildet for å lese mer.</p>
+                  </div>
+              
+              <div class="col-md-4">
+                  <img src="http://placehold.it/300x300" class="img-rounded" alt="Placeholder" width="300" height="300">
+                   <h2>Konsert</h2>
+                  <p>Konsert på Westerdals den 28.04.2017. Trykk <a href="#">her</a> eller på bildet for å lese mer.</p>
+              </div>
+              <div class="col-md-4">
+                  <img src="http://placehold.it/300x300" class="img-rounded" alt="Placeholder" width="300" height="300">
+                  <h2>Konsert</h2>
+                  <p>Konsert på Westerdals den 28.04.2017. Trykk <a href="#">her</a> eller på bildet for å lese mer.</p>
+              </div>
+          </div>
+      </div>
           
-          <div class="row">
+          <div class="row row-margin">
               <div class="col-md-12">
                   <?php require 'events/EventsSlide.php' ?>
               </div>
           </div>
-      </div>
       
       <?php require 'footer.php' ?>
       
