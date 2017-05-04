@@ -54,12 +54,12 @@
                 
                    if(e.style.display == 'block'){
                         e.style.display = 'none';
-
+                        b.style.left = '0px';
                    }
                    else{
                         e.style.display = 'block';
                         a.style.display = 'none';
-                        b.style.display = 'none';
+                        b.style.left = '341.5px';
                    }
                 }
             
@@ -156,23 +156,17 @@
 
 
                             <div class="infoboxclass"id="infoboxcontainer">
-                              
                                 <div  id="infobox"></div>
-                              
                                 
-                              
-                                <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'tingeling')">
-                                    <div id="klikketing" ></div>
-                                </a>
-                                
-                                
-                    
                             </div>
 
-
-                    <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'tingeling')">
-                                    <div id="tingeling"></div>
+                    <a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'klikketing')">
+                                    <div id="klikketing" ></div>
                                 </a>
+
+                    <!--<a href="#" onclick="toggle_visibility('infobox', 'infoboxclass', 'klikketing')">
+                                    <div id="tingeling"></div>
+                                </a>-->
                     
                     
                             
