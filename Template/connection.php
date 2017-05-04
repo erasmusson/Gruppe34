@@ -7,3 +7,5 @@
     $name = 'campusfjerdingen';
 
     $connection = new PDO("mysql:host=localhost;dbname={$name};port={$port}", $username, $password);
+    
+

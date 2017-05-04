@@ -1,12 +1,25 @@
 
+#containerkartside>*{
+    position: relative;   
+}
+
+#containerkartside {
+    width: 100%;
+    height: 920px;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    padding: 0;
+}
+
 #kartcontainer {
     max-width: 1366px;
     height: 900px;
     overflow: hidden;
     position: relative;
-    margin:auto;
     background-color: red;
-    margin-top: 50px;
+    margin: auto;
+    padding: 0;
 }
 
 
@@ -51,15 +64,6 @@ body,html {
 }
 
 
-#containerkartside {
-    width: 100%;
-    position: relative;
-    margin:auto;
-}
-
-#containerkartside>*{
-    position: relative;   
-}
 
 #infobox {
    
@@ -70,15 +74,7 @@ body,html {
     left: 0;
 }
 
-#klikketing {
-    position: relative;
-    left: 100%;
-    height: 50px;
-    width: 35px;
-   bottom: 900px;
-    background: white;
-    cursor: pointer;
-}
+
 
 
 .category7{
@@ -113,4 +109,21 @@ body,html {
     height: 900px;
     position: absolute;
     left: 0;
+}
+
+#klikketing {
+    position: absolute;
+    background: white;
+    cursor: pointer;
+    height: 50px;
+    width: 35px;
+    left: 100%;
+}
+
+#tingeling{
+    position: absolute;
+    background: white;
+    cursor: pointer;
+    height: 50px;
+    width: 35px;
 }

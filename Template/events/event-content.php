@@ -9,6 +9,7 @@
             <p><?= $event['starts_at'] ?></p>
             <p><?= $event['location'] ?></p>
             <p><?= $event['description'] ?></p>
+            <br/>
         </div>   
     <?php } }?>
             

@@ -13,6 +13,7 @@ $lang['MENU_HOME'] = 'Home';
 $lang['MENU_MAP'] = 'Maps';
 $lang['MENU_EVENTS'] = 'Events';
 $lang['MENU_CAMPUS'] = 'Campus';
+$lang['MENU_CONTACT'] = 'Contact';
 $lang['MENU_LANGUAGE'] = 'Language';
 $lang['MENU_SEARCH'] = 'Search';
 $lang['MENU_SUBMIT'] = 'Submit';

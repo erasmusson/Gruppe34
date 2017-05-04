@@ -15,7 +15,7 @@
     }
 
     require 'common.php';
-    ?>
+?>
 
 
 <!DOCTYPE html>
@@ -31,9 +31,8 @@
       
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
-      
   </head>
-  <body>
+  <body id="home">
       
       <div class="container-fluid">
           <div class="row">
@@ -42,7 +41,7 @@
       </div>
       
       <div class="nav-wrapper">
-      <nav class="navbar navbar-default " data-spy="affix" data-offset-top="280">
+      <nav class="navbar navbar-default" data-spy="affix" data-offset-top="280">
           <div class="container-fluid">
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -55,9 +54,10 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">   
               <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
-              <li><a href="kart.php"><?php echo $lang['MENU_MAP']; ?></a></li>
+              <li><a href="kartToPointO.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
               <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
+              <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
           </ul>
               
           <ul class="nav navbar-nav navbar-right">
@@ -120,5 +120,9 @@
     <!-- jquery og bootstrap script -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+      
+            
+    <!-- Custom javascript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
