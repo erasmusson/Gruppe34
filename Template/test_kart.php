@@ -10,8 +10,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+    <script type="text/javascript">
     
-         <script type="text/javascript">
+        function showHide(id1, class1, id2){
+            var showDiv = document.getElementById(id1);
+            var hiddeninputs = document.getElementsByClassName(class1);
+            var showText = document.getElementById(id3)
+            
+            
+            for(var i = 0; i != hiddeninputs.length; i++){
+                if(i == showDiv){
+                    hiddeninputs[i].style.display = "block";
+                }
+                else{
+                    hiddeninputs[i].style.display = "none";
+                }
+            }
+            
+            if(showText){
+                showText.style.display= "block";
+            }
+            
+        }
+        
+    </script>
+    
+    
+       <!--  <script type="text/javascript">
                 function toggle_visibility(id, id2, id3) {
                 var e = document.getElementById(id);
                 var a = document.getElementsByClassName(id2);
@@ -26,7 +51,7 @@
                         
                 }
             
-    </script>
+    </script> -->
     
     
     <style>
@@ -36,6 +61,7 @@
             position: absolute;
             top:0;
         }
+        
         .box{
             
             width: 50px;
@@ -76,7 +102,7 @@
         
         #result{
             
-            background-color: blue;
+            background-color: grey;
             height: auto;
             padding: 20px;
             width: 320px;

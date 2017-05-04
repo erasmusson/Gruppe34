@@ -46,5 +46,11 @@ $lang['EVENTS_PIC_LINK'] = 'Click here!';
 $lang['CAMPUS_TITLE'] = 'What is happening on Campus Fjerdingen?';
 $lang['CAMPUS_CONTENT'] = 'Navigation';
 
+// Map
+$lang['CATEGORY'] = 'Category';
+$lang['OPENINGHOURS'] = 'Opening hours';
+$lang['ROAD'] = 'Road description';
+$lang['SHOW_ON_MAP'] = 'Show on map';
+
 
 ?>

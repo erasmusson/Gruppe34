@@ -173,8 +173,7 @@ body {
 
 
 
-//-----------------------------------------------------------------------------------------
-//Mats kart side cssssssss
+/*Mats kart side cssssssss*/
 
 #containerkartside>*{
     position: relative;   
@@ -298,5 +297,72 @@ body,html {
     z-index: 1;
 }
 
-//mats css slutt
-//---------------------------------------------------------------------
+/*mats css slutt*/
+
+#infoBar{
+    background-color:lightgray;
+    height: 900px;
+    overflow: auto;
+    overflow-y: auto;
+    padding: 20px 20px 30px 20px;
+    
+}
+
+#mapContent{
+    background-color: red;
+    height: 900px;
+    
+}
+
+#clockButton{
+    border-radius: 6%;
+    border: 0px;
+    background-color: #e8e5e5;
+}
+
+.box{
+            
+ width: 50px;
+ height: 50px;
+ background-color: blue;
+position: absolute;
+border: 1px solid black;
+display: inline-block;
+}
+        
+    #a{
+            top: 0;
+            left: 0;
+            display: inline-block;
+        }
+        
+         #b{
+            top: 0;
+            left: 50px;
+             display: inline-block;
+        }
+        
+         #c{
+            top: 0;
+            left: 100px;
+             display: inline-block;
+        }
+
+        #acontent{
+            display: none;
+        }
+        
+        #bcontent{
+            
+            display: none;
+        }
+        
+        #ccontent{
+            
+            display: none;
+        }
+
+ #boxContainer>* {
+            
+            display: inline-block;
+        }
