@@ -18,16 +18,6 @@
             var showText = document.getElementById(id2);
             
 
-            var children = [].slice.call(document.getElementById('boxContainer').getElementsByTagName('*'),0);
-            var arrayLength = children.length;
-            
-            for (var i = 0; i < arrayLength; i++) {
-            var name = children[i].getAttribute('id');
-            var z = document.getElementById(name);
-                if(z)
-                z.style.display = 'none';
-             }
-
             if(showDiv)
                 showDiv.style.display = 'block';
             if(showText){
@@ -56,6 +46,13 @@
               }
               
           }
+          
+          function check(){
+             $('#ba').click(function(){
+            $('#bcontent').toggle();
+          }); 
+          }
+          
         
     </script>
       
@@ -74,14 +71,23 @@
             <div class="row">
 
                 <div class="col-md-3" id="infoBar">
-                    <?php require'events/search_function.php' ?>
-
-                    <p class="allcontent" id="acontent"> this is a <a href="#" onclick="showAllBoxes('acontent')">Show all</a> </p>
+                        <form method="get">
+                        <label>
+                            <input type="text" name="keywords"  class="form-control" autocomplete="off">
+                        </label>
+                            <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
+                        </form>
+    
+                    <div id="contentWrapper">
+                    <p class="allcontent" id="acontent"> <br/>
+                    this is a <a href="#" onclick="showAllBoxes('acontent')">Show all</a> 
+                    </p>
 
                     <p class="allcontent" id="bcontent">This is b </p>
 
                     <p class="allcontent" id="ccontent"> this is c</p>
-                    
+                    </div>
+                    <?php require'events/search_function.php' ?>
                 </div>
                 
                 
@@ -95,19 +101,21 @@
                         </a>
                         
                         
-                        <a href="#" onclick="">
-                            <div id="b" class="box">
+                        <a href="#" id="ba" onclick="check()">
+                            <div id="b"  class="box">
                             </div>
                         </a>
                         
                         
                         <a href="#" onclick="">
                             <div id="c" class="box">              
-                        </div>
+                            </div>
                         </a>
                         
                     </div>
                 </div>
+                
+                
             </div>
         
         </div>

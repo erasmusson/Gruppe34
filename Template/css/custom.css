@@ -382,3 +382,8 @@ display: inline-block;
             
             display: inline-block;
         }
+
+.result{
+    
+    display: none;
+}

@@ -18,21 +18,14 @@
         if(x){
                  x.style.display = 'block';
              }
-    }   
+    }
     
+
 
                       
 </script>
 
 <!--Search box -->  
-    <form method="get">
-        <label>
-            <input type="text" name="keywords"  class="form-control" autocomplete="off">
-        </label>
-        <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
-        <a href="https://vg.no"><button class="btn btn-default"><?php echo $lang['MENU_SUBMIT']; ?></button></a>
-    </form>
-    
 
     <!-- Search function -->
     <?php 
@@ -48,7 +41,9 @@
     ?>
 
     <!-- Echoes number of results -->
-    <div class="result_count">
+    <div id="hello" style="display:none;"><img src="movies.jpg"></div>
+    <div id="resultWrapper">
+    <div id="result_count">
         <br><?php echo $query->num_rows; ?> resultat funna. 
         <hr>
     </div>
@@ -57,7 +52,7 @@
     <?php 
         if($query->num_rows){
             while($r = $query->fetch_object()){ ?>
-                <div class="result">
+                <div id="result">
 
                     <b><?php echo $r->name; ?></b><br/>
                     <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>
@@ -72,3 +67,6 @@
             }        
         }
         }   
+
+?>
+        </div>
