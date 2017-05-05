@@ -17,7 +17,12 @@
              }
     }
     
-                      
+      function check2(divId) {     
+        $("#"+divId).toggle();
+          $(".box").toggle();
+             
+          }
+    
 </script>
 
 <!--Search box -->  
@@ -36,19 +41,18 @@
     ?>
 
     <!-- Echoes number of results -->
-
-   
-        <br><?php echo $query->num_rows; ?> resultat funna. 
+        <?php echo $query->num_rows; ?> resultat funna. 
         <hr>
+
     <!-- Echoes the results -->
     <?php 
         if($query->num_rows){
             while($r = $query->fetch_object()){ ?>
                     <b><?php echo $r->name; ?></b><br/>
-                    <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>
                     <?php echo $lang['OPENINGHOURS']; echo ": "; echo $r->openinghours; ?><br/>
+                    <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>              
                     <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
-                    <button onclick="myFunction('a')" id="clockButton"><?php echo $lang['SHOW_ON_MAP']; ?></button>
+                    <a href="javascript:check2('<?php echo $r->cssid; ?>');" id="clockButton"><?php echo $lang['SHOW_ON_MAP']; ?></a>
                     <hr>
 
     <?php            

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Events</title>
-
+      <?php require'connection.php'?>
+      
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       
@@ -81,26 +82,51 @@
                         </label>
                         <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
                     </form>
-                    
+                    <br/>
                     
                     <!-- Content Wrapper / Div with information about boxes. -->
                     <div id="contentWrapper">
 
                         <span class="allcontent" id="acontent"> 
-                            <br/>
-                            this is a 
+                       
+                            <?php $statement = $connection->query("SELECT * FROM location where name = '4Sound Schous Plass'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
                             <hr>
                         </span>
 
                         <span class="allcontent" id="bcontent">
-                            <br/>
-                            This is b 
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'SIO Vulkan'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            
                             <hr>
                          </span>
 
                         <span class="allcontent" id="ccontent">
-                            <br/>
-                            this is c
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Verkstedet'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
                             <hr>
                         </span>
 
