@@ -15,51 +15,17 @@
 
     <!-- JavaScript / Jquery -->
       <script type="text/javascript">
-    
-        function showHide(id1, id2){
-            var showDiv = document.getElementById(id1);
-            var showText = document.getElementById(id2);
-            
-
-            if(showDiv)
-                showDiv.style.display = 'block';
-            if(showText){
-                                
-                showText.style.display = 'block';
-                
-            }
-
-        }
-
-          function showAllBoxes(id2){
-            var showText = document.getElementById(id2);
-            var children = [].slice.call(document.getElementById('boxContainer').getElementsByTagName('*'),0);
-            var arrayLength = children.length;
-            
-            for (var i = 0; i < arrayLength; i++) {
-            var name = children[i].getAttribute('id');
-            var z = document.getElementById(name);
-                if(z)
-                z.style.display = 'inline-block';
-             } 
-
-              if(showText){
-                  showText.style.display = 'none';
-                  
-              }
-              
-          }
-          
-          function check(divId) {     
+        
+        // Shows or hides div when click on link where implemented.  
+          function switchToggle(divId) {     
               $("#"+divId).toggle();
           }
-          
-        
-    </script>
-      
+              
+      </script>  
       
   </head>
-  <body id="events">
+    
+  <body>
       
     <!-- Fetches navigation -->
       <div class="container-fluid">
@@ -146,17 +112,17 @@
                     <!--Container for boxes on map -->
                     <div id="boxContainer">
 
-                        <a href="javascript:check('acontent');">
+                        <a href="javascript:switchToggle('acontent');">
                             <div id="a" class="box" >
                             </div>
                         </a>
                          
-                        <a href="javascript:check('bcontent');" id="ba">
+                        <a href="javascript:switchToggle('bcontent');" id="ba">
                             <div id="b"  class="box">
                             </div>
                         </a>
                     
-                        <a href="javascript:check('ccontent');" >
+                        <a href="javascript:switchToggle('ccontent');" >
                             <div id="c" class="box">              
                             </div>
                         </a>
