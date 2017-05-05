@@ -11,6 +11,8 @@
       
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+
+    <!-- JavaScript / Jquery -->
       <script type="text/javascript">
     
         function showHide(id1, id2){
@@ -47,10 +49,8 @@
               
           }
           
-          function check(){
-             $('#ba').click(function(){
-            $('#bcontent').toggle();
-          }); 
+          function check(divId) {     
+              $("#"+divId).toggle();
           }
           
         
@@ -60,70 +60,97 @@
   </head>
   <body id="events">
       
-        <!-- Fetches all parts of events -->
+    <!-- Fetches navigation -->
       <div class="container-fluid">
         <?php require 'navbar.php' ?>
       </div>
-      
-        <!-- Event content-->
+   
+        <!-- Map content-->
         <div class="container-fluid">
-        
+            
+            <!-- Start row -->
             <div class="row">
 
+                <!-- Start of content in infobar -->
                 <div class="col-md-3" id="infoBar">
-                        <form method="get">
+                    
+                    <!-- Search box HTML -->
+                    <form method="get">
                         <label>
                             <input type="text" name="keywords"  class="form-control" autocomplete="off">
                         </label>
-                            <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
-                        </form>
-    
-                    <div id="contentWrapper">
-                    <p class="allcontent" id="acontent"> <br/>
-                    this is a <a href="#" onclick="showAllBoxes('acontent')">Show all</a> 
-                    </p>
-
-                    <p class="allcontent" id="bcontent">This is b </p>
-
-                    <p class="allcontent" id="ccontent"> this is c</p>
-                    </div>
-                    <?php require'events/search_function.php' ?>
-                </div>
-                
-                
-                <div class="col-md-9" id="mapContent">
+                        <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
+                    </form>
                     
+                    
+                    <!-- Content Wrapper / Div with information about boxes. -->
+                    <div id="contentWrapper">
+
+                        <span class="allcontent" id="acontent"> 
+                            <br/>
+                            this is a 
+                            <hr>
+                        </span>
+
+                        <span class="allcontent" id="bcontent">
+                            <br/>
+                            This is b 
+                            <hr>
+                         </span>
+
+                        <span class="allcontent" id="ccontent">
+                            <br/>
+                            this is c
+                            <hr>
+                        </span>
+
+                    </div>
+                    
+                    <!-- End of Content Wrapper -->
+                    
+                    <!-- Search function -->                  
+                        <?php require'events/search_function.php' ?>
+
+                    <!-- End of infobar -->
+                    </div>
+                
+                <!-- Start of content on map -->
+                <div class="col-md-9" id="mapContent">  
+
+                    <!--Container for boxes on map -->
                     <div id="boxContainer">
 
-                        <a href="#" onclick="showHide('a', 'acontent')">
+                        <a href="javascript:check('acontent');">
                             <div id="a" class="box" >
                             </div>
                         </a>
-                        
-                        
-                        <a href="#" id="ba" onclick="check()">
+                         
+                        <a href="javascript:check('bcontent');" id="ba">
                             <div id="b"  class="box">
                             </div>
                         </a>
-                        
-                        
-                        <a href="#" onclick="">
+                    
+                        <a href="javascript:check('ccontent');" >
                             <div id="c" class="box">              
                             </div>
                         </a>
-                        
+                     
+                    <!-- End of box container -->
                     </div>
+
+                <!-- End of map content -->
                 </div>
                 
-                
+            <!-- End row -->    
             </div>
         
+        <!-- End container -->
         </div>
 
         <!-- Fetches footer -->
         <?php require 'footer.php' ?>
       
-    <!-- jquery og bootstrap script -->  
+        <!-- jquery og bootstrap script -->  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
