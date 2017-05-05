@@ -96,7 +96,7 @@
                     
                     <div id="kartmeny">
                         <div id="flyttdrittentilhoyre">
-                        <button class="btn btn-primary pull-right btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier!</button>
+                        <button class="btn btn-primary pull-left btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier!</button>
 
                             <div id="demo" class="collapse">
                                 <div id="collapsebakgrund">

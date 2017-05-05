@@ -20,7 +20,22 @@
           function switchToggle(divId) {     
               $("#"+divId).toggle();
           }
+
+        function test(divId2) {     
+              $("#infoBar").toggle(); 
+          }
               
+        function valueChanged()
+        {
+            for(var i = 0; i < 7 ; i++){
+                    if($('#chk' + (i+1)).is(":checked"))   
+                        $('.category' +(i+1)).show();
+                    else
+                        $('.category' +(i+1)).hide();
+            }
+        }
+        
+          
       </script>  
       
   </head>
@@ -32,14 +47,86 @@
         <?php require 'navbar.php' ?>
       </div>
    
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" style="top: 7.7%; position: absolute; z-index:11;">
+                <div id="categoryContainer">
+                    <button class="btn btn-primary pull-left btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier</button>
+
+                    <div id="demo" class="collapse">
+                        <div id="collapsebakgrund">
+
+                            <form action="#">
+                                <br><br>
+                                <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked"/>
+                                <label for="chk">Helse</label>
+                                <br />
+
+                                <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked"/>
+                                <label for="chk2">Musikk</label>
+                                <br />
+
+                                <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked"/>
+                                <label for="chk3">Butikk</label>
+                                <br />
+
+                                <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
+                                <label for="chk4">Uteliv</label>
+                                <br />
+
+                                <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked"/>
+                                <label for="chk5">Trening</label>
+                                <br />
+
+                                <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk6">Personlig Utvikling</label>
+                                <br />
+
+                                <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk7">Campus</label>
+                                <br />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
         <!-- Map content-->
         <div class="container-fluid">
             
             <!-- Start row -->
             <div class="row">
+                
+                 <!-- Start of content on map -->
+                <div class="col-md-12" id="mapContent">
 
+                    <!--Container for boxes on map -->
+                    <div id="boxContainer">
+
+                        <a href="javascript:switchToggle('acontent');">
+                            <div id="a" class="box category7" >
+                            </div>
+                        </a>
+                         
+                        <a href="javascript:switchToggle('bcontent');" id="ba">
+                            <div id="b"  class="box">
+                            </div>
+                        </a>
+                    
+                        <a href="javascript:switchToggle('ccontent');" >
+                            <div id="c" class="box">              
+                            </div>
+                        </a>
+                     
+                    <!-- End of box container -->
+                    </div>
+
+                <!-- End of map content -->
+                </div>
+                
                 <!-- Start of content in infobar -->
-                <div class="col-md-3" id="infoBar">
+                <div class="col-md-3" id="infoBar" style="position: absolute; top:7.7%; ">
                     
                     <!-- Search box HTML -->
                     <form method="get">
@@ -105,33 +192,12 @@
 
                     <!-- End of infobar -->
                     </div>
-                
-                <!-- Start of content on map -->
-                <div class="col-md-9" id="mapContent">  
-
-                    <!--Container for boxes on map -->
-                    <div id="boxContainer">
-
-                        <a href="javascript:switchToggle('acontent');">
-                            <div id="a" class="box" >
-                            </div>
-                        </a>
-                         
-                        <a href="javascript:switchToggle('bcontent');" id="ba">
-                            <div id="b"  class="box">
-                            </div>
-                        </a>
                     
-                        <a href="javascript:switchToggle('ccontent');" >
-                            <div id="c" class="box">              
-                            </div>
-                        </a>
-                     
-                    <!-- End of box container -->
-                    </div>
-
-                <!-- End of map content -->
-                </div>
+                    <a href="javascript:test('whiteButton');" >
+                        <div id="whiteButton" ></div>
+                    </a>
+                
+               
                 
             <!-- End row -->    
             </div>

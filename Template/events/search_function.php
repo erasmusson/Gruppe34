@@ -35,7 +35,7 @@
                     <?php echo $lang['OPENINGHOURS']; echo ": "; echo $r->openinghours; ?><br/>
                     <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>              
                     <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
-                    <a href="javascript:hideClassShowId('<?php echo $r->cssid; ?>');" id="clockButton"><?php echo $lang['SHOW_ON_MAP']; ?></a>
+                    <a href="javascript:hideClassShowId('<?php echo $r->cssid; ?>');"><?php echo $lang['SHOW_ON_MAP']; ?></a>
 
                     <hr>
 
