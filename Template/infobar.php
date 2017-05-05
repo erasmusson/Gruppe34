@@ -19,11 +19,15 @@
         // Shows or hides div when click on link where implemented.  
           function switchToggle(divId) {     
               $("#"+divId).toggle();
+              $("#infoBar").show();
           }
 
-        function test(divId2) {     
+          // Shows infobar when press on meny
+        function toggleInfoBar() {     
               $("#infoBar").toggle(); 
+                
           }
+          
               
         function valueChanged()
         {
@@ -40,7 +44,7 @@
       
   </head>
     
-  <body>
+  <body id="event">
       
     <!-- Fetches navigation -->
       <div class="container-fluid">
@@ -49,7 +53,7 @@
    
       <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12" style="top: 7.7%; position: absolute; z-index:11;">
+            <div class="col-md-12" style="z-index:11;">
                 <div id="categoryContainer">
                     <button class="btn btn-primary pull-left btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier</button>
 
@@ -118,17 +122,17 @@
                             <div id="c" class="box">              
                             </div>
                         </a>
-                     
+                       <a href="javascript:toggleInfoBar();" >
+                        <div id="whiteButton" style="left: 0.5%; top: 0.5%; color: gray; background: none; font-size: 2em;"> ☰ </div>
+                    </a>
+                
                     <!-- End of box container -->
                     </div>
-
-                <!-- End of map content -->
-                </div>
-                
-                <!-- Start of content in infobar -->
-                <div class="col-md-3" id="infoBar" style="position: absolute; top:7.7%; ">
+                    
+                    <div class="col-md-3" id="infoBar">
                     
                     <!-- Search box HTML -->
+                    <br /><br />
                     <form method="get">
                         <label>
                             <input type="text" name="keywords"  class="form-control" autocomplete="off">
@@ -183,21 +187,18 @@
                             <hr>
                         </span>
 
+                     <!-- End of Content Wrapper -->
                     </div>
-                    
-                    <!-- End of Content Wrapper -->
-                    
+    
                     <!-- Search function -->                  
-                        <?php require'events/search_function.php' ?>
+                    <?php require'events/search_function.php' ?>
 
                     <!-- End of infobar -->
                     </div>
                     
-                    <a href="javascript:test('whiteButton');" >
-                        <div id="whiteButton" ></div>
-                    </a>
-                
-               
+
+                <!-- End of map content -->
+                </div>   
                 
             <!-- End row -->    
             </div>
