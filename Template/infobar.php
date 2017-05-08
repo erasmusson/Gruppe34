@@ -14,59 +14,57 @@
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- JavaScript / Jquery -->
-      <script type="text/javascript">
+    <script type="text/javascript">
         
-    var currentZoom = 1.0;
-          
-     function zoomIn(){
-         $('#zoomIn').click(
+        var currentZoom = 1.0;
+
+        // Zooms in on map
+         function zoomIn(){
+            $('#zoomIn').click(
             function () {
                 $('#map').animate({ 'zoom': currentZoom + .5 });
             });  
-     }
-     
+         }
+
+        // Zooms out on map
         function zoomOut(){
-         $('#zoomOut').click(
+            $('#zoomOut').click(
             function () {
                 $('#map').animate({ 'zoom': currentZoom - .3 });
             });
-     }
+         }
 
+        // Reset zoom 
         function zoomReset(){
-        var currentZoom = 1.0;
-         $('#zoomNormal').click(
-            function () {
-                $('#map').animate({ 'zoom': currentZoom});
-            });
-     }
-    
-          
-          
-        // Shows or hides div when click on link where implemented.  
-          function switchToggle(divId) {     
-              $("#"+divId).toggle();
-              $("#infoBar").show();
-          }
+            var currentZoom = 1.0;
+            $('#zoomNormal').click(
+                function () {
+                    $('#map').animate({ 'zoom': currentZoom});
+                });
+         }  
 
-          // Shows infobar when press on meny
-        function toggleInfoBar() {     
-              $("#infoBar").toggle(); 
-                
-          }
-          
-              
-        function valueChanged()
-        {
-            for(var i = 0; i < 7 ; i++){
-                    if($('#chk' + (i+1)).is(":checked"))   
-                        $('.category' +(i+1)).show();
-                    else
-                        $('.category' +(i+1)).hide();
-            }
+        // Shows or hides div when click on link where implemented.  
+        function switchToggle(divId) {     
+            $("#"+divId).toggle();
+            $("#infoBar").show();
         }
-          
-   
-        
+
+        // Shows infobar when press on meny
+            function toggleInfoBar() {     
+                  $("#infoBar").toggle(); 
+
+              }
+
+        // Shows and hides pins from category       
+        function valueChanged()
+            {
+                for(var i = 0; i < 7 ; i++){
+                    if($('#chk' + (i+1)).is(":checked"))   
+                            $('.category' +(i+1)).show();
+                    else
+                            $('.category' +(i+1)).hide();
+                }
+            }
           
       </script>  
       
@@ -87,6 +85,8 @@
                 
                  <!-- Start of content on map -->
                 <div class="col-md-12" id="mapContent">
+                    
+                    <!-- Map -->
                     <div id="map" style="background-image:url(pic/map.png);" draggable="true">
 
                         <!--Container for boxes on map -->
@@ -286,84 +286,94 @@
                                 <div id="w" class="box category5">              
                                 </div>
                             </a>
-                        <!-- End of box container -->
+                       
+                           <!-- End of box container -->
                         </div>
 
-
+                    <!-- End of map -->    
                     </div>
-                    
+              
                 <!-- End of map content -->
                 </div>  
                 
+                <!-- Menubar on top of map -->
                  <div class="col-md-12" id="menuBar">
+
+                    <!-- Container for category -->
                     <div id="categoryContainer">
+
                         <div class="dropdown">
-                          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
-                          <ul class="dropdown-menu">
-                            <li>
-                                <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk"><?php echo $lang['CATEGORY_HEALTH']; ?></label>
-                              </li>
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk"><?php echo $lang['CATEGORY_HEALTH']; ?></label>
+                                </li>
                               
-                            <li>
-                                <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk2"><?php echo $lang['CATEGORY_MUSIC']; ?></label>
-                              </li>
-                              
-                            <li>
-                                <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk3"><?php echo $lang['CATEGORY_SHOPPING']; ?></label>
-                            </li>
-                              
-                              <li>
-                                  <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <li>
+                                    <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk2"><?php echo $lang['CATEGORY_MUSIC']; ?></label>
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk3"><?php echo $lang['CATEGORY_SHOPPING']; ?></label>
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
                                     <label for="chk4"><?php echo $lang['CATEGORY_PARTY']; ?></label>
-                              </li>
-                              
-                              <li>
-                                  <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk5"><?php echo $lang['CATEGORY_WORKOUT']; ?></label>
-                              </li>
-                              
-                              <li>
-                                  <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk5"><?php echo $lang['CATEGORY_WORKOUT']; ?></label>
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
                                     <label for="chk6">Personlig Utvikling</label>
-                              </li>
-                              
-                              <li>
-                                  <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
                                     <label for="chk7"><?php echo $lang['CATEGORY_CAMPUS']; ?></label>
-                              </li>
-                          </ul>
-                        </div>                  
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    <!-- End of container for category -->
                     </div>
                      
                      
-                      <a id="zoomIn" href="#" onclick="zoomIn()">
-                    <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomInB">
-                       +
-                    </button>
-      
-                    </a> 
+                     <!-- Zoom in button -->
+                    <a id="zoomIn" href="#" onclick="zoomIn()">
+                        <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomInB"> + </button>
+                    </a>
+ 
+                    <!-- Zoom out button -->
                     <a id="zoomOut" href="#" onclick="zoomOut()">   
-                      <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomOutB">
-                       - 
-                    </button>
+                      <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomOutB"> - </button>
                     </a>
 
+                    <!-- Reset zoom button -->
                     <a id="zoomNormal" href="#" onclick="zoomReset()" >    
-                      <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomResetB">
-                         Reset
-                    </button>
+                      <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomResetB"> Reset </button>
                     </a>
-                      <a href="javascript:toggleInfoBar();" >
+
+                     <!-- Hamburger Menu -->
+                    <a href="javascript:toggleInfoBar();" >
                         <div id="whiteButton"> ☰ </div>
-                    </a>  
+                    </a> 
+
+
+                <!-- End of menubar on top of map -->
                 </div>
                 
-                
-                
-                    <div class="col-md-3" id="infoBar">
+                <!-- Start of infobar -->
+                <div class="col-md-3" id="infoBar">
                     
                     <!-- Search box HTML -->
                     <br /><br />
@@ -922,16 +932,7 @@
                             <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
                             
                             <hr>
-                        </span>
-
-
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+                        </span>              
                         
                      <!-- End of Content Wrapper -->
                     </div>
@@ -939,8 +940,8 @@
                     <!-- Search function -->                  
                     <?php require'events/search_function.php' ?>
 
-                    <!-- End of infobar -->
-                    </div>
+                <!-- End of infobar -->
+                </div>
                 
             <!-- End row -->    
             </div>

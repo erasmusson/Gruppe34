@@ -58,5 +58,6 @@ $lang['CATEGORY_HEALTH'] = 'Helse';
 $lang['CATEGORY_PARTY'] = 'Fest';
 $lang['CATEGORY_WORKOUT'] = 'Trening';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
+$lang['MENU_SUBMIT'] = 'Søk';
 
 ?>
