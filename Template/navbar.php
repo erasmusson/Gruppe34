@@ -15,7 +15,7 @@ function reload() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">FJERDINGEN</a>
+            <a class="navbar-brand navbar-brand-centered" href="index.php"><img src="pic/Logo_BW_1.png" class="img-circle logo"></a>
         
         </div>
         
@@ -37,14 +37,7 @@ function reload() {
                     <li><a href="?lang=en" onclick="window.location.reload(true);" >English</a></li>
                 </ul>
               </li>
-            </ul>    
-            
-            <form class="navbar-form navbar-right">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="<?php echo $lang['MENU_SEARCH']; ?>">
-                </div>
-                <button type="submit" class="btn btn-default"><?php echo $lang['MENU_SUBMIT']; ?></button> 
-            </form>
+            </ul>
         </div>
         
     </div>
