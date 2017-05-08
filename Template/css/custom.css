@@ -347,11 +347,9 @@ body {
 }
 
 .box{         
-    width: 20px;
-    height: 20px;
-    background-color: blue;
+    width: 24px;
+    height: 24px;
     position: absolute;
-    border: 1px solid black;
     display: inline-block;
 }
 
@@ -407,28 +405,234 @@ body {
       
 }
 
-/*Boxes on map*/ 
+/*Content in infobar*/ 
 
 #acontent,  #aacontent, #abcontent, #dcontent, #econtent, #fcontent, #gcontent, #hcontent, #icontent, #jcontent, #kcontent, #ncontent, #mcontent, #ocontent, #pcontent, #qcontent, #rcontent, #scontent, #wcontent, #accontent, #adcontent, #aecontent, #afcontent, #agcontent, #ahcontent, #aicontent, #ajcontent, #akcontent, #alcontent, #amcontent, #ancontent, #aocontent, #apcontent, #aqcontent, #ccontent, #bcontent, #tcontent, #ucontent, #vcontent{
     display: none;
 }
 
+#ae, #p, #t, #ai, #e, #k, #i, #w, #ak, #al, #an, #ao, #ap{
+    background-image: url('../pic/workout.png');
+}
+
+#s, #ac, #af, #aa, #ag, #ab, #am{
+    background-image: url('../pic/drink.png');
+}
+
+#r, #m, #ah, #aj, #q, #a, #j{
+    background-image: url('../pic/music.png');
+}
+
+#f, #h, #aq{    
+    background-image: url('../pic/drugs.png');
+}
+
+#g, #v, #ad, #o, #n{
+    background-image: url('../pic/shopping-cart.png');
+}
 
 #a{
-    top: 360px;
-    left: 770px;
+    top: 270px;
+    left: 850px;
 }
         
-#aa{
-    top: 75px;
-    left: 658px;            
-}
-        
-#ab{
-    top: 310px;
-    left:695px;
+#aa{   
+    top: 255px;
+    left: 815px;
 }
 
+#ab{ 
+    top: 430px;
+    left: 580px;
+}
+
+#ac{
+    top: 220px;
+    left: 750px;
+}
+
+#ad{   
+    top: 540px;
+    left: 660px;
+}
+
+#ae{
+    top: 70px;
+    left: 660px;
+    
+}
+
+#af{
+    
+    top: 310px;
+    left: 690px;
+     
+}
+
+#ag{   
+    top: 250px;
+    left: 790px;
+}
+
+#ah{    
+    top: 520px;
+    left: 720px;
+}
+
+
+#ai{    
+    top: 515px;
+    left: 740px;
+}
+
+#aj{    
+    top: 400px;
+    left: 650px;
+}
+
+#ak{    
+    top: 250px;
+    left: 860px;
+}
+
+#al{    
+    top: 50px;
+    left: 850px;
+}
+
+
+#am{    
+     top: 480px;
+    left: 785px;
+     
+}
+
+#an{
+    top: 180px;
+    left: 785px;
+}
+
+#ao{    
+     top: 230px;
+    left: 850px;
+}
+
+#ap{    
+    top: 390px;
+    left: 620px;
+}
+
+#aq{    
+    top: 590px;
+    left: 590px;
+}
+
+#b{ 
+   top: 180px;
+   left: 680px;      
+}
+
+#c{ 
+   top: 380px;
+   left: 835px;
+}
+
+#d{ 
+   top: 50px;
+   left: 665px; 
+}
+
+#e{ 
+   top: 359px;
+   left: 798px; 
+}
+
+#f{ 
+   top: 455px;
+    left: 700px; 
+}
+
+#g{ 
+    top: 580px;
+    left: 650px;
+}
+
+#h{ 
+    top: 270px;
+    left: 830px;
+}
+
+#i{ 
+    top: 220px;
+    left: 830px;
+}
+
+#j{ 
+    top: 540px;
+    left: 580px;
+}
+
+#k{ 
+    top: 120px;
+    left: 765px;
+}
+
+#m{ 
+    top: 495px;
+    left: 660px;
+}
+
+#n{ 
+    top: 510px;
+    left: 510px;
+}
+
+#o{ 
+    top: 455px;
+    left: 720px; 
+}
+
+#p{ 
+    top: 390px;
+   left: 805px; 
+}
+
+#q{ 
+    top: 410px;
+    left: 720px; 
+}
+
+
+#r{ 
+    top: 380px;
+    left: 605px;
+}
+
+#s{ 
+    top: 590px;
+    left: 520px;
+}
+
+#t{ 
+    top: 80px;
+    left: 670px;
+}
+
+#u{ 
+    top: 335px;
+   left: 805px; 
+    background-image: url('../pic/ambulance.png');
+}
+
+#v{ 
+    top: 100px;
+    left: 650px;
+}
+
+#w{ 
+    top: 85px;
+    left: 640px;
+}
 
  #boxContainer>* {
             

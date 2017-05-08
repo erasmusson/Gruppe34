@@ -716,7 +716,7 @@
                         
                          <span class="allcontent" id="hcontent">
                             
-                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Ditt apotek Grünerløkka'"); 
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Ditt apotek Grunerlokka'"); 
                             $row = $statement->fetch(PDO::FETCH_ASSOC); 
                             ?>
 
@@ -730,7 +730,7 @@
                         
                         <span class="allcontent" id="icontent">
                             
-                            <?php $statement = $connection->query("SELECT * FROM location where name = 'EVO Grünerløkka'"); 
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'EVO Grunerlokka'"); 
                             $row = $statement->fetch(PDO::FETCH_ASSOC); 
                             ?>
 
