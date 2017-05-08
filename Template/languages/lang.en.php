@@ -51,6 +51,13 @@ $lang['CATEGORY'] = 'Category';
 $lang['OPENINGHOURS'] = 'Opening hours';
 $lang['ROAD'] = 'Road description';
 $lang['SHOW_ON_MAP'] = 'Show on map';
+$lang['CATEGORY_SHOPPING'] = 'Shopping';
+$lang['CATEGORY_MUSIC'] = 'Music';
+$lang['CATEGORY_HEALTH'] = 'Health';
+$lang['CATEGORY_PARTY'] = 'Party';
+$lang['CATEGORY_WORKOUT'] = 'Excersice';
+$lang['CATEGORY_CAMPUS'] = 'Campus';
+
 
 
 ?>

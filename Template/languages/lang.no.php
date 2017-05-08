@@ -51,5 +51,11 @@ $lang['CATEGORY'] = 'Kategori';
 $lang['OPENINGHOURS'] = 'Åpningstider';
 $lang['ROAD'] = 'Veibeskrivelse';
 $lang['SHOW_ON_MAP'] = 'Vis på kart';
+$lang['CATEGORY_SHOPPING'] = 'Butikker';
+$lang['CATEGORY_MUSIC'] = 'Musikk';
+$lang['CATEGORY_HEALTH'] = 'Helse';
+$lang['CATEGORY_PARTY'] = 'Fest';
+$lang['CATEGORY_WORKOUT'] = 'Trening';
+$lang['CATEGORY_CAMPUS'] = 'Campus';
 
 ?>

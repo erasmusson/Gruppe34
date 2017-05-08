@@ -93,197 +93,197 @@
                         <div id="boxContainer">
 
                             <a href="javascript:switchToggle('acontent');">
-                                <div id="a" class="box category7" >
+                                <div id="a" class="box category2" >
                                 </div>
                             </a>
 
                             <a href="javascript:switchToggle('aacontent');">
-                                <div id="aa"  class="box">
+                                <div id="aa"  class="box category4">
                                 </div>
                             </a>
 
                             <a href="javascript:switchToggle('abcontent');" >
-                                <div id="ab" class="box">              
+                                <div id="ab" class="box category4">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('accontent');" >
-                                <div id="ac" class="box">              
+                                <div id="ac" class="box category4">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('adcontent');" >
-                                <div id="ad" class="box">              
+                                <div id="ad" class="box category3">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('aecontent');" >
-                                <div id="ae" class="box">              
+                                <div id="ae" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('afcontent');" >
-                                <div id="af" class="box">              
+                                <div id="af" class="box category4">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('agcontent');" >
-                                <div id="ag" class="box">              
+                                <div id="ag" class="box category4">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ahcontent');" >
-                                <div id="ah" class="box">              
+                                <div id="ah" class="box category2">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('aicontent');" >
-                                <div id="ai" class="box">              
+                                <div id="ai" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ajcontent');" >
-                                <div id="aj" class="box">              
+                                <div id="aj" class="box category2">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('akcontent');" >
-                                <div id="ak" class="box">              
+                                <div id="ak" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('alcontent');" >
-                                <div id="al" class="box">              
+                                <div id="al" class="box category5">              
                                 </div>
                             </a>
 
                             <a href="javascript:switchToggle('amcontent');" >
-                                <div id="am" class="box">              
+                                <div id="am" class="box category4">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ancontent');" >
-                                <div id="an" class="box">              
+                                <div id="an" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('aocontent');" >
-                                <div id="ao" class="box">              
+                                <div id="ao" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('apcontent');" >
-                                <div id="ap" class="box">              
+                                <div id="ap" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('aqcontent');" >
-                                <div id="aq" class="box">              
+                                <div id="aq" class="box category1">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('bcontent');" >
-                                <div id="b" class="box">              
+                                <div id="b" class="box category7">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ccontent');" >
-                                <div id="c" class="box">              
+                                <div id="c" class="box category7">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('dcontent');" >
-                                <div id="d" class="box">              
+                                <div id="d" class="box category7">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('econtent');" >
-                                <div id="e" class="box">              
+                                <div id="e" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('fcontent');" >
-                                <div id="f" class="box">              
+                                <div id="f" class="box category1">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('gcontent');" >
-                                <div id="g" class="box">              
+                                <div id="g" class="box category3">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('hcontent');" >
-                                <div id="h" class="box">              
+                                <div id="h" class="box category1">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('icontent');" >
-                                <div id="i" class="box">              
+                                <div id="i" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('jcontent');" >
-                                <div id="j" class="box">              
+                                <div id="j" class="box category2">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('kcontent');" >
-                                <div id="k" class="box">              
+                                <div id="k" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('mcontent');" >
-                                <div id="m" class="box">              
+                                <div id="m" class="box category2">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ncontent');" >
-                                <div id="n" class="box">              
+                                <div id="n" class="box category3">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ocontent');" >
-                                <div id="o" class="box">              
+                                <div id="o" class="box category3">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('pcontent');" >
-                                <div id="p" class="box">              
+                                <div id="p" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('qcontent');" >
-                                <div id="q" class="box">              
+                                <div id="q" class="box category2">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('rcontent');" >
-                                <div id="r" class="box">              
+                                <div id="r" class="box category2">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('scontent');" >
-                                <div id="s" class="box">              
+                                <div id="s" class="box category4">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('tcontent');" >
-                                <div id="t" class="box">              
+                                <div id="t" class="box category5">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('ucontent');" >
-                                <div id="u" class="box">              
+                                <div id="u" class="box category1">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('vcontent');" >
-                                <div id="v" class="box">              
+                                <div id="v" class="box category3">              
                                 </div>
                             </a>
                             
                             <a href="javascript:switchToggle('wcontent');" >
-                                <div id="w" class="box">              
+                                <div id="w" class="box category5">              
                                 </div>
                             </a>
                         <!-- End of box container -->
@@ -301,28 +301,28 @@
                           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
                           <ul class="dropdown-menu">
                             <li>
-                                <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk">Helse</label>
+                                <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk"><?php echo $lang['CATEGORY_HEALTH']; ?></label>
                               </li>
                               
                             <li>
                                 <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk2">Musikk</label>
+                                <label for="chk2"><?php echo $lang['CATEGORY_MUSIC']; ?></label>
                               </li>
                               
                             <li>
                                 <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk3">Butikk</label>
+                                <label for="chk3"><?php echo $lang['CATEGORY_SHOPPING']; ?></label>
                             </li>
                               
                               <li>
                                   <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                    <label for="chk4">Uteliv</label>
+                                    <label for="chk4"><?php echo $lang['CATEGORY_PARTY']; ?></label>
                               </li>
                               
                               <li>
                                   <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk5">Trening</label>
+                                <label for="chk5"><?php echo $lang['CATEGORY_WORKOUT']; ?></label>
                               </li>
                               
                               <li>
@@ -332,7 +332,7 @@
                               
                               <li>
                                   <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                    <label for="chk7">Campus</label>
+                                    <label for="chk7"><?php echo $lang['CATEGORY_CAMPUS']; ?></label>
                               </li>
                           </ul>
                         </div>                  
