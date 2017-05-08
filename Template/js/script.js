@@ -15,10 +15,14 @@ $(document).ready(function(){
         $("#events a:contains(" + this + ")").parent().addClass('active');
     });
     
-        $("#campus a:contains('Campus')").parent().addClass('active');
-    
-    var array3 = ['Contact', 'Kontakt']
-    $(array3).each(function (){
+    var array3 = ['Campus', 'Campus']
+    $(array3).each(function(){
+        $("#campus a:contains(" + this + ")").parent().addClass('active');
+    });
+
+    var array4 = ['Contact', 'Kontakt']
+    $(array4).each(function (){
         $("#contact a:contains(" + this + ")").parent().addClass('active');
     });
+
 });

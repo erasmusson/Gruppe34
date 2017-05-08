@@ -1,38 +1,13 @@
 <!-- Function that hides other pins when you want to se location of a specifik-->
 <script type="text/javascript">
-
-    function myFunction(id1) {
-        var x = document.getElementById(id1);
-        var children = [].slice.call(document.getElementById('boxContainer').getElementsByTagName('*'),0);
-        var arrayLength = children.length;          
-
-         for (var i = 0; i < arrayLength; i++) {
-            var name = children[i].getAttribute('id');
-            var z = document.getElementById(name);
-
-             if(z){
-                z.style.display = 'none';
-             }
-         }
-        
-        if(x){
-                 x.style.display = 'block';
-             }
-    }   
     
-
-                      
+    // Function that hides all divs with box class except divID.
+      function hideClassShowId(divId) {     
+        $("#"+divId).toggle();
+          $(".box").toggle();
+    }
+    
 </script>
-
-<!--Search box -->  
-    <form method="get">
-        <label>
-            <input type="text" name="keywords"  class="form-control" autocomplete="off">
-        </label>
-        <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
-        <a href="https://vg.no"><button class="btn btn-default"><?php echo $lang['MENU_SUBMIT']; ?></button></a>
-    </form>
-    
 
     <!-- Search function -->
     <?php 
@@ -48,27 +23,26 @@
     ?>
 
     <!-- Echoes number of results -->
-    <div class="result_count">
-        <br><?php echo $query->num_rows; ?> resultat funna. 
+        <?php echo $query->num_rows; ?> resultat funna. 
         <hr>
-    </div>
 
     <!-- Echoes the results -->
     <?php 
         if($query->num_rows){
             while($r = $query->fetch_object()){ ?>
-                <div class="result">
 
                     <b><?php echo $r->name; ?></b><br/>
-                    <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>
                     <?php echo $lang['OPENINGHOURS']; echo ": "; echo $r->openinghours; ?><br/>
-                    <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
-                    <button onclick="myFunction('a')" id="clockButton"><?php echo $lang['SHOW_ON_MAP']; ?></button>
+                    <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>              
+                    <a href="<?= $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
+                    <a href="javascript:hideClassShowId('<?php echo $r->cssid; ?>');"><?php echo $lang['SHOW_ON_MAP']; ?></a>
+
                     <hr>
-                    
-                 </div>
+
     <?php            
             
             }        
         }
         }   
+
+?>
