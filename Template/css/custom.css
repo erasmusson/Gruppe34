@@ -280,8 +280,6 @@ body,html {
 
 
 
-
-
 #infoboxcontainer {
     width: 25%;
     height: 900px;
@@ -377,3 +375,15 @@ display: inline-block;
             
             display: inline-block;
         }
+
+
+/* CAMPUS FJERDINGEN -- CH */
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 80px;
+}
