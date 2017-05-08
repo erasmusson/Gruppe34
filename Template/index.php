@@ -37,7 +37,7 @@
       <header class="masthead">
           <div class="container-fluid">
           <div class="row">
-              <img class="img-responsive" src="pic/forsidebilde.png">
+              <img src="pic/forsidebilde.png" class="img-responsive forside">
           </div>
           </div>
       </header>
@@ -46,7 +46,7 @@
       <div class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
           <div class="navbar-header">
-              <a class="navbar-brand navbar-brand-centered" href="index.php"><img src="pic/Logo_BW_1.png" class="img-circle logo"></a>
+              <a class="navbar-brand navbar-brand-centered hidden-xs" href="index.php"><img src="pic/Logo_BW_1.png" class="img-circle logo"></a>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -56,7 +56,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">   
               <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
-              <li><a href="kartToPointO.php"><?php echo $lang['MENU_MAP']; ?></a></li>
+              <li><a href="infobar.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
               <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
           </ul>
