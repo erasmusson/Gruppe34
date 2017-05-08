@@ -24,7 +24,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo $lang['PAGE_TITLE']; ?></title>
+    <title>Framside</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -34,21 +34,24 @@
   </head>
   <body id="home">
       
-      <div class="container-fluid">
-          <div class="row">
-          </div>
-      </div>
-      
-      <div class="nav-wrapper">
-      <nav class="navbar navbar-default" data-spy="affix" data-offset-top="280">
+      <header class="masthead">
           <div class="container-fluid">
+          <div class="row">
+              <img class="img-responsive" src="pic/forsidebilde.png">
+          </div>
+          </div>
+      </header>
+      
+    <div class="nav-wrapper">
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
           <div class="navbar-header">
+              <a class="navbar-brand navbar-brand-centered" href="index.php"><img src="pic/Logo_BW_1.png" class="img-circle logo"></a>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span> 
               </button>
-              <div class="navbar-brand" href="index.php">FJERDINGEN</div>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">   
@@ -56,10 +59,11 @@
               <li><a href="kartToPointO.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
               <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
-              <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
           </ul>
               
           <ul class="nav navbar-nav navbar-right">
+              
+              <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $lang['MENU_LANGUAGE']; ?>
                 <span class="caret"></span></a>
@@ -69,16 +73,9 @@
                 </ul>
               </li>
           </ul>    
-              
-          <form class="navbar-form navbar-right">
-              <div class="form-group">
-                  <input type="text" class="form-control" placeholder="<?php echo $lang['MENU_SEARCH']; ?>">
-              </div>
-              <button type="submit" class="btn btn-default"><?php echo $lang['MENU_SUBMIT']; ?></button> 
-          </form>
         </div>
       </div>
-      </nav>   
+      </div>   
     </div>
       
       <div class="container">

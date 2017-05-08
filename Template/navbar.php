@@ -37,14 +37,7 @@ function reload() {
                     <li><a href="?lang=en" onclick="window.location.reload(true);" >English</a></li>
                 </ul>
               </li>
-            </ul>    
-            
-            <form class="navbar-form navbar-right">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="<?php echo $lang['MENU_SEARCH']; ?>">
-                </div>
-                <button type="submit" class="btn btn-default"><?php echo $lang['MENU_SUBMIT']; ?></button> 
-            </form>
+            </ul>
         </div>
         
     </div>

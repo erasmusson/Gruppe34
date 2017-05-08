@@ -8,6 +8,8 @@ html
     min-height: 100%;
 }
 
+
+
 body {
     background-color: #E9E9E9;
     margin-bottom: 60px;
@@ -18,18 +20,11 @@ body {
     padding-bottom: 3%;
 }
 
-.affix {
+.navbar.affix {
+    position: fixed;
     top: 0;
     width: 100%;
-}
-
-.affix + .container-fluid {
-    padding-top:70px;
-}
-
-.navbar
-{
-    z-index: 10;
+    z-index:10;
 }
 
 .navbar-default
@@ -43,6 +38,24 @@ body {
     height: 70px;
 }
 
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;
+    display: block;
+    text-align: center;
+    
+}
+
+.logo
+{
+    max-height: 100px; 
+    margin-top: -20px;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
