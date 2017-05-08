@@ -15,12 +15,13 @@ $lang['MENU_EVENTS'] = 'Eventer';
 $lang['MENU_CAMPUS'] = 'Campus';
 $lang['MENU_CONTACT'] = 'Kontakt';
 $lang['MENU_LANGUAGE'] = 'Språk';
-$lang['MENU_SEARCH'] = 'Søk her';
-$lang['MENU_SUBMIT'] = 'Søk';
 
 // Homepage
-$lang['HOMEPAGE_FIRST_TITLE'] = 'Nyheter';
-$lang['HOMEPAGE_SECOND_TITLE'] = 'Eventer';
+$lang['HOMEPAGE_FIRST_TITLE'] = 'Kart';
+$lang['HOMEPAGE_FIRST_BUTTON'] = 'Gå til kart';
+$lang['HOMEPAGE_SECOND_TITLE'] = 'Kommende eventer';
+$lang['HOMEPAGE_THIRD_TITLE'] = 'Campus';
+$lang['HOMEPAGE_SECOND_BUTTON'] = 'Få mer informasjon om campus';
 
 
 // Footer

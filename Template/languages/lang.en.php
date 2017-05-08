@@ -19,8 +19,12 @@ $lang['MENU_SEARCH'] = 'Search';
 $lang['MENU_SUBMIT'] = 'Submit';
 
 // Homepage
-$lang['HOMEPAGE_FIRST_TITLE'] = 'Latest news and updates';
+$lang['HOMEPAGE_FIRST_TITLE'] = 'Map';
+$lang['HOMEPAGE_FIRST_BUTTON'] = 'Go to map';
 $lang['HOMEPAGE_SECOND_TITLE'] = 'Upcoming events';
+$lang['HOMEPAGE_THIRD_TITLE'] = 'Campus';
+$lang['HOMEPAGE_SECOND_BUTTON'] = 'More information about the campus';
+
 
 
 // Footer

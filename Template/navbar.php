@@ -22,13 +22,13 @@ function reload() {
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
                 <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
-                <li><a href="kartToPointO.php"><?php echo $lang['MENU_MAP']; ?></a></li>
+                <li><a href="infobar.php"><?php echo $lang['MENU_MAP']; ?></a></li>
                 <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
                 <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
-                <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
             </ul>
             
              <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $lang['MENU_LANGUAGE']; ?>
                 <span class="caret"></span></a>
