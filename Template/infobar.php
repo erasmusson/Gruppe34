@@ -16,6 +16,32 @@
     <!-- JavaScript / Jquery -->
       <script type="text/javascript">
         
+    var currentZoom = 1.0;
+          
+     function zoomIn(){
+         $('#zoomIn').click(
+            function () {
+                $('#map').animate({ 'zoom': currentZoom + .5 });
+            });  
+     }
+     
+        function zoomOut(){
+         $('#zoomOut').click(
+            function () {
+                $('#map').animate({ 'zoom': currentZoom - .3 });
+            });
+     }
+
+        function zoomReset(){
+        var currentZoom = 1.0;
+         $('#zoomNormal').click(
+            function () {
+                $('#map').animate({ 'zoom': currentZoom});
+            });
+     }
+    
+          
+          
         // Shows or hides div when click on link where implemented.  
           function switchToggle(divId) {     
               $("#"+divId).toggle();
@@ -38,6 +64,8 @@
                         $('.category' +(i+1)).hide();
             }
         }
+          
+   
         
           
       </script>  
@@ -51,51 +79,6 @@
         <?php require 'navbar.php' ?>
       </div>
    
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12" style="z-index:11;">
-                <div id="categoryContainer">
-                    <button class="btn btn-primary pull-left btn-sm RbtnMargin" data-toggle="collapse" data-target="#demo">Kategorier</button>
-
-                    <div id="demo" class="collapse">
-                        <div id="collapsebakgrund">
-
-                            <form action="#">
-                                <br><br>
-                                <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked"/>
-                                <label for="chk">Helse</label>
-                                <br />
-
-                                <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked"/>
-                                <label for="chk2">Musikk</label>
-                                <br />
-
-                                <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked"/>
-                                <label for="chk3">Butikk</label>
-                                <br />
-
-                                <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked"/>
-                                <label for="chk4">Uteliv</label>
-                                <br />
-
-                                <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked"/>
-                                <label for="chk5">Trening</label>
-                                <br />
-
-                                <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk6">Personlig Utvikling</label>
-                                <br />
-
-                                <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
-                                <label for="chk7">Campus</label>
-                                <br />
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-      </div>
         <!-- Map content-->
         <div class="container-fluid">
             
@@ -104,31 +87,282 @@
                 
                  <!-- Start of content on map -->
                 <div class="col-md-12" id="mapContent">
+                    <div id="map" style="background-image:url(pic/map.png);" draggable="true">
 
-                    <!--Container for boxes on map -->
-                    <div id="boxContainer">
+                        <!--Container for boxes on map -->
+                        <div id="boxContainer">
 
-                        <a href="javascript:switchToggle('acontent');">
-                            <div id="a" class="box category7" >
-                            </div>
-                        </a>
-                         
-                        <a href="javascript:switchToggle('bcontent');" id="ba">
-                            <div id="b"  class="box">
-                            </div>
-                        </a>
-                    
-                        <a href="javascript:switchToggle('ccontent');" >
-                            <div id="c" class="box">              
-                            </div>
-                        </a>
-                       <a href="javascript:toggleInfoBar();" >
-                        <div id="whiteButton" style="left: 0.5%; top: 0.5%; color: gray; background: none; font-size: 2em;"> ☰ </div>
-                    </a>
-                
-                    <!-- End of box container -->
+                            <a href="javascript:switchToggle('acontent');">
+                                <div id="a" class="box category7" >
+                                </div>
+                            </a>
+
+                            <a href="javascript:switchToggle('aacontent');">
+                                <div id="aa"  class="box">
+                                </div>
+                            </a>
+
+                            <a href="javascript:switchToggle('abcontent');" >
+                                <div id="ab" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('accontent');" >
+                                <div id="ac" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('adcontent');" >
+                                <div id="ad" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('aecontent');" >
+                                <div id="ae" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('afcontent');" >
+                                <div id="af" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('agcontent');" >
+                                <div id="ag" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ahcontent');" >
+                                <div id="ah" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('aicontent');" >
+                                <div id="ai" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ajcontent');" >
+                                <div id="aj" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('akcontent');" >
+                                <div id="ak" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('alcontent');" >
+                                <div id="al" class="box">              
+                                </div>
+                            </a>
+
+                            <a href="javascript:switchToggle('amcontent');" >
+                                <div id="am" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ancontent');" >
+                                <div id="an" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('aocontent');" >
+                                <div id="ao" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('apcontent');" >
+                                <div id="ap" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('aqcontent');" >
+                                <div id="aq" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('bcontent');" >
+                                <div id="b" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ccontent');" >
+                                <div id="c" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('dcontent');" >
+                                <div id="d" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('econtent');" >
+                                <div id="e" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('fcontent');" >
+                                <div id="f" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('gcontent');" >
+                                <div id="g" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('hcontent');" >
+                                <div id="h" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('icontent');" >
+                                <div id="i" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('jcontent');" >
+                                <div id="j" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('kcontent');" >
+                                <div id="k" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('mcontent');" >
+                                <div id="m" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ncontent');" >
+                                <div id="n" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ocontent');" >
+                                <div id="o" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('pcontent');" >
+                                <div id="p" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('qcontent');" >
+                                <div id="q" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('rcontent');" >
+                                <div id="r" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('scontent');" >
+                                <div id="s" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('tcontent');" >
+                                <div id="t" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('ucontent');" >
+                                <div id="u" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('vcontent');" >
+                                <div id="v" class="box">              
+                                </div>
+                            </a>
+                            
+                            <a href="javascript:switchToggle('wcontent');" >
+                                <div id="w" class="box">              
+                                </div>
+                            </a>
+                        <!-- End of box container -->
+                        </div>
+
+
                     </div>
                     
+                <!-- End of map content -->
+                </div>  
+                
+                 <div class="col-md-12" id="menuBar">
+                    <div id="categoryContainer">
+                        <div class="dropdown">
+                          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                            <li>
+                                <input type="checkbox" name="Kategori" id="chk" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk">Helse</label>
+                              </li>
+                              
+                            <li>
+                                <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk2">Musikk</label>
+                              </li>
+                              
+                            <li>
+                                <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk3">Butikk</label>
+                            </li>
+                              
+                              <li>
+                                  <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk4">Uteliv</label>
+                              </li>
+                              
+                              <li>
+                                  <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                <label for="chk5">Trening</label>
+                              </li>
+                              
+                              <li>
+                                  <input type="checkbox" name="Kategori6" id="chk6" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk6">Personlig Utvikling</label>
+                              </li>
+                              
+                              <li>
+                                  <input type="checkbox" name="Kategori7"  id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()"/>
+                                    <label for="chk7">Campus</label>
+                              </li>
+                          </ul>
+                        </div>                  
+                    </div>
+                     
+                     
+                      <a id="zoomIn" href="#" onclick="zoomIn()">
+                    <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomInB">
+                       +
+                    </button>
+      
+                    </a> 
+                    <a id="zoomOut" href="#" onclick="zoomOut()">   
+                      <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomOutB">
+                       - 
+                    </button>
+                    </a>
+
+                    <a id="zoomNormal" href="#" onclick="zoomReset()" >    
+                      <button class="zoomButton" type="button" class="btn btn-primary dropdown-toggle" id="zoomResetB">
+                         Reset
+                    </button>
+                    </a>
+                      <a href="javascript:toggleInfoBar();" >
+                        <div id="whiteButton"> ☰ </div>
+                    </a>  
+                </div>
+                
+                
+                
                     <div class="col-md-3" id="infoBar">
                     
                     <!-- Search box HTML -->
@@ -153,12 +387,68 @@
                             <b><?php echo $row['name'];?></b> <br/>
                             <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
                             <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
-                            <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/>  
                             
                             <hr>
                         </span>
 
-                        <span class="allcontent" id="bcontent">
+                        <span class="allcontent" id="aacontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Nedre Lokka'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                         </span>
+
+                        <span class="allcontent" id="abcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Oslo Bonanza'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="accontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'SYNG'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="adcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Oslo City'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="aecontent">
                             
                             <?php $statement = $connection->query("SELECT * FROM location where name = 'SIO Vulkan'"); 
                             $row = $statement->fetch(PDO::FETCH_ASSOC); 
@@ -167,13 +457,12 @@
                             <b><?php echo $row['name'];?></b> <br/>
                             <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
                             <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
-                            <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
-                            
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
                             
                             <hr>
-                         </span>
-
-                        <span class="allcontent" id="ccontent">
+                        </span>
+                        
+                         <span class="allcontent" id="afcontent">
                             
                             <?php $statement = $connection->query("SELECT * FROM location where name = 'Verkstedet'"); 
                             $row = $statement->fetch(PDO::FETCH_ASSOC); 
@@ -182,11 +471,468 @@
                             <b><?php echo $row['name'];?></b> <br/>
                             <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
                             <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
-                            <a target="_blank" href="<?php echo $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="agcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Territoriet'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="ahcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Oslo Spektrum'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="aicontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Sats Spektrum'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="ajcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Sentrum Scene'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="akcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Sats Schouss Plass'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="alcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Oslo Kettlebell Gym'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="amcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Skuret Bar og Scene'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="ancontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Stamnia Key Bjorvika'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="aocontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Oslo Performance Center'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="apcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Torggata Bad Treningssenter'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="aqcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Vitus Apoteket Jernbanetorget'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="bcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Campus Brenneriveien'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="ccontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Campus Fjerdingen'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="dcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Campus Vulkan'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="econtent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Actic Storgata'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="fcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Apotektet Gunerius'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
                             
                             <hr>
                         </span>
 
+                         <span class="allcontent" id="gcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Byporten'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="hcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Ditt apotek Grünerløkka'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="icontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'EVO Grünerløkka'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="jcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Filter Musikk Sentralbord'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="kcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Fitness24Seven'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="mcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Gitarhuset'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="ncontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'GlasMagasinet StorTorvet'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="ocontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Gunerius Shoppingsenter'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="pcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Haralds Gym'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="qcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Hoornas musikk'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="rcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'John Dee'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="scontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'KJ10'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="tcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Klatresenter'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="ucontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Legevakt Oslo'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                        <span class="allcontent" id="vcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Mathallen'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+                        
+                         <span class="allcontent" id="wcontent">
+                            
+                            <?php $statement = $connection->query("SELECT * FROM location where name = 'Mysore Yoga Oslo'"); 
+                            $row = $statement->fetch(PDO::FETCH_ASSOC); 
+                            ?>
+
+                            <b><?php echo $row['name'];?></b> <br/>
+                            <?php echo $lang['OPENINGHOURS']; echo ": "; echo $row['openinghours']; ?> <br/>
+                            <?php echo $lang['CATEGORY'];  echo ": "; echo $row['category']; ?><br/> 
+                            <a target="_blank" href="<?= $row['directions']; ?>"><?php echo $lang['ROAD']; ?></a><br/> 
+                            
+                            <hr>
+                        </span>
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                      <!-- End of Content Wrapper -->
                     </div>
     
@@ -195,10 +941,6 @@
 
                     <!-- End of infobar -->
                     </div>
-                    
-
-                <!-- End of map content -->
-                </div>   
                 
             <!-- End row -->    
             </div>

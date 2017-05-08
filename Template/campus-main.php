@@ -11,15 +11,62 @@
       
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+
+    <script type="application/javascript">
+      
+      $('#sidebar').affix({
+      offset: {
+        top: 200
+      }
+      });	
+      
+      
+    </script>  
+      
   </head>
   <body id="campus">
       
         <?php require 'navbar.php' ?>
       
-        <?php require '../template/campus/campus-slides.php' ?>
+
       
     <div class="container">
-        <?php require '../template/campus/campus-content.php' ?>
+        
+            <div class="row">
+                <div id="sidebar" class="col-md-2">
+                    <ul id="sidebar" class="nav nav-pills nav-stacked">
+                        <li><a href="#">Planoversikt</a></li>
+                        <li><a href="#">Kantina</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Bibliotek</a></li>
+                        <li><a href="#">Sjenkestua</a></li>
+                    </ul>
+                </div>
+                </div>
+        
+            <div class="row">        
+                <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_1.jpg"  width="350" height="250"class="img-circle img-responsive pull-right"></div>
+                <div class="col-md-7">
+                <h2>Content</h2>
+                    <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p></div>
+                
+                <hr class="col-md-12">
+            </div>
+        <div class="row">
+                <div class="col-md-4"><img src="pic/Fjerdingen_2.jpg" width="350" height="250" class="img-circle img-responsive pull-left"></div>
+                <div class="col-md-8">
+                <h2>More Content</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna nunc, lacinia vel orci vitae, placerat pulvinar quam. Integer ac consequat erat, a pharetra mauris. Vivamus enim enim, interdum a bibendum efficitur, auctor sit amet velit.</p></div>
+        </div>
+        
+            <hr class="col-md-12">
+        
+        <div class="row">
+                <div class="col-md-3"><img src="pic/Fjerdingen_2.jpg" width="350" height="250" class="img-circle img-responsive pull-left"></div>
+                <div class="col-md-9">
+                <h2>More Content</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna nunc, lacinia vel orci vitae, placerat pulvinar quam. Integer ac consequat erat, a pharetra mauris. Vivamus enim enim, interdum a bibendum efficitur, auctor sit amet velit.</p></div>
+        </div>
         
         <div class="push"></div>
       </div>
