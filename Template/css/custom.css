@@ -6,11 +6,13 @@ html
 {
     position: relative;
     min-height: 100%;
+    
 }
 
 body {
     background-color: #E9E9E9;
     margin-bottom: 60px;
+   
 }
 /* Events content */
 .eventcard{
