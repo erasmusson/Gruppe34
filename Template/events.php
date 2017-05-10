@@ -74,7 +74,7 @@
         <div class="container event-container">
             <div class="row">
                 <div class="col-md-12" id="updateDiv">
-                    <a href="#" id="image2" onclick="window.location.reload(true);" ><img style="height:35px;" src="pic/refresh.png">                                                                 </a> <br/>
+                    <a href="#" id="image2" onclick="window.location.reload(true);" ><img style="height:35px;" src="pic/refresh.png">               </a> <br/>
                 </div>
             </div>
             <?php require 'events/event-content.php' ?>

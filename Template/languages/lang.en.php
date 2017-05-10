@@ -40,9 +40,9 @@ $lang['FOOTER_CONTACT_CONTENT'] = "If you have any questions, don't hesitate to 
 $lang['FOOTER_CONTACT_LINK'] = 'Contact';
 
 // Events
-$lang['EVENTS_PIC_TITLE1'] = 'Concerts in Oslo';
-$lang['EVENTS_PIC_TITLE2'] = 'Cinema';
-$lang['EVENTS_PIC_TITLE3'] = 'Sport events';
+$lang['EVENTS_PIC_TITLE1'] = 'Click on image for<br>concerts in Oslo!';
+$lang['EVENTS_PIC_TITLE2'] = 'Click on image for<br>movies in Oslo!';
+$lang['EVENTS_PIC_TITLE3'] = 'Click on image for<br>sport events in Oslo!';
 $lang['EVENTS_PIC_LINK'] = 'Click here!';
 
 
@@ -62,6 +62,8 @@ $lang['CATEGORY_PARTY'] = 'Party';
 $lang['CATEGORY_WORKOUT'] = 'Excersice';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
 
+    
+// Photocred
 
-
-?>
+$lang['PHOTOCRED_TITLE'] = 'Image credits';
+$lang['PHOTOCRED_WESTERDALS'] = 'All images on Campus Fjerdingen belongs to Westerdals Oslo ACT';

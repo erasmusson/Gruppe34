@@ -37,10 +37,9 @@ $lang['FOOTER_CONTACT_CONTENT'] = 'Har du et spørsmål eller noe vi kan forbedr
 $lang['FOOTER_CONTACT_LINK'] = 'Kontakt';
 
 // Events
-$lang['EVENTS_PIC_TITLE1'] = 'Konserter i Oslo';
-$lang['EVENTS_PIC_TITLE2'] = 'Kinoer';
-$lang['EVENTS_PIC_TITLE3'] = 'Sports arrangement';
-$lang['EVENTS_PIC_LINK'] = 'Klikk her!';
+$lang['EVENTS_PIC_TITLE1'] = 'Klikk på bilde for og se<br>konserter i Oslo!';
+$lang['EVENTS_PIC_TITLE2'] = 'Klikk på bilde for og se<br>filmer på kino i Oslo!';
+$lang['EVENTS_PIC_TITLE3'] = 'Klikk på bilde for og se<br>sportarrangement i Oslo!';
 
 
 // Campus
@@ -59,5 +58,11 @@ $lang['CATEGORY_PARTY'] = 'Fest';
 $lang['CATEGORY_WORKOUT'] = 'Trening';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
 $lang['MENU_SUBMIT'] = 'Søk';
+
+
+// Photocred
+
+$lang['PHOTOCRED_TITLE'] = 'Eierskap av bilder';
+$lang['PHOTOCRED_WESTERDALS'] = 'Alle bilder av Campus Fjerdingen tillhører Westerdals Oslo ACT';
 
 ?>
