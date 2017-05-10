@@ -641,12 +641,3 @@ body {
 
 
 /* CAMPUS FJERDINGEN -- CH */
-
-#sidebar.affix-top {
-    position: static;
-}
-
-#sidebar.affix {
-    position: fixed;
-    top: 80px;
-}

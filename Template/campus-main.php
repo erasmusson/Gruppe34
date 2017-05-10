@@ -11,17 +11,50 @@
       
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    
+      <style>
 
-    <script type="application/javascript">
-      
-      $('#sidebar').affix({
-      offset: {
-        top: 200
-      }
-      });	
-      
-      
-    </script>  
+.nav-container{
+    margin-left: 100px;
+}
+
+.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0;
+    padding-left: 135px;
+    border-right: 1px solid #ddd;
+    
+}
+/*.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    -webkit-border-radius: 4px 0 0 4px; 
+    -moz-border-radius: 4px 0 0 4px; 
+    border-radius: 4px 0 0 4px; 
+}
+*/
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #428bca; 
+    color: #fff; 
+    text-shadow: 1px 1px 1px #666; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #428bca;   
+}
+
+/*.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+*/
+      </style>
       
   </head>
   <body id="campus">
@@ -29,21 +62,46 @@
         <?php require 'navbar.php' ?>
       
 
+    <div class="nav-container">
+    <br />
+    <br />
+    <h1 class="campus text-center">Campus Fjerdingen</h1>
+    <div class="row">
+        <div class="col-md-2">
+            <nav class="nav-sidebar">
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Planoversikt</a></li>
+                    <li><a href="#">Bilbiotek</a></li>
+                    <li><a href="#">Kantine</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
       
-    <div class="container">
+        
+        <!---
+        <h1 class="campus text-center">Campus Fjerdingen</h1>
+        <br />
+        
         
             <div class="row">
-                <div id="sidebar" class="col-md-2">
+                <div class="col-md-2">
+                    <nav class="nav">
                     <ul id="sidebar" class="nav nav-pills nav-stacked">
                         <li><a href="#">Planoversikt</a></li>
                         <li><a href="#">Kantina</a></li>
-                        <li class="divider"></li>
                         <li><a href="#">Bibliotek</a></li>
                         <li><a href="#">Sjenkestua</a></li>
-                    </ul>
+                    </ul>  
+                    </nav>
                 </div>
-                </div>
-        
+                    </div>
+-->
+                        
+      <div class="container">
+          
             <div class="row">        
                 <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_1.jpg"  width="350" height="250"class="img-circle img-responsive pull-right"></div>
                 <div class="col-md-7">
@@ -62,11 +120,12 @@
             <hr class="col-md-12">
         
         <div class="row">
-                <div class="col-md-3"><img src="pic/Fjerdingen_2.jpg" width="350" height="250" class="img-circle img-responsive pull-left"></div>
-                <div class="col-md-9">
-                <h2>More Content</h2>
+                <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_2.jpg" width="350" height="250" class="img-circle img-responsive pull-right"></div>
+                <div class="col-md-7">
+                <h2>Holy Shit, Even More Content</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna nunc, lacinia vel orci vitae, placerat pulvinar quam. Integer ac consequat erat, a pharetra mauris. Vivamus enim enim, interdum a bibendum efficitur, auctor sit amet velit.</p></div>
         </div>
+         
         
         <div class="push"></div>
       </div>
