@@ -7,37 +7,12 @@
             if(current == divId){
                 $(".box").toggle();
                 $("#"+divId).toggle(); 
-                current = divId;
             }
             else{
                 $(".box").hide();
                 $("#"+divId).toggle();
                 current = divId;
             }
-              
-                  
-          
-              
-          
-          
-              
-             
-              
-         
-          /*if(current == divId || current == ""){
-              $("#"+divId).toggle();
-            $(".box").toggle();
-              var current = divId;
-          }
-          if(current != divId){
-              $("#"+current).toggle();
-            $(".box").toggle();
-              $("#"+divId).toggle();
-            $(".box").toggle();
-              var current = divId;
-          }
-          */
-        
           
     }
     
