@@ -6,21 +6,21 @@
         <div class="col-md-12 hidden-xs hidden-sm"> 
                 <div id="wrapper">
                    <div class="circleWrapper" id="circleWrapper1">
-                        <div class="circles" id="circle1">
-                        </div> 
-                       <h6 id="circle1Text">Kommande sportevenemangen i Oslo</h6>
+                        <a target="_blank" href="https://www.visitoslo.com/no/hva-skjer/kalender/sport/"><div class="circles" id="circle1">
+                        </div> </a>
+                       <h4 id="circle1Text"><?php echo $lang['EVENTS_PIC_TITLE3']; ?></h4>
                     </div> 
                     
                     <div class="circleWrapper" id="circleWrapper2">
-                        <div class="circles" id="circle2">
-                        </div>
-                        <h6 id="circle2Text"> Se vilka filmer som går på kino i Oslo! </h6>
+                        <a target="_blank" href="http://www.nfkino.no/oslo/program/"><div class="circles" id="circle2">
+                        </div></a>
+                        <h4 id="circle2Text"> <?php echo $lang['EVENTS_PIC_TITLE2']; ?></h4>
                     </div> 
                     
                     <div class="circleWrapper" id="circleWrapper3">
-                        <div class="circles" id="circle3">
-                        </div>
-                        <h6 id="circle3Text">Se kommande konserter i Oslo!</h6>
+                        <a target="_blank" href="http://www.ticketmaster.no/city/oslo/40001"><div class="circles" id="circle3">
+                            </div></a>
+                        <h4 id="circle3Text"><?php echo $lang['EVENTS_PIC_TITLE1']; ?></h4>
                     </div>
                 </div>
 

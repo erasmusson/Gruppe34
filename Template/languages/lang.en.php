@@ -19,8 +19,12 @@ $lang['MENU_SEARCH'] = 'Search';
 $lang['MENU_SUBMIT'] = 'Submit';
 
 // Homepage
-$lang['HOMEPAGE_FIRST_TITLE'] = 'Latest news and updates';
+$lang['HOMEPAGE_FIRST_TITLE'] = 'Map';
+$lang['HOMEPAGE_FIRST_BUTTON'] = 'Go to map';
 $lang['HOMEPAGE_SECOND_TITLE'] = 'Upcoming events';
+$lang['HOMEPAGE_THIRD_TITLE'] = 'Campus';
+$lang['HOMEPAGE_SECOND_BUTTON'] = 'More information about the campus';
+
 
 
 // Footer
@@ -36,9 +40,9 @@ $lang['FOOTER_CONTACT_CONTENT'] = "If you have any questions, don't hesitate to 
 $lang['FOOTER_CONTACT_LINK'] = 'Contact';
 
 // Events
-$lang['EVENTS_PIC_TITLE1'] = 'Concerts in Oslo';
-$lang['EVENTS_PIC_TITLE2'] = 'Cinema';
-$lang['EVENTS_PIC_TITLE3'] = 'Sport events';
+$lang['EVENTS_PIC_TITLE1'] = 'Click on image for<br>concerts in Oslo!';
+$lang['EVENTS_PIC_TITLE2'] = 'Click on image for<br>movies in Oslo!';
+$lang['EVENTS_PIC_TITLE3'] = 'Click on image for<br>sport events in Oslo!';
 $lang['EVENTS_PIC_LINK'] = 'Click here!';
 
 
@@ -51,6 +55,15 @@ $lang['CATEGORY'] = 'Category';
 $lang['OPENINGHOURS'] = 'Opening hours';
 $lang['ROAD'] = 'Road description';
 $lang['SHOW_ON_MAP'] = 'Show on map';
+$lang['CATEGORY_SHOPPING'] = 'Shopping';
+$lang['CATEGORY_MUSIC'] = 'Music';
+$lang['CATEGORY_HEALTH'] = 'Health';
+$lang['CATEGORY_PARTY'] = 'Party';
+$lang['CATEGORY_WORKOUT'] = 'Excersice';
+$lang['CATEGORY_CAMPUS'] = 'Campus';
 
+    
+// Photocred
 
-?>
+$lang['PHOTOCRED_TITLE'] = 'Image credits';
+$lang['PHOTOCRED_WESTERDALS'] = 'All images on Campus Fjerdingen belongs to Westerdals Oslo ACT';
