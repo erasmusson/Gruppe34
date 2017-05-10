@@ -1,73 +1,57 @@
-*
-{
+* {
     margin: 0;
 }
-html
-{
+html {
     position: relative;
     min-height: 100%;
-    
 }
-
 body {
     background-color: #E9E9E9;
     margin-bottom: 60px;
-   
 }
+
 /* Events content */
-.eventcard{
+
+.eventcard {
     text-align: center;
     padding-bottom: 3%;
 }
-
-.forside
-{
+.forside {
     margin: auto;
 }
-
 .navbar.affix {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:10;
+    z-index: 10;
 }
-
-.navbar-default
-{
+.navbar-default {
     background-image: none;
     background-color: #FFFFFF;
 }
-
-.nav-wrapper
-{
+.nav-wrapper {
     height: 70px;
 }
-
 .navbar-brand-centered {
     position: absolute;
     left: 50%;
     margin-left: -50px !important;
     display: block;
     text-align: center;
-    
 }
-
-.logo
-{
-    max-height: 100px; 
+.logo {
+    max-height: 100px;
     margin-top: -20px;
 }
-
 .navbar-toggle {
-    z-index:3;
+    z-index: 3;
 }
-
-.carousel-control.left, .carousel-control.right {
+.carousel-control.left,
+.carousel-control.right {
     background-image: none;
 }
-
 .carousel-control {
-   display: none;
+    display: none;
 }
 #matsErScrub {
     background-color: red;
@@ -76,147 +60,119 @@ body {
 /* Footer customization */
 
 #footer {
-    background:#FFFFFF;
+    background: #FFFFFF;
     height: auto;
-    bottom: 0;
+    margin-bottom: 0;
     position: absolute;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #DDDDDD;
     width: 100%;
 }
-
 #footer ul {
-	font-size: 13px;
-	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
-	margin-top: 15px;
-	color: #7F8C8D;
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
 }
 
-.pushMap{
-    height: 118px;
-}
-
-#footer, .push
-{
+#footer{
     height: 175px;
 }
-#image2{
-    
+#image2 {
     float: right;
     padding-right: 5.5%;
 }
-
-#myCarousel{
+#myCarousel {
     margin-top: -1.4%;
-    
 }
-
 
 /* Events */
 
-#wrapper{
+#wrapper {
     margin: 0 auto;
     text-align: center;
 }
-
-.circles{
+.circles {
     height: 350px;
     width: 350px;
     border-radius: 50%;
-    display: inline-block; 
+    display: inline-block;
     position: relative;
     background-size: 100%;
-    background-repeat: none; 
+    background-repeat: none;
 }
-
-#circle1{
-    background-image:url(../pic/football.png);
+#circle1 {
+    background-image: url(../pic/football.png);
     margin-right: -80px;
     transition: height width 0.5s ease;
-   
 }
-#circle2{
-    background-image:url(../pic/camera.png);
-    height:400px;
+#circle2 {
+    background-image: url(../pic/camera.png);
+    height: 400px;
     width: 400px;
     z-index: 3;
     transition: height width 0.5s ease;
-    
 }
-#circle3{
-    background-image:url(../pic/concert.png);
+#circle3 {
+    background-image: url(../pic/concert.png);
     margin-left: -80px;
     transition: height width 0.5s ease;
-    
 }
-
-.circleWrapper{
+.circleWrapper {
     display: inline-block;
     text-align: center;
 }
-
-#circle1Text{
+#circle1Text {
     visibility: hidden;
     margin-left: 75px;
 }
-#circle2Text{
-     visibility: hidden;
+#circle2Text {
+    visibility: hidden;
 }
-#circle3Text{
-     visibility: hidden;
+#circle3Text {
+    visibility: hidden;
     margin-right: 75px;
 }
-
-#circleWrapper1:hover #circle1Text{
+#circleWrapper1:hover #circle1Text {
     visibility: visible;
 }
-#circleWrapper2:hover #circle2Text{
+#circleWrapper2:hover #circle2Text {
     visibility: visible;
 }
-#circleWrapper3:hover #circle3Text{
+#circleWrapper3:hover #circle3Text {
     visibility: visible;
 }
-#circleWrapper1:hover #circle1{
+#circleWrapper1:hover #circle1 {
     height: 400px;
     width: 400px;
 }
-
-#circleWrapper2:hover #circle2{
+#circleWrapper2:hover #circle2 {
     height: 420px;
     width: 420px;
 }
-
-#circleWrapper3:hover #circle3{
+#circleWrapper3:hover #circle3 {
     height: 400px;
     width: 400px;
 }
-
-
-.navbar-default
-{
+.navbar-default {
     background-image: none;
     background-color: #FFFFFF;
 }
-
-.nav-wrapper
-{
+.nav-wrapper {
     height: 50px;
 }
-
-.row-margin
-{
+.row-margin {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 /*Mats kart side cssssssss */
 
-#containerkartside>*{
-    position: relative;   
+#containerkartside>* {
+    position: relative;
 }
-
 #containerkartside {
     width: 100%;
     height: 900px;
@@ -225,7 +181,6 @@ body {
     margin: auto;
     padding: 0;
 }
-
 #kartcontainer {
     max-width: 1366px;
     height: 900px;
@@ -234,76 +189,57 @@ body {
     background-color: red;
     margin: auto;
     padding: 0;
-    top:0;
+    top: 0;
 }
-
 #kartmeny {
     background-color: lightgray;
     width: 10%;
     z-index: 10;
     height: 33px;
-    
 }
-
 #collapsebakgrund {
     width: 100%;
     margin: auto;
-    background-color: rgb(150,150,150);
+    background-color: rgb(150, 150, 150);
 }
-
-
 .RbtnMargin {
     margin-left: 5px;
 }
-
-
 #infobox {
-   
- background-color: darkgrey;
+    background-color: darkgrey;
     width: 100%;
     height: 900px;
     position: relative;
     left: 0;
     display: none;
 }
-
-.category7{
-     width: 50px;
+.category7 {
+    width: 50px;
     height: 50px;
     position: absolute;
 }
-
-.category6{
-     width: 50px;
+.category6 {
+    width: 50px;
     height: 50px;
     position: absolute;
 }
-
-#ting1{
+#ting1 {
     top: 450px;
     left: 500px;
     background: blue;
 }
-
-#ting2{
+#ting2 {
     top: 200px;
     left: 700px;
     background: purple;
 }
-
-
-
-
 #infoboxcontainer {
     width: 25%;
     height: 900px;
     position: absolute;
     left: 0;
 }
-
-
-
-#tingeling{
+#tingeling {
     position: absolute;
     background: white;
     cursor: pointer;
@@ -314,287 +250,310 @@ body {
 
 /*mats css slutt*/
 
-#infoBar{
-    background-color:lightgray;
-    min-height: 10%;
-    max-height: 650px;
-    overflow-y: auto;
-    padding: 1%;
-    left: 0;
-    position: absolute;
+@media screen and (max-width: 991px) {
+    #infoBar {
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992px) {
+    #infoBar {
+        min-height: 10%;
+        max-height: 650px;
+        overflow-y: auto;
+        padding: 2%;
+        left: 0;
+        margin-top: 0;
+        position: absolute;
+    }
 }
 
-.box{         
+
+
+#infoBar {
+    background-color: lightgray;
+}
+.box {
     width: 24px;
     height: 24px;
     position: absolute;
     display: inline-block;
 }
-
 #whiteButton {
     font-size: 2em;
 }
-        
- #boxContainer>* {
+#boxContainer>* {
     display: inline-block;
- }
-
-#mapContent{
-    
+}
+#mapContent {
     z-index: 0;
     display: block;
     padding: 0;
     padding-bottom: 0;
     overflow: scroll;
 }
-
-#map{
-
+#map {
     width: 1400px;
     height: 650px;
+    background-image:url(../pic/map.png);
 }
 
-/*Content in infobar*/ 
+/*Content in infobar*/
 
-#acontent,  #aacontent, #abcontent, #dcontent, #econtent, #fcontent, #gcontent, #hcontent, #icontent, #jcontent, #kcontent, #ncontent, #mcontent, #ocontent, #pcontent, #qcontent, #rcontent, #scontent, #wcontent, #accontent, #adcontent, #aecontent, #afcontent, #agcontent, #ahcontent, #aicontent, #ajcontent, #akcontent, #alcontent, #amcontent, #ancontent, #aocontent, #apcontent, #aqcontent, #ccontent, #bcontent, #tcontent, #ucontent, #vcontent{
+#acontent,
+#aacontent,
+#abcontent,
+#dcontent,
+#econtent,
+#fcontent,
+#gcontent,
+#hcontent,
+#icontent,
+#jcontent,
+#kcontent,
+#ncontent,
+#mcontent,
+#ocontent,
+#pcontent,
+#qcontent,
+#rcontent,
+#scontent,
+#wcontent,
+#accontent,
+#adcontent,
+#aecontent,
+#afcontent,
+#agcontent,
+#ahcontent,
+#aicontent,
+#ajcontent,
+#akcontent,
+#alcontent,
+#amcontent,
+#ancontent,
+#aocontent,
+#apcontent,
+#aqcontent,
+#ccontent,
+#bcontent,
+#tcontent,
+#ucontent,
+#vcontent {
     display: none;
 }
-
-#ae, #p, #t, #ai, #e, #k, #i, #w, #ak, #al, #an, #ao, #ap{
+#ae,
+#p,
+#t,
+#ai,
+#e,
+#k,
+#i,
+#w,
+#ak,
+#al,
+#an,
+#ao,
+#ap {
     background-image: url('../pic/workout.png');
 }
-
-#s, #ac, #af, #aa, #ag, #ab, #am{
+#s,
+#ac,
+#af,
+#aa,
+#ag,
+#ab,
+#am {
     background-image: url('../pic/drink.png');
 }
-
-#r, #m, #ah, #aj, #q, #a, #j{
+#r,
+#m,
+#ah,
+#aj,
+#q,
+#a,
+#j {
     background-image: url('../pic/music.png');
 }
-
-#f, #h, #aq{    
+#f,
+#h,
+#aq {
     background-image: url('../pic/drugs.png');
 }
-
-#g, #v, #ad, #o, #n{
+#g,
+#v,
+#ad,
+#o,
+#n {
     background-image: url('../pic/shopping-cart.png');
 }
-
-#a{
+#a {
     top: 270px;
     left: 850px;
 }
-        
-#aa{   
+#aa {
     top: 255px;
     left: 815px;
 }
-
-#ab{ 
+#ab {
     top: 430px;
     left: 580px;
 }
-
-#ac{
+#ac {
     top: 220px;
     left: 750px;
 }
-
-#ad{   
+#ad {
     top: 540px;
     left: 660px;
 }
-
-#ae{
+#ae {
     top: 70px;
     left: 660px;
-    
 }
-
-#af{
-    
+#af {
     top: 310px;
     left: 690px;
-     
 }
-
-#ag{   
+#ag {
     top: 250px;
     left: 790px;
 }
-
-#ah{    
+#ah {
     top: 520px;
     left: 720px;
 }
-
-
-#ai{    
+#ai {
     top: 515px;
     left: 740px;
 }
-
-#aj{    
+#aj {
     top: 400px;
     left: 650px;
 }
-
-#ak{    
+#ak {
     top: 250px;
     left: 860px;
 }
-
-#al{    
+#al {
     top: 50px;
     left: 850px;
 }
-
-
-#am{    
-     top: 480px;
+#am {
+    top: 480px;
     left: 785px;
-     
 }
-
-#an{
+#an {
     top: 180px;
     left: 785px;
 }
-
-#ao{    
-     top: 230px;
+#ao {
+    top: 230px;
     left: 850px;
 }
-
-#ap{    
+#ap {
     top: 390px;
     left: 620px;
 }
-
-#aq{    
+#aq {
     top: 590px;
     left: 590px;
 }
-
-#b{ 
-   top: 180px;
-   left: 680px;      
+#b {
+    top: 180px;
+    left: 680px;
 }
-
-#c{ 
-   top: 380px;
-   left: 835px;
+#c {
+    top: 380px;
+    left: 835px;
 }
-
-#d{ 
-   top: 50px;
-   left: 665px; 
+#d {
+    top: 50px;
+    left: 665px;
 }
-
-#e{ 
-   top: 359px;
-   left: 798px; 
+#e {
+    top: 359px;
+    left: 798px;
 }
-
-#f{ 
-   top: 455px;
-    left: 700px; 
+#f {
+    top: 455px;
+    left: 700px;
 }
-
-#g{ 
+#g {
     top: 580px;
     left: 650px;
 }
-
-#h{ 
+#h {
     top: 270px;
     left: 830px;
 }
-
-#i{ 
+#i {
     top: 220px;
     left: 830px;
 }
-
-#j{ 
+#j {
     top: 540px;
     left: 580px;
 }
-
-#k{ 
+#k {
     top: 120px;
     left: 765px;
 }
-
-#m{ 
+#m {
     top: 495px;
     left: 660px;
 }
-
-#n{ 
+#n {
     top: 510px;
     left: 510px;
 }
-
-#o{ 
+#o {
     top: 455px;
-    left: 720px; 
+    left: 720px;
 }
-
-#p{ 
+#p {
     top: 390px;
-   left: 805px; 
+    left: 805px;
 }
-
-#q{ 
+#q {
     top: 410px;
-    left: 720px; 
+    left: 720px;
 }
-
-
-#r{ 
+#r {
     top: 380px;
     left: 605px;
 }
-
-#s{ 
+#s {
     top: 590px;
     left: 520px;
 }
-
-#t{ 
+#t {
     top: 80px;
     left: 670px;
 }
-
-#u{ 
+#u {
     top: 335px;
-   left: 805px; 
+    left: 805px;
     background-image: url('../pic/ambulance.png');
 }
-
-#v{ 
+#v {
     top: 100px;
     left: 650px;
 }
-
-#w{ 
+#w {
     top: 85px;
     left: 640px;
 }
-
- #boxContainer>* {
-            
-            display: inline-block;
-        }
-
+#boxContainer>* {
+    display: inline-block;
+}
 
 /* CAMPUS FJERDINGEN -- CH */
 
 #sidebar.affix-top {
     position: static;
 }
-
 #sidebar.affix {
     position: fixed;
     top: 80px;
