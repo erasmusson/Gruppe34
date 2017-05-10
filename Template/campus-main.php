@@ -13,9 +13,15 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     
       <style>
+          
+.header{
+   
+}
 
-.nav-container{
+.nav-siderbar{
     margin-left: 100px;
+    position: fixed;
+    
 }
 
 .nav-sidebar { 
@@ -65,10 +71,10 @@
     <div class="nav-container">
     <br />
     <br />
-    <h1 class="campus text-center">Campus Fjerdingen</h1>
     <div class="row">
+        <h1 class="header text-center">Campus Fjerdingen</h1>
         <div class="col-md-2">
-            <nav class="nav-sidebar">
+            <nav class="nav-sidebar nav-fixed-top">
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">Planoversikt</a></li>
@@ -79,7 +85,7 @@
         </div>
     </div>
 </div>
-      
+
         
         <!---
         <h1 class="campus text-center">Campus Fjerdingen</h1>
@@ -101,6 +107,16 @@
 -->
                         
       <div class="container">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+            <br />
+          <br />
+          <br />
+          <br />
+          <br />
           
             <div class="row">        
                 <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_1.jpg"  width="350" height="250"class="img-circle img-responsive pull-right"></div>
