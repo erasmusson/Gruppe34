@@ -39,5 +39,11 @@
                 
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="photocred.php"><p>Bilder som ble brukt.</p></a>
+            </div>
+        </div>
     </div>
 </div>  
