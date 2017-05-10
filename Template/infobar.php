@@ -19,28 +19,28 @@
         var currentZoom = 1.0;
 
         // Zooms in on map
-         function zoomIn(){
+         function zoomIn(){/*
             $('#zoomIn').click(
-            function () {
+            function () {*/
                 $('#map').animate({ 'zoom': currentZoom + .5 });
-            });  
+            /*});  */
          }
 
         // Zooms out on map
-        function zoomOut(){
+        function zoomOut(){/*
             $('#zoomOut').click(
-            function () {
+            function () {*/
                 $('#map').animate({ 'zoom': currentZoom - .3 });
-            });
+            /*});*/
          }
 
         // Reset zoom 
         function zoomReset(){
             var currentZoom = 1.0;
-            $('#zoomNormal').click(
-                function () {
+            /*$('#zoomNormal').click(
+                function () {*/
                     $('#map').animate({ 'zoom': currentZoom});
-                });
+                /*});*/
          }  
 
         // Shows or hides div when click on link where implemented.  
