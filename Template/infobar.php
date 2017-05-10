@@ -23,35 +23,30 @@
 
             // Zooms in on map
             function zoomIn() {
-                /*
-                            $('#zoomIn').click(
-                            function () {*/
+            
                 $('#map').animate({
                     'zoom': currentZoom + .5
                 });
-                /*});  */
+            
             }
 
             // Zooms out on map
             function zoomOut() {
-                /*
-                            $('#zoomOut').click(
-                            function () {*/
+                
                 $('#map').animate({
                     'zoom': currentZoom - .3
                 });
-                /*});*/
+            
             }
 
             // Reset zoom 
             function zoomReset() {
                 var currentZoom = 1.0;
-                /*$('#zoomNormal').click(
-                    function () {*/
+               
                 $('#map').animate({
                     'zoom': currentZoom
                 });
-                /*});*/
+
             }
 
             // Shows or hides div when click on link where implemented.  
@@ -179,218 +174,6 @@
     <div class="container-fluid">
         <!-- Start row -->
         <div class="row">
-
-            <!-- Start of content on map -->
-            <div class="col-md-12" id="mapContent">
-                <div id="map" draggable="true">
-
-
-
-                    <!--Container for boxes on map -->
-                    <div id="boxContainer">
-
-                        <a href="javascript:switchToggle('acontent');">
-                            <div id="a" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('aacontent');">
-                            <div id="aa" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('abcontent');">
-                            <div id="ab" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('accontent');">
-                            <div id="ac" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('adcontent');">
-                            <div id="ad" class="box category3">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('aecontent');">
-                            <div id="ae" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('afcontent');">
-                            <div id="af" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('agcontent');">
-                            <div id="ag" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ahcontent');">
-                            <div id="ah" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('aicontent');">
-                            <div id="ai" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ajcontent');">
-                            <div id="aj" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('akcontent');">
-                            <div id="ak" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('alcontent');">
-                            <div id="al" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('amcontent');">
-                            <div id="am" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ancontent');">
-                            <div id="an" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('aocontent');">
-                            <div id="ao" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('apcontent');">
-                            <div id="ap" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('aqcontent');">
-                            <div id="aq" class="box category1">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('bcontent');">
-                            <div id="b" class="box category7">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ccontent');">
-                            <div id="c" class="box category7">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('dcontent');">
-                            <div id="d" class="box category7">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('econtent');">
-                            <div id="e" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('fcontent');">
-                            <div id="f" class="box category1">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('gcontent');">
-                            <div id="g" class="box category3">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('hcontent');">
-                            <div id="h" class="box category1">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('icontent');">
-                            <div id="i" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('jcontent');">
-                            <div id="j" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('kcontent');">
-                            <div id="k" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('mcontent');">
-                            <div id="m" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ncontent');">
-                            <div id="n" class="box category3">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ocontent');">
-                            <div id="o" class="box category3">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('pcontent');">
-                            <div id="p" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('qcontent');">
-                            <div id="q" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('rcontent');">
-                            <div id="r" class="box category2">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('scontent');">
-                            <div id="s" class="box category4">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('tcontent');">
-                            <div id="t" class="box category5">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('ucontent');">
-                            <div id="u" class="box category1">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('vcontent');">
-                            <div id="v" class="box category3">
-                            </div>
-                        </a>
-
-                        <a href="javascript:switchToggle('wcontent');">
-                            <div id="w" class="box category5">
-                            </div>
-                        </a>
-
-                        <!-- End of box container -->
-                    </div>
-                    <!-- End of map -->
-                </div>
-                <!-- End of map content -->
-            </div>
-
 
             <!-- Start of infobar -->
             <div id="infoBar">
@@ -961,6 +744,220 @@
 
             <!-- End of infobar -->
             </div>
+            
+            <!-- Start of content on map -->
+            <div class="col-md-12" id="mapContent">
+                <div id="map" draggable="true">
+
+
+
+                    <!--Container for boxes on map -->
+                    <div id="boxContainer">
+
+                        <a href="javascript:switchToggle('acontent');">
+                            <div id="a" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('aacontent');">
+                            <div id="aa" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('abcontent');">
+                            <div id="ab" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('accontent');">
+                            <div id="ac" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('adcontent');">
+                            <div id="ad" class="box category3">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('aecontent');">
+                            <div id="ae" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('afcontent');">
+                            <div id="af" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('agcontent');">
+                            <div id="ag" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ahcontent');">
+                            <div id="ah" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('aicontent');">
+                            <div id="ai" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ajcontent');">
+                            <div id="aj" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('akcontent');">
+                            <div id="ak" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('alcontent');">
+                            <div id="al" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('amcontent');">
+                            <div id="am" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ancontent');">
+                            <div id="an" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('aocontent');">
+                            <div id="ao" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('apcontent');">
+                            <div id="ap" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('aqcontent');">
+                            <div id="aq" class="box category1">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('bcontent');">
+                            <div id="b" class="box category7">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ccontent');">
+                            <div id="c" class="box category7">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('dcontent');">
+                            <div id="d" class="box category7">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('econtent');">
+                            <div id="e" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('fcontent');">
+                            <div id="f" class="box category1">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('gcontent');">
+                            <div id="g" class="box category3">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('hcontent');">
+                            <div id="h" class="box category1">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('icontent');">
+                            <div id="i" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('jcontent');">
+                            <div id="j" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('kcontent');">
+                            <div id="k" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('mcontent');">
+                            <div id="m" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ncontent');">
+                            <div id="n" class="box category3">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ocontent');">
+                            <div id="o" class="box category3">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('pcontent');">
+                            <div id="p" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('qcontent');">
+                            <div id="q" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('rcontent');">
+                            <div id="r" class="box category2">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('scontent');">
+                            <div id="s" class="box category4">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('tcontent');">
+                            <div id="t" class="box category5">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('ucontent');">
+                            <div id="u" class="box category1">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('vcontent');">
+                            <div id="v" class="box category3">
+                            </div>
+                        </a>
+
+                        <a href="javascript:switchToggle('wcontent');">
+                            <div id="w" class="box category5">
+                            </div>
+                        </a>
+
+                        <!-- End of box container -->
+                    </div>
+                    <!-- End of map -->
+                </div>
+                <!-- End of map content -->
+            </div>
+
+
+            
          <!-- End row -->
         </div>
         <!-- End container -->
