@@ -2,9 +2,18 @@
 <script type="text/javascript">
     
     // Function that hides all divs with box class except divID.
-      function hideClassShowId(divId) {     
-        $("#"+divId).toggle();
-          $(".box").toggle();
+     var current;
+      function hideClassShowId(divId) {
+            if(current == divId){
+                $(".box").toggle();
+                $("#"+divId).toggle(); 
+            }
+            else{
+                $(".box").hide();
+                $("#"+divId).toggle();
+                current = divId;
+            }
+          
     }
     
 </script>
