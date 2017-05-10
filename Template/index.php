@@ -44,7 +44,7 @@
       
     <div class="nav-wrapper">
       <div class="navbar navbar-default navbar-static-top" role="navigation">
-          <div class="container">
+          <div class="container-fluid">
           <div class="navbar-header">
               <a class="navbar-brand navbar-brand-centered hidden-xs" href="index.php"><img src="pic/Logo_BW_1.png" class="img-circle logo"></a>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -54,7 +54,7 @@
               </button>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">   
+          <ul class="nav navbar-nav">
               <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
               <li><a href="infobar.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
@@ -87,7 +87,7 @@
                   <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
               </div>
               <div class="col-md-7 kartBilde">
-                  <img src="kart.jpg" class="img-responsive img-rounded" alt="Kart over nærområdet">
+                  <img src="pic/map.png" class="img-responsive img-rounded" alt="Kart over nærområdet">
               </div>
           </div>
     
