@@ -84,7 +84,7 @@
                   <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
                   <p><?php echo $lang['HOMEPAGE_FIRST_SECTION']; ?></p>
                   
-                  <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
+                  <a href="map.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
               </div>
               <div class="col-md-7 kartBilde">
                   <img src="pic/mapindex.png" class="img-responsive img-rounded" alt="Kart over nærområdet">
@@ -108,7 +108,7 @@
                   <p><?php echo $lang['HOMEPAGE_THIRD_SECTION']; ?></p>
                   
                   
-                  <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?></a>
+                  <a href="campus-main.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?></a>
               </div>
           </div>
           
