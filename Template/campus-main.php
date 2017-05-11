@@ -22,9 +22,7 @@
     margin: 0;
 }
 
-          .content-container{
-              
-          }
+.content-container
           
 #sidebar-wrapper {
   margin-left: -250px;
@@ -123,7 +121,7 @@
                     </div>
 -->
                         
-      <div class="content-container">
+      <div class="container">
           <br />
           <br />
           <br />
