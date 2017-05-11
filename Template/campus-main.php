@@ -13,18 +13,34 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     
       <style>
-   
-.container{
-     padding-right: 0;
+          
+    .affix-top,.affix{
+	position: static;
 }
-.row{
-   padding: 0;
-    margin: 0;
+    
+@media (min-width: 979px) {
+        
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix-bottom {
+    position: relative;
+  }
+
+  #sidebar.affix {
+    position: fixed;
+    width:228px;
+  }
 }
 
-.content-container
-          
-#sidebar-wrapper {
+#mainCol h2 {
+	padding-top: 55px;
+    margin-top: -55px;
+}
+/*
   margin-left: -250px;
   left: 250px;
   width: 250px;
@@ -51,6 +67,7 @@
 .nav-sidebar .active a:hover {
     background-color: #428bca;   
 }
+*/
 
 /*.nav-sidebar a {
     color: #333;
@@ -80,6 +97,58 @@
         <?php require 'navbar.php' ?>
       
 
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3" id="leftCol">
+                  
+                  <ul class="sidebar-nav-fixed affix" id="sidebar">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Planoversikt</a></li>
+                      <li><a href="#">Bibliotek</a></li>
+                      <li><a href="#">Kantine</a></li>
+                  </ul>
+              </div>    
+      
+      <div class="col-md-9" id="mainCol">
+          
+          <br>
+          
+          <h1>Campus Fjerdingen</h1>
+          
+          <div class="row">
+              <div class="col-md-8">
+                  <h3>Content</h3>
+                  <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p>
+              </div>
+              <div class="col-md-4">
+                  <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-circle">
+              </div>
+          </div>
+          
+          <h2>Section 3</h2>
+      			Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!!<br><br>
+          
+          <div class="row">
+              
+              <div class="col-md-4">
+                  <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-circle">
+              </div>
+              <div class="col-md-8">
+                  <h3>Content</h3>
+                  <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p>
+              </div>
+          </div>
+          
+          </div>
+      </div>
+          <div class="push"></div>
+      </div>
+<!--
     <div class="nav-container">
     <br />
     <br />
@@ -101,6 +170,7 @@
         </div>
     </div>
 </div>
+-->
       
         <!---
         <h1 class="campus text-center">Campus Fjerdingen</h1>
@@ -121,6 +191,7 @@
                     </div>
 -->
                         
+<!--
       <div class="container">
           <br />
           <br />
@@ -152,8 +223,8 @@
         </div>
          
         
-        <div class="push"></div>
       </div>
+-->
      <?php require 'footer.php' ?>
       
     <!-- jquery og bootstrap script -->  

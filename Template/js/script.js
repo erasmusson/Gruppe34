@@ -3,7 +3,18 @@
 
 $(document).ready(function () {
     
+    
     "use strict";
+    
+    var $body   = $(document.body),
+        navHeight = $('.navbar').outerHeight(true) + 10;
+    
+    $('#sidebar').affix({
+        offset: {
+            top: 245,
+            bottom: navHeight
+        }
+    });
     
     /* affix the navbar after scroll below header */
     $('.navbar').affix({

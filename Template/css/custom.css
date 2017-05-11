@@ -551,17 +551,3 @@ body {
 #boxContainer>* {
     display: inline-block;
 }
-
-<<<<<<< HEAD
-/* CAMPUS FJERDINGEN -- CH */
-=======
-/* CAMPUS FJERDINGEN -- CH */
-
-#sidebar.affix-top {
-    position: static;
-}
-#sidebar.affix {
-    position: fixed;
-    top: 80px;
-}
->>>>>>> cd69c41e55b89b2ecaba340779a3b4936a62a72d
