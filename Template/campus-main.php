@@ -113,12 +113,12 @@
           
           <br>
           
-          <h1>Campus Fjerdingen</h1>
+          <h1><?php echo $lang['CAMPUS_TITLE']; ?></h1>
           
           <div class="row">
               <div class="col-md-8">
                   <h3>Content</h3>
-                  <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p>
+                  <p><?php echo $lang['CAMPUS_CONTENT']; ?></p>
               </div>
               <div class="col-md-4">
                   <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-circle">

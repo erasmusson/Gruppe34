@@ -43,8 +43,9 @@ $lang['EVENTS_PIC_TITLE3'] = 'Klikk på bilde for og se<br>sportarrangement i Os
 
 
 // Campus
-$lang['CAMPUS_TITLE'] = 'Hva skjer på Campus Fjerdingen';
-$lang['CAMPUS_CONTENT'] = 'Navigasjon';
+$lang['CAMPUS_TITLE'] = 'Campus Fjerdingen';
+$lang['CAMPUS_CONTENT'] = 'På Campus Fjerdingen finner du elever fra flere ulike fagfelt. Avdelingene kunstfag, kommunikasjon, teknologi og ledelse har det meste av sin undervisning her.
+Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.';
 
 // Map
 $lang['CATEGORY'] = 'Kategori';
