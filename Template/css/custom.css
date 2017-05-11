@@ -168,87 +168,7 @@ body {
     margin-bottom: 30px;
 }
 
-/*Mats kart side cssssssss */
-
-#containerkartside>* {
-    position: relative;
-}
-#containerkartside {
-    width: 100%;
-    height: 900px;
-    position: relative;
-    top: 0px;
-    margin: auto;
-    padding: 0;
-}
-#kartcontainer {
-    max-width: 1366px;
-    height: 900px;
-    overflow: hidden;
-    position: relative;
-    background-color: red;
-    margin: auto;
-    padding: 0;
-    top: 0;
-}
-#kartmeny {
-    background-color: lightgray;
-    width: 10%;
-    z-index: 10;
-    height: 33px;
-}
-#collapsebakgrund {
-    width: 100%;
-    margin: auto;
-    background-color: rgb(150, 150, 150);
-}
-.RbtnMargin {
-    margin-left: 5px;
-}
-#infobox {
-    background-color: darkgrey;
-    width: 100%;
-    height: 900px;
-    position: relative;
-    left: 0;
-    display: none;
-}
-.category7 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-}
-.category6 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-}
-#ting1 {
-    top: 450px;
-    left: 500px;
-    background: blue;
-}
-#ting2 {
-    top: 200px;
-    left: 700px;
-    background: purple;
-}
-#infoboxcontainer {
-    width: 25%;
-    height: 900px;
-    position: absolute;
-    left: 0;
-}
-#tingeling {
-    position: absolute;
-    background: white;
-    cursor: pointer;
-    height: 50px;
-    width: 35px;
-    z-index: 1;
-}
-
-/*mats css slutt*/
+/*Map Page*/
 
 @media screen and (max-width: 991px) {
     #infoBar {
@@ -285,6 +205,12 @@ body {
 #whiteButton {
     font-size: 2em;
 }
+
+#boxContainer{
+   left: -345px; 
+   top: 5px;
+    position: absolute;
+}
 #boxContainer>* {
     display: inline-block;
 }
@@ -296,10 +222,12 @@ body {
     overflow-x: scroll;
 }
 #map {
-    width: 3000px;
-    height: 650px;
-    background-image:url(../pic/map.png);
-    background-repeat: repeat-x;
+    min-width: 640px;
+    width: 105%;
+    height: 630px;
+    background-image:url(../pic/map.jpg);
+    background-repeat: no-repeat;
+    background-color: #DBDBDB;
 
 }
 
@@ -391,6 +319,8 @@ body {
 #n {
     background-image: url('../pic/shopping-cart.png');
 }
+
+#c, #d, #b{background-image: url('../pic/wlogo.png');}
 #a {
     top: 270px;
     left: 850px;

@@ -30,14 +30,7 @@
             
             }
 
-            // Zooms out on map
-            function zoomOut() {
-                
-                $('#map').animate({
-                    'zoom': currentZoom - .3
-                });
-            
-            }
+
 
             // Reset zoom 
             function zoomReset() {
@@ -97,16 +90,11 @@
 
             <div class="col-md-7"></div>
 
-            <div class="col-md-3 col-md-offset-7">
+            <div class="col-md-3 col-md-offset-7" style="text-align: right;">
                 <div>
                     <!-- Zoom in button -->
                     <a id="zoomIn" href="#" onclick="zoomIn()">
                         <button type="button" class="btn"> + </button>
-                    </a>
-
-                    <!-- Zoom out button -->
-                    <a id="zoomOut" href="#" onclick="zoomOut()">
-                        <button type="button" class="btn"> - </button>
                     </a>
 
                     <!-- Reset zoom button -->
