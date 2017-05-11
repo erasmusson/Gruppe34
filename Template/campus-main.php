@@ -13,15 +13,27 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     
       <style>
-          
-.header{
    
+.container{
+     padding-right: 0;
+}
+.row{
+   padding: 0;
+    margin: 0;
 }
 
-.nav-siderbar{
-    margin-left: 100px;
-    position: fixed;
-    
+          .content-container{
+              
+          }
+          
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
 }
 
 .nav-sidebar { 
@@ -31,17 +43,7 @@
     border-right: 1px solid #ddd;
     
 }
-/*.nav-sidebar a {
-    color: #333;
-    -webkit-transition: all 0.08s linear;
-    -moz-transition: all 0.08s linear;
-    -o-transition: all 0.08s linear;
-    transition: all 0.08s linear;
-    -webkit-border-radius: 4px 0 0 4px; 
-    -moz-border-radius: 4px 0 0 4px; 
-    border-radius: 4px 0 0 4px; 
-}
-*/
+
 .nav-sidebar .active a { 
     cursor: default;
     background-color: #428bca; 
@@ -52,6 +54,18 @@
     background-color: #428bca;   
 }
 
+/*.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    -webkit-border-radius: 4px 0 0 4px; 
+    -moz-border-radius: 4px 0 0 4px; 
+    border-radius: 4px 0 0 4px; 
+}
+*/          
+          
 /*.nav-sidebar .text-overflow a,
 .nav-sidebar .text-overflow .media-body {
     white-space: nowrap;
@@ -72,9 +86,12 @@
     <br />
     <br />
     <div class="row">
-        <h1 class="header text-center">Campus Fjerdingen</h1>
+        <div class="header">
+            <h1 class="header text-center">Campus Fjerdingen</h1>
+        </div>
         <div class="col-md-2">
-            <nav class="nav-sidebar nav-fixed-top">
+            <div id="sidebar-wrapper">
+            <nav class="nav-sidebar">
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">Planoversikt</a></li>
@@ -82,11 +99,11 @@
                     <li><a href="#">Kantine</a></li>
                 </ul>
             </nav>
+            </div>
         </div>
     </div>
 </div>
-
-        
+      
         <!---
         <h1 class="campus text-center">Campus Fjerdingen</h1>
         <br />
@@ -106,18 +123,12 @@
                     </div>
 -->
                         
-      <div class="container">
+      <div class="content-container">
           <br />
           <br />
           <br />
           <br />
           <br />
-            <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          
             <div class="row">        
                 <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_1.jpg"  width="350" height="250"class="img-circle img-responsive pull-right"></div>
                 <div class="col-md-7">
