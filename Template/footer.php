@@ -42,7 +42,7 @@
         
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="photocred.php"><p>Bilder som ble brukt.</p></a>
+                <a href="photocred.php"><p><?php echo $lang['FOOTER_PICTURES']; ?></p></a>
             </div>
         </div>
     </div>
