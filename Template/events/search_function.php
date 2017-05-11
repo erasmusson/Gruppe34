@@ -22,6 +22,9 @@
     <?php 
         $db = new mysqli('localhost', 'root', 'root', 'campusfjerdingen', 8889);
 
+        if(isset($_GET['reset'])){
+        }
+
         if(isset($_GET['keywords'])){
     
         $keywords = $db->escape_string($_GET['keywords']);
@@ -29,6 +32,7 @@
         SELECT *
         FROM location
         WHERE name LIKE '%{$keywords}%' OR category LIKE '%{$keywords}%'");  
+
     ?>
 
     <!-- Echoes number of results -->

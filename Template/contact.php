@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12"><h1>Contact Us!</h1></div>
-                <form class="form-horizontal" role="form" method="post" action="contact.php">
+                <form class="form-horizontal" role="form" method="post" action="mailto:dunnat16@student.westerdals.no">
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">Name</label>
                         <div class="col-sm-10">

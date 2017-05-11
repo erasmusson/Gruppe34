@@ -56,7 +56,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
               <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
-              <li><a href="infobar.php"><?php echo $lang['MENU_MAP']; ?></a></li>
+              <li><a href="map.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
               <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
           </ul>
@@ -82,12 +82,12 @@
           <div class="row row-margin">
               <div class="col-md-5 kartTekst">
                   <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
-                  <p>Kartet har oversikt over forskjellige steder i nærområdet av campus fjerdingen, du kan velge og deaktivere forksjellige kategorier eller søke etter steder på kartet. du kan trykke på de forskjellige stedene for å få opp informasjon om de.</p>
+                  <p><?php echo $lang['HOMEPAGE_FIRST_SECTION']; ?></p>
                   
-                  <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
+                  <a href="map.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
               </div>
               <div class="col-md-7 kartBilde">
-                  <img src="pic/map.png" class="img-responsive img-rounded" alt="Kart over nærområdet">
+                  <img src="pic/mapindex.png" class="img-responsive img-rounded" alt="Kart over nærområdet">
               </div>
           </div>
     
@@ -105,10 +105,10 @@
               
               <div class="col-md-5 campusTekst">
                   <h1><?php echo $lang['HOMEPAGE_THIRD_TITLE']; ?></h1>
-                  <p>campus fjerdingen ligger i Christian Kroghs gate 32, campusen er utstyrt med ett stort oppholdsområde, mange arbeidsrom, kantine, bibliotek og til og med en bar. campuset ligger sentralt i oslo ca 5-10 minutter gangavstand fra Oslo S</p>
+                  <p><?php echo $lang['HOMEPAGE_THIRD_SECTION']; ?></p>
                   
                   
-                  <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?></a>
+                  <a href="campus-main.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?></a>
               </div>
           </div>
           

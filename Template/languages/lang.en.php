@@ -17,6 +17,7 @@ $lang['MENU_CONTACT'] = 'Contact';
 $lang['MENU_LANGUAGE'] = 'Language';
 $lang['MENU_SEARCH'] = 'Search';
 $lang['MENU_SUBMIT'] = 'Submit';
+$lang['MENU_RESET'] = 'Reset';
 
 // Homepage
 $lang['HOMEPAGE_FIRST_TITLE'] = 'Map';
