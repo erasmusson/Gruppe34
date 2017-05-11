@@ -56,7 +56,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
               <li><a href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
-              <li><a href="infobar.php"><?php echo $lang['MENU_MAP']; ?></a></li>
+              <li><a href="map.php"><?php echo $lang['MENU_MAP']; ?></a></li>
               <li><a href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
               <li><a href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
           </ul>
@@ -87,7 +87,7 @@
                   <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
               </div>
               <div class="col-md-7 kartBilde">
-                  <img src="pic/map.png" class="img-responsive img-rounded" alt="Kart over nærområdet">
+                  <img src="pic/mapindex.jpg" class="img-responsive img-rounded" alt="Kart over nærområdet" style="width: 300px; text-align: right;">
               </div>
           </div>
     
