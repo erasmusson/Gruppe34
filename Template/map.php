@@ -19,6 +19,7 @@
 
         <!-- JavaScript / Jquery -->
         <script type="text/javascript">
+                    
             var currentZoom = 1.0;
 
             // Zooms in on map
@@ -63,6 +64,13 @@
                         $('.category' + (i + 1)).hide();
                 }
             }
+            
+            function scrollRight(){
+                        $('#mapContent').scrollLeft('600');
+      
+                
+            }
+            
         </script>
 
 </head>
@@ -99,7 +107,7 @@
 
                     <!-- Reset zoom button -->
                     <a id="zoomNormal" href="#" onclick="zoomReset()">
-                        <button type="button" class="btn"> Reset </button>
+                        <button type="button" class="btn"> - </button>
                     </a>
 
                     <!-- Category button -->
@@ -167,12 +175,18 @@
             <div id="infoBar">
                 <!-- Search box HTML -->
                 <br />
-                <form method="get">
+                <form style="display: inline;" method="get">
                     <label>
                         <input type="text" name="keywords" class="form-control" autocomplete="off">
-                    </label>
+                    </label><br>
                     <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default">
                 </form>
+                
+                <form style="display: inline;" method="get">
+                    <input type="submit" name="reset" value="<?php echo $lang['MENU_RESET']; ?>" class="btn btn-default">
+                </form>
+                
+                    <button id="scrollRight" onclick="scrollRight()" class="btn btn-default"> Center map on mobile</button>
                 <br/>
 
                 <!-- Content Wrapper / Div with information about boxes. -->

@@ -15,6 +15,7 @@ $lang['MENU_EVENTS'] = 'Eventer';
 $lang['MENU_CAMPUS'] = 'Campus';
 $lang['MENU_CONTACT'] = 'Kontakt';
 $lang['MENU_LANGUAGE'] = 'Språk';
+$lang['MENU_RESET'] = 'Återställ';
 
 // Homepage
 $lang['HOMEPAGE_FIRST_TITLE'] = 'Kart';
