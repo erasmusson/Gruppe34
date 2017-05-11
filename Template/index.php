@@ -82,7 +82,7 @@
           <div class="row row-margin">
               <div class="col-md-5 kartTekst">
                   <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
-                  <p>Lorem ipsum dolor sit amet, id exerci labitur usu, tamquam disputationi ea eam. Eu iriure qualisque mei, qui ne quod audiam, eu delenit reprimique scribentur vis. Per clita inermis deterruisset id. Nec quem libris eu, no consul corpora eam. Laboramus voluptatibus ius an, minim noster voluptaria sed no, ne paulo audire definitionem est. Duis ubique accumsan pro ex, aeque consulatu laboramus vix eu, cum te tantas percipitur. Pro eu omnis numquam, ad quis melius nostrum eam. Vim natum rebum temporibus cu, eum liber reformidans ea. Nemore sententiae at cum, cum ea aliquid insolens intellegat, illud recusabo disputationi ex vis.</p>
+                  <p>Kartet har oversikt over forskjellige steder i nærområdet av campus fjerdingen, du kan velge og deaktivere forksjellige kategorier eller søke etter steder på kartet. du kan trykke på de forskjellige stedene for å få opp informasjon om de.</p>
                   
                   <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
               </div>
@@ -105,7 +105,7 @@
               
               <div class="col-md-5 campusTekst">
                   <h1><?php echo $lang['HOMEPAGE_THIRD_TITLE']; ?></h1>
-                  <p>Lorem ipsum dolor sit amet, id exerci labitur usu, tamquam disputationi ea eam. Eu iriure qualisque mei, qui ne quod audiam, eu delenit reprimique scribentur vis. Per clita inermis deterruisset id. Nec quem libris eu, no consul corpora eam. Laboramus voluptatibus ius an, minim noster voluptaria sed no, ne paulo audire definitionem est. Duis ubique accumsan pro ex, aeque consulatu laboramus vix eu, cum te tantas percipitur. Pro eu omnis numquam, ad quis melius nostrum eam. Vim natum rebum temporibus cu, eum liber reformidans ea. Nemore sententiae at cum, cum ea aliquid insolens intellegat, illud recusabo disputationi ex vis.</p>
+                  <p>campus fjerdingen ligger i Christian Kroghs gate 32, campusen er utstyrt med ett stort oppholdsområde, mange arbeidsrom, kantine, bibliotek og til og med en bar. campuset ligger sentralt i oslo ca 5-10 minutter gangavstand fra Oslo S</p>
                   
                   
                   <a href="#" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?></a>
