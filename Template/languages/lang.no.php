@@ -48,8 +48,21 @@ $lang['EVENTS_PIC_TITLE3'] = 'Klikk på bilde for og se<br>sportarrangement i Os
 
 // Campus
 $lang['CAMPUS_TITLE'] = 'Campus Fjerdingen';
+$lang['CAMPUS_UNDER_TITLE'] = 'Velkommen til Campus Fjerdingen';
 $lang['CAMPUS_CONTENT'] = 'På Campus Fjerdingen finner du elever fra flere ulike fagfelt. Avdelingene kunstfag, kommunikasjon, teknologi og ledelse har det meste av sin undervisning her.
 Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.';
+$lang['CAMPUS_UNDER_TITLE2'] = 'Kantina';
+$lang['CAMPUS_KANTINA'] = 'Kantina
+
+Åpningstider
+
+Frokost	08.30-15.00
+Lunsj 		11.00 - 15.15
+Stenger		15.30
+
+Meny - Hentes fra Oslolunsj.no
+
+Både på campus Vulkan og campus Fjerdingen finner du en fantastisk kantine med variert og sunn mat. Der er også vegetarianertilbud.';
 
 // Map
 $lang['CATEGORY'] = 'Kategori';

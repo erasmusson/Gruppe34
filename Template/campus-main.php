@@ -114,33 +114,43 @@
           <br>
           
           <h1><?php echo $lang['CAMPUS_TITLE']; ?></h1>
+          <br/>
+          <br/>
           
           <div class="row">
               <div class="col-md-8">
-                  <h3>Content</h3>
+                  <h3><?php echo $lang['CAMPUS_UNDER_TITLE']; ?></h3>
+                  <br/>
                   <p><?php echo $lang['CAMPUS_CONTENT']; ?></p>
+                  <br/>
+                  <br/>
               </div>
               <div class="col-md-4">
-                  <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-circle">
+                  <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
               </div>
           </div>
           
-          <h2>Section 3</h2>
-      			Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!!<br><br>
+         <div class="row">
+             <div class="col-md-4">
+             <img src="pic/Fjerdingen_Kantina1.jpg" class="img-responsive img-rounded">
+             </div>
+             <div class="col-md-8">
+          <h2><?php echo $lang['CAMPUS_UNDER_TITLE2']; ?></h2>
+      		<p><?php echo $lang['CAMPUS_KANTINA']; ?></p>
+          <br/>
+          <br/>
+            </div>
+        </div>
           
           <div class="row">
               
-              <div class="col-md-4">
-                  <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-circle">
-              </div>
+
               <div class="col-md-8">
                   <h3>Content</h3>
                   <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p>
+              </div>
+                <div class="col-md-4">
+                  <img src="pic/Fjerdingen_1.jpg" class="img-responsive img-rounded">
               </div>
           </div>
           
