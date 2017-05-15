@@ -63,6 +63,8 @@ $lang['CATEGORY_PARTY'] = 'Fest';
 $lang['CATEGORY_WORKOUT'] = 'Trening';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
 $lang['MENU_SUBMIT'] = 'Søk';
+$lang['MAP_TITLE'] = 'Kart';
+$lang['MENU_CENTER_MAP'] = 'Center map';
 
 
 // Photocred

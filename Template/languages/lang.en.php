@@ -62,7 +62,9 @@ $lang['CATEGORY_HEALTH'] = 'Health';
 $lang['CATEGORY_PARTY'] = 'Party';
 $lang['CATEGORY_WORKOUT'] = 'Excersice';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
-
+// Måste översättas till Norsk med. 
+$lang['MAP_TITLE'] = 'Map';
+$lang['MENU_CENTER_MAP'] = 'Center map';
     
 // Photocred
 
