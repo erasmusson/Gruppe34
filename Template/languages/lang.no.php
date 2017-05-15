@@ -52,17 +52,21 @@ $lang['CAMPUS_UNDER_TITLE'] = 'Velkommen til Campus Fjerdingen';
 $lang['CAMPUS_CONTENT'] = 'På Campus Fjerdingen finner du elever fra flere ulike fagfelt. Avdelingene kunstfag, kommunikasjon, teknologi og ledelse har det meste av sin undervisning her.
 Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.';
 $lang['CAMPUS_UNDER_TITLE2'] = 'Kantina';
-$lang['CAMPUS_KANTINA'] = 'Kantina
-
+$lang['CAMPUS_KANTINA'] = 'Både på campus Vulkan og campus Fjerdingen finner du en fantastisk kantine med variert og sunn mat. Der er også vegetarianertilbud.
 Åpningstider
-
 Frokost	08.30-15.00
 Lunsj 		11.00 - 15.15
 Stenger		15.30
 
-Meny - Hentes fra Oslolunsj.no
-
-Både på campus Vulkan og campus Fjerdingen finner du en fantastisk kantine med variert og sunn mat. Der er også vegetarianertilbud.';
+Meny - Hentes fra Oslolunsj.no';
+$lang['CAMPUS_UNDER_TITLE3'] = 'Bibliotek';
+$lang['CAMPUS_BIBLIO'] = 'Biblioteket på Westerdals Oslo ACT er fordelt på Campus Fjerdingen og Campus Vulkan.
+Her er det et godt utvalg av bøker, film, spill, databaser og tidsskrifter. Du kan låne på tvers av campus, og bibliotekarene hjelper deg gjerne.
+Åpningstider: I byggets åpningstid
+Bibliotekarene er tilgjengelige for spørsmål og veiledning mandag -fredag 
+09.00 - 15.30';
+$lang['CAMPUS_UNDER_TITLE4'] = 'Puttis Skjenkestue';
+$lang['CAMPUS_SJENKESTUA'] = ''
 
 // Map
 $lang['CATEGORY'] = 'Kategori';

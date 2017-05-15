@@ -143,98 +143,30 @@
         </div>
           
           <div class="row">
-              
-
               <div class="col-md-8">
-                  <h3>Content</h3>
-                  <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p>
+                  <h3><?php echo $lang['CAMPUS_UNDER_TITLE3']; ?></h3>
+                  <p><?php echo $lang['CAMPUS_BIBLIO']; ?></p>
               </div>
                 <div class="col-md-4">
                   <img src="pic/Fjerdingen_1.jpg" class="img-responsive img-rounded">
               </div>
           </div>
           
+          <div class="row">
+          <div class="col-md-4">
+            <img src="pic/Sjenkestua_1.jpg" class="img-responsive img-rounded">    
           </div>
+              <div class="col-md-8">
+              <h2></h2>
+              <p></p>
+              </div>
+          
+          </div>
+        </div>
       </div>
           <div class="push"></div>
       </div>
-<!--
-    <div class="nav-container">
-    <br />
-    <br />
-    <div class="row">
-        <div class="header">
-            <h1 class="header text-center">Campus Fjerdingen</h1>
-        </div>
-        <div class="col-md-2">
-            <div id="sidebar-wrapper">
-            <nav class="nav-sidebar">
-                <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Planoversikt</a></li>
-                    <li><a href="#">Bilbiotek</a></li>
-                    <li><a href="#">Kantine</a></li>
-                </ul>
-            </nav>
-            </div>
-        </div>
-    </div>
-</div>
--->
-      
-        <!---
-        <h1 class="campus text-center">Campus Fjerdingen</h1>
-        <br />
-        
-        
-            <div class="row">
-                <div class="col-md-2">
-                    <nav class="nav">
-                    <ul id="sidebar" class="nav nav-pills nav-stacked">
-                        <li><a href="#">Planoversikt</a></li>
-                        <li><a href="#">Kantina</a></li>
-                        <li><a href="#">Bibliotek</a></li>
-                        <li><a href="#">Sjenkestua</a></li>
-                    </ul>  
-                    </nav>
-                </div>
-                    </div>
--->
-                        
-<!--
-      <div class="container">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-            <div class="row">        
-                <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_1.jpg"  width="350" height="250"class="img-circle img-responsive pull-right"></div>
-                <div class="col-md-7">
-                <h2>Content</h2>
-                    <p>Nam et pellentesque sapien, id bibendum elit. Quisque condimentum quis erat vel sollicitudin. Vivamus eleifend quis lectus in blandit. Quisque cursus pellentesque sapien quis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et feugiat est. Donec nec fermentum massa.</p></div>
-                
-                <hr class="col-md-12">
-            </div>
-        <div class="row">
-                <div class="col-md-4"><img src="pic/Fjerdingen_2.jpg" width="350" height="250" class="img-circle img-responsive pull-left"></div>
-                <div class="col-md-8">
-                <h2>More Content</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna nunc, lacinia vel orci vitae, placerat pulvinar quam. Integer ac consequat erat, a pharetra mauris. Vivamus enim enim, interdum a bibendum efficitur, auctor sit amet velit.</p></div>
-        </div>
-        
-            <hr class="col-md-12">
-        
-        <div class="row">
-                <div class="col-md-5 pull-right"><img src="pic/Fjerdingen_2.jpg" width="350" height="250" class="img-circle img-responsive pull-right"></div>
-                <div class="col-md-7">
-                <h2>Holy Shit, Even More Content</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna nunc, lacinia vel orci vitae, placerat pulvinar quam. Integer ac consequat erat, a pharetra mauris. Vivamus enim enim, interdum a bibendum efficitur, auctor sit amet velit.</p></div>
-        </div>
-         
-        
-      </div>
--->
+
      <?php require 'footer.php' ?>
       
     <!-- jquery og bootstrap script -->  
