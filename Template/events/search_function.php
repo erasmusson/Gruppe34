@@ -6,11 +6,14 @@
       function hideClassShowId(divId) {
             if(current == divId){
                 $(".box").toggle();
-                $("#"+divId).toggle(); 
+                $("#"+divId).toggle();
+                $("#clickReturn").toggle();
+                    
             }
             else{
                 $(".box").hide();
                 $("#"+divId).toggle();
+                $("#clickReturn").toggle();
                 current = divId;
             }
           
@@ -36,7 +39,9 @@
     ?>
 
     <!-- Echoes number of results -->
+        <br>
         <?php echo $query->num_rows; ?> resultat funna. 
+        <h4 id="clickReturn"><?php echo $lang['SEARCH_SHOWONMAPCLICK']; ?></h4>
         <hr>
 
     <!-- Echoes the results -->
@@ -47,9 +52,8 @@
                     <b><?php echo $r->name; ?></b><br/>
                     <?php echo $lang['OPENINGHOURS']; echo ": "; echo $r->openinghours; ?><br/>
                     <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>              
-                    <a href="<?= $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
+                    <a target="_blank" href="<?= $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
                     <a href="javascript:hideClassShowId('<?php echo $r->cssid; ?>');"><?php echo $lang['SHOW_ON_MAP']; ?></a>
-
                     <hr>
 
     <?php            

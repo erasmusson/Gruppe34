@@ -55,7 +55,7 @@ Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, s
 $lang['CATEGORY'] = 'Kategori';
 $lang['OPENINGHOURS'] = 'Åpningstider';
 $lang['ROAD'] = 'Veibeskrivelse';
-$lang['SHOW_ON_MAP'] = 'Vis på kart';
+$lang['SHOW_ON_MAP'] = 'Vis på kart / Vis alle';
 $lang['CATEGORY_SHOPPING'] = 'Butikker';
 $lang['CATEGORY_MUSIC'] = 'Musikk';
 $lang['CATEGORY_HEALTH'] = 'Helse';
@@ -65,6 +65,7 @@ $lang['CATEGORY_CAMPUS'] = 'Campus';
 $lang['MENU_SUBMIT'] = 'Søk';
 $lang['MAP_TITLE'] = 'Kart';
 $lang['MENU_CENTER_MAP'] = 'Center map';
+$lang['SEARCH_SHOWONMAPCLICK'] = 'The icon is now displayed on the map.';
 
 
 // Photocred

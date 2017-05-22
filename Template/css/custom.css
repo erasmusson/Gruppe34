@@ -230,6 +230,17 @@ body {
     overflow-x: scroll;
     
 }
+
+#clickReturn{  
+    display: none;
+}
+
+#menuBar{
+    text-align: right;
+}
+.searchBox{
+    display: inline;
+}
 #map {
     max-width: 2000px;
     width: 1650px;

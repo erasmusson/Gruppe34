@@ -55,16 +55,19 @@ $lang['CAMPUS_CONTENT'] = 'Navigation';
 $lang['CATEGORY'] = 'Category';
 $lang['OPENINGHOURS'] = 'Opening hours';
 $lang['ROAD'] = 'Road description';
-$lang['SHOW_ON_MAP'] = 'Show on map';
+$lang['SHOW_ON_MAP'] = 'Show on map / Click to show all again';
 $lang['CATEGORY_SHOPPING'] = 'Shopping';
 $lang['CATEGORY_MUSIC'] = 'Music';
 $lang['CATEGORY_HEALTH'] = 'Health';
 $lang['CATEGORY_PARTY'] = 'Party';
 $lang['CATEGORY_WORKOUT'] = 'Excersice';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
+
 // Måste översättas till Norsk med. 
 $lang['MAP_TITLE'] = 'Map';
 $lang['MENU_CENTER_MAP'] = 'Center map';
+$lang['SEARCH_SHOWONMAPCLICK'] = 'The icon is now displayed on the map.';
+
     
 // Photocred
 

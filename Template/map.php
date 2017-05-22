@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo $lang['MAP_TITLE']; ?></title>
+    <title>Map</title>
     <?php require'connection.php'?>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
                 </a>
             </div>
             <div class="col-md-7"></div>
-            <div class="col-md-3 col-md-offset-7" style="text-align: right;">
+            <div class="col-md-3 col-md-offset-7" id="menuBar">
                 <div>
                     <!-- Zoom in button -->
                     <a id="zoomIn" href="#" onclick="zoomIn()">
@@ -133,12 +133,12 @@
             <div id="infoBar">
                 <!-- Search box HTML -->
                 <br />
-                <form style="display: inline;" method="get">
+                <form class="searchBox" method="get">
                     <label>
                         <input type="text" name="keywords" class="form-control" autocomplete="off"> </label>
                     <br>
                     <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default"> </form>
-                <form style="display: inline;" method="get">
+                <form class="searchBox"  method="get">
                     <input type="submit" name="reset" value="<?php echo $lang['MENU_RESET']; ?>" class="btn btn-default"> </form>
                 <button id="scrollRight" onclick="scrollRight()" class="btn btn-default"> <?php echo $lang['MENU_CENTER_MAP']; ?></button>
                 <br/>
