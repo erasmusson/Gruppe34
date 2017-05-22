@@ -66,7 +66,7 @@ Her er det et godt utvalg av bøker, film, spill, databaser og tidsskrifter. Du 
 Bibliotekarene er tilgjengelige for spørsmål og veiledning mandag -fredag 
 09.00 - 15.30';
 $lang['CAMPUS_UNDER_TITLE4'] = 'Puttis Skjenkestue';
-$lang['CAMPUS_SJENKESTUA'] = ''
+$lang['CAMPUS_SJENKESTUA'] = '';
 
 // Map
 $lang['CATEGORY'] = 'Kategori';
