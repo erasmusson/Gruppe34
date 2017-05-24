@@ -50,10 +50,11 @@
             while($r = $query->fetch_object()){ ?>
 
                     <b><?php echo $r->name; ?></b><br/>
+                    <a href="javascript:hideClassShowId('<?php echo $r->cssid; ?>');"><?php echo $lang['SHOW_ON_MAP']; ?></a><br/>
                     <?php echo $lang['OPENINGHOURS']; echo ": "; echo $r->openinghours; ?><br/>
                     <?php echo $lang['CATEGORY'];  echo ": "; echo $r->category; ?> <br/>              
-                    <a target="_blank" href="<?= $r->directions; ?>"><?php echo $lang['ROAD']; ?></a><br/>
-                    <a href="javascript:hideClassShowId('<?php echo $r->cssid; ?>');"><?php echo $lang['SHOW_ON_MAP']; ?></a>
+                    <a target="_blank" href="<?= $r->directions; ?>"><?php echo $lang['ROAD']; ?></a>
+                    
                     <hr>
 
     <?php            
