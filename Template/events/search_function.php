@@ -41,8 +41,8 @@
     <!-- Echoes number of results -->
         <br>
         <?php echo $query->num_rows; ?> resultat funna. 
-        <h4 id="clickReturn"><?php echo $lang['SEARCH_SHOWONMAPCLICK']; ?></h4>
-        <hr>
+    <br>
+<br>
 
     <!-- Echoes the results -->
     <?php 
