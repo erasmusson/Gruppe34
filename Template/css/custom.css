@@ -39,6 +39,11 @@ body {
     display: block;
     text-align: center;
 }
+
+.active a
+{
+    background-color: #e9e9e9 !important;
+}
 .logo {
     max-height: 100px;
     margin-top: -20px;
@@ -52,6 +57,11 @@ body {
 }
 .carousel-control {
     display: none;
+}
+
+.img-shadow
+{
+    box-shadow: 3px 3px 1px #888888;
 }
 
 
@@ -201,8 +211,9 @@ body {
 
 
 #infoBar {
-    background-color: lightgray;
+    background-color: white;
     z-index: 10;
+    box-shadow: 1px 1px 1px #888888;
 }
 
 .box {
@@ -218,6 +229,11 @@ body {
 #boxContainer{
    left: 70px; 
     position: absolute;
+}
+
+.category-dropdown
+{
+    margin-left: -50px;
 }
 #boxContainer>* {
     display: inline-block;

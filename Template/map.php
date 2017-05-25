@@ -70,8 +70,7 @@
                 </a>
             </div>
             <div class="col-md-7"></div>
-            <div class="col-md-3 col-md-offset-7" id="menuBar">
-                <div>
+            <div class="col-md-3" id="menuBar">
                     <!-- Zoom in button -->
                     <a id="zoomIn" href="#" onclick="zoomIn()">
                         <button type="button" class="btn"> + </button>
@@ -81,9 +80,9 @@
                         <button type="button" class="btn"> - </button>
                     </a>
                     <!-- Category button -->
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu category-dropdown">
                         <li>
                             <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
                             <label for="chk">
@@ -121,7 +120,7 @@
                             </label>
                         </li>
                     </ul>
-                </div>
+                    </div>
                 <!-- End of category button -->
             </div>
             <!-- End of menubar on top of map -->
@@ -138,7 +137,7 @@
                 <br />
                 <form class="searchBox" method="get">
                     <label>
-                        <input type="text" name="keywords" class="form-control" autocomplete="off"> </label>
+                        <input type="text" name="keywords" class="form-control" autocomplete="off" placeholder="Søk her"> </label>
                     <br>
                     <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default"> </form>
                 <form class="searchBox"  method="get">

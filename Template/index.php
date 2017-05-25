@@ -79,24 +79,7 @@
     </div>
       
       <div class="container">
-          <div class="row row-margin">
-              <div class="col-md-5 kartTekst">
-                  <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
-                  <p><?php echo $lang['HOMEPAGE_FIRST_SECTION']; ?></p>
-                  
-                  <a href="map.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
-              </div>
-              <div class="col-md-7 kartBilde">
-                  <img src="pic/mapindex.png" class="img-responsive img-rounded" alt="Kart over nærområdet">
-              </div>
-          </div>
-    
           
-          <div class="row row-margin">
-              <div class="col-md-12">
-                  <?php require 'events/EventsSlide.php' ?>
-              </div>
-          </div>
           
           <div class="row row-margin">
               <div class="col-md-7 campusBilde">
@@ -111,6 +94,26 @@
                   <a href="campus-main.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?></a>
               </div>
           </div>
+          
+          <div class="row row-margin">
+              <div class="col-md-12">
+                  <?php require 'events/EventsSlide.php' ?>
+              </div>
+          </div>
+          
+          <div class="row row-margin">
+              <div class="col-md-5 kartTekst">
+                  <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
+                  <p><?php echo $lang['HOMEPAGE_FIRST_SECTION']; ?></p>
+                  
+                  <a href="map.php" class="btn btn-primary" role="button"><?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?></a>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-6 kartBilde">
+                  <img src="pic/mapindex.png" class="img-responsive img-rounded img-shadow" alt="Kart over nærområdet">
+              </div>
+          </div>
+          
           
           <div class="push"></div>
         </div>
