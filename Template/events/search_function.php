@@ -40,7 +40,7 @@
 
     <!-- Echoes number of results -->
         <br>
-        <?php echo $query->num_rows; ?> resultat funna. 
+        <?php echo $query->num_rows; ?> resultater funnet. 
         <h4 id="clickReturn"><?php echo $lang['SEARCH_SHOWONMAPCLICK']; ?></h4>
         <hr>
 

@@ -21,9 +21,11 @@ $lang['MENU_RESET'] = 'Reset';
 
 // Homepage
 $lang['HOMEPAGE_FIRST_TITLE'] = 'Map';
+$lang['HOMEPAGE_FIRST_SECTION'] = 'On the map you will find an overview of the different places in close proximity to campus fjerdingen, you can choose and deactivate different categories or search for what youre trying to find. you can also click the different places on the map to find some brief information about them';
 $lang['HOMEPAGE_FIRST_BUTTON'] = 'Go to map';
 $lang['HOMEPAGE_SECOND_TITLE'] = 'Upcoming events';
 $lang['HOMEPAGE_THIRD_TITLE'] = 'Campus';
+$lang['HOMEPAGE_THIRD_SECTION'] = 'Campus Fjerdingen is located in Christian Kroghs gate 32, the Campus is fitted with a large Hangout area, lots of work spaces, a canteen, a library and even its wery own bar. the campus is merely a 5-10 minute walk away from oslo central station';
 $lang['HOMEPAGE_SECOND_BUTTON'] = 'More information about the campus';
 
 
