@@ -21,9 +21,11 @@ $lang['MENU_RESET'] = 'Reset';
 
 // Homepage
 $lang['HOMEPAGE_FIRST_TITLE'] = 'Map';
+$lang['HOMEPAGE_FIRST_SECTION'] = 'On the map you will find an overview of the different places in close proximity to campus fjerdingen, you can choose and deactivate different categories or search for what youre trying to find. you can also click the different places on the map to find some brief information about them';
 $lang['HOMEPAGE_FIRST_BUTTON'] = 'Go to map';
 $lang['HOMEPAGE_SECOND_TITLE'] = 'Upcoming events';
 $lang['HOMEPAGE_THIRD_TITLE'] = 'Campus';
+$lang['HOMEPAGE_THIRD_SECTION'] = 'Campus Fjerdingen is located in Christian Kroghs gate 32, the Campus is fitted with a large Hangout area, lots of work spaces, a canteen, a library and even its wery own bar. the campus is merely a 5-10 minute walk away from oslo central station';
 $lang['HOMEPAGE_SECOND_BUTTON'] = 'More information about the campus';
 
 
@@ -48,8 +50,25 @@ $lang['EVENTS_PIC_LINK'] = 'Click here!';
 
 
 // Campus
-$lang['CAMPUS_TITLE'] = 'What is happening on Campus Fjerdingen?';
-$lang['CAMPUS_CONTENT'] = 'Navigation';
+$lang['CAMPUS_TITLE'] = 'Campus Fjerdingen';
+$lang['CAMPUS_UNDER_TITLE'] = 'Welcome to Campus Fjerdingen';
+$lang['CAMPUS_CONTENT'] = 'Students from several different courses study at campus fjerdingen. Arts, communication, technology and leadership have most of their classes here. the campus has several different classrooms specially built for different purposes, studios, special rooms and rehearsal rooms for music-production, light and sound design, popular music and programming. the administrative departments, academic affairs, marketing and administration is also located here.';
+$lang['CAMPUS_UNDER_TITLE2'] = 'Canteen';
+$lang['CAMPUS_KANTINA'] = 'In Campus Vulkan and Campus Fjerdingen you can find a fantastic canteen with varied and healthy food, they also have a vegan alternative.
+Opening Hours
+Breakfast 08.30-15:00
+Lunch     11.00-15.15
+Closing   15.30
+
+Menu - Can be found at Oslolunsj.no';
+$lang['CAMPUS_UNDER_TITLE3'] = 'Library';
+$lang['CAMPUS_BIBLIO'] = 'the library at westerdals oslo act is shared between campus fjerdingen and campus vulkan.
+here we have a broad selection of books, movies, games, databases and journals. you can borrow from both campus, and the librarians are more than willing to help you.
+Opening Hours: Same as the campuses
+the librarians are open to questions and guidance monday-friday
+09.00 - 15.30';
+$lang['CAMPUS_UNDER_TITLE4'] = 'Puttis Skjenkestue';
+$lang['CAMPUS_SJENKESTUA'] = '';
 
 // Map
 $lang['CATEGORY'] = 'Category';

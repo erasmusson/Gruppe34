@@ -15,7 +15,7 @@ $lang['MENU_EVENTS'] = 'Eventer';
 $lang['MENU_CAMPUS'] = 'Campus';
 $lang['MENU_CONTACT'] = 'Kontakt';
 $lang['MENU_LANGUAGE'] = 'Språk';
-$lang['MENU_RESET'] = 'Återställ';
+$lang['MENU_RESET'] = 'Tilbakestill';
 
 // Homepage
 $lang['HOMEPAGE_FIRST_TITLE'] = 'Kart';
@@ -51,6 +51,7 @@ $lang['CAMPUS_TITLE'] = 'Campus Fjerdingen';
 $lang['CAMPUS_UNDER_TITLE'] = 'Velkommen til Campus Fjerdingen';
 $lang['CAMPUS_CONTENT'] = 'På Campus Fjerdingen finner du elever fra flere ulike fagfelt. Avdelingene kunstfag, kommunikasjon, teknologi og ledelse har det meste av sin undervisning her.
 Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.';
+
 $lang['CAMPUS_UNDER_TITLE2'] = 'Kantina';
 $lang['CAMPUS_KANTINA'] = 'Både på campus Vulkan og campus Fjerdingen finner du en fantastisk kantine med variert og sunn mat. Der er også vegetarianertilbud.
 Åpningstider
@@ -76,13 +77,13 @@ $lang['SHOW_ON_MAP'] = 'Vis på kart / Vis alle';
 $lang['CATEGORY_SHOPPING'] = 'Butikker';
 $lang['CATEGORY_MUSIC'] = 'Musikk';
 $lang['CATEGORY_HEALTH'] = 'Helse';
-$lang['CATEGORY_PARTY'] = 'Fest';
+$lang['CATEGORY_PARTY'] = 'Uteliv';
 $lang['CATEGORY_WORKOUT'] = 'Trening';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
 $lang['MENU_SUBMIT'] = 'Søk';
 $lang['MAP_TITLE'] = 'Kart';
-$lang['MENU_CENTER_MAP'] = 'Center map';
-$lang['SEARCH_SHOWONMAPCLICK'] = 'The icon is now displayed on the map.';
+$lang['MENU_CENTER_MAP'] = 'Sentrer Kart';
+$lang['SEARCH_SHOWONMAPCLICK'] = 'Ikonet vises nå på kartet!';
 
 
 // Photocred
