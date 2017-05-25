@@ -66,8 +66,26 @@ Her er det et godt utvalg av bøker, film, spill, databaser og tidsskrifter. Du 
 Åpningstider: I byggets åpningstid
 Bibliotekarene er tilgjengelige for spørsmål og veiledning mandag -fredag 
 09.00 - 15.30';
-$lang['CAMPUS_UNDER_TITLE4'] = 'Puttis Skjenkestue';
-$lang['CAMPUS_SJENKESTUA'] = '';
+$lang['CAMPUS_UNDER_TITLE4'] = 'Skjenkestua';
+$lang['CAMPUS_SJENKESTUA'] = 'Sjenkestua
+I første etasje på Campus Fjerdingen finner du Puttis Sjenkestue, verdens beste bar*.
+Her tilbys det blant annet en halvliter øl til en studentvennlig pris.
+ 
+ 
+Åpningstider: 
+Torsdag 15.30 - 24.00
+Fredag: 15.00 - 24.00
+';
+
+$lang['CAMPUS_UNDER_TITLE5'] = 'Problemer med å finne frem?';
+$lang['CAMPUS_PLAN'] = 'Få hjelp til å finne frem på skolen med vår planoversikt';
+
+//Campus Sidebar
+$lang['CAMPUS_SIDEBAR_HOME'] = 'Hjem';
+$lang['CAMPUS_SIDEBAR_KANTINA'] = 'Kantine';
+$lang['CAMPUS_SIDEBAR_BIBLIO'] = 'Bibliotek';
+$lang['CAMPUS_SIDEBAR_SJENKESTUA'] = 'Sjenkestua';
+$lang['CAMPUS_SIDEBAR_PLAN'] = 'Planoversikt';
 
 // Map
 $lang['CATEGORY'] = 'Kategori';

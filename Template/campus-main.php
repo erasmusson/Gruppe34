@@ -15,9 +15,41 @@
       <style>
           
     .affix-top,.affix{
-	position: static;
+	position: fixed;
 }
-    
+          
+.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    -webkit-border-radius: 4px 0 0 4px; 
+    -moz-border-radius: 4px 0 0 4px; 
+    border-radius: 4px 0 0 4px; 
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #428bca; 
+    color: #fff; 
+    text-shadow: 1px 1px 1px #666; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #428bca;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
 @media (min-width: 979px) {
         
   #sidebar.affix-top {
@@ -40,55 +72,6 @@
 	padding-top: 55px;
     margin-top: -55px;
 }
-/*
-  margin-left: -250px;
-  left: 250px;
-  width: 250px;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 1000;
-}
-
-.nav-sidebar { 
-    width: 100%;
-    padding: 8px 0;
-    padding-left: 135px;
-    border-right: 1px solid #ddd;
-    
-}
-
-.nav-sidebar .active a { 
-    cursor: default;
-    background-color: #428bca; 
-    color: #fff; 
-    text-shadow: 1px 1px 1px #666; 
-}
-.nav-sidebar .active a:hover {
-    background-color: #428bca;   
-}
-*/
-
-/*.nav-sidebar a {
-    color: #333;
-    -webkit-transition: all 0.08s linear;
-    -moz-transition: all 0.08s linear;
-    -o-transition: all 0.08s linear;
-    transition: all 0.08s linear;
-    -webkit-border-radius: 4px 0 0 4px; 
-    -moz-border-radius: 4px 0 0 4px; 
-    border-radius: 4px 0 0 4px; 
-}
-*/          
-          
-/*.nav-sidebar .text-overflow a,
-.nav-sidebar .text-overflow .media-body {
-    white-space: nowrap;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis; 
-}
-*/
       </style>
       
   </head>
@@ -99,15 +82,7 @@
 
       <div class="container">
           <div class="row">
-              <div class="col-md-3" id="leftCol">
-                  
-                  <ul class="sidebar-nav-fixed affix" id="sidebar">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Planoversikt</a></li>
-                      <li><a href="#">Bibliotek</a></li>
-                      <li><a href="#">Kantine</a></li>
-                  </ul>
-              </div>    
+              <?php require 'sidebar.php' ?>
       
       <div class="col-md-9" id="mainCol">
           
@@ -119,7 +94,7 @@
           
           <div class="row">
               <div class="col-md-8">
-                  <h3><?php echo $lang['CAMPUS_UNDER_TITLE']; ?></h3>
+                  <h2><a name="tohome"></a><?php echo $lang['CAMPUS_UNDER_TITLE']; ?></h2>
                   <br/>
                   <p><?php echo $lang['CAMPUS_CONTENT']; ?></p>
                   <br/>
@@ -130,21 +105,27 @@
               </div>
           </div>
           
+          <hr class="col-sm-12">
+          
          <div class="row">
              <div class="col-md-4">
              <img src="pic/Fjerdingen_Kantina1.jpg" class="img-responsive img-rounded">
              </div>
+             <br/>
              <div class="col-md-8">
-          <h2><?php echo $lang['CAMPUS_UNDER_TITLE2']; ?></h2>
+          <h2><a name="tokantine"></a><?php echo $lang['CAMPUS_UNDER_TITLE2']; ?></h2>
+                 
       		<p><?php echo $lang['CAMPUS_KANTINA']; ?></p>
           <br/>
           <br/>
             </div>
         </div>
           
+          <hr class="col-sm-12">
+          
           <div class="row">
               <div class="col-md-8">
-                  <h3><?php echo $lang['CAMPUS_UNDER_TITLE3']; ?></h3>
+                <h2><a name="tobiblio"></a><?php echo $lang['CAMPUS_UNDER_TITLE3']; ?></h2>
                   <p><?php echo $lang['CAMPUS_BIBLIO']; ?></p>
               </div>
                 <div class="col-md-4">
@@ -152,15 +133,30 @@
               </div>
           </div>
           
+          <hr class="col-sm-12">
+
+          
+          
           <div class="row">
           <div class="col-md-4">
             <img src="pic/Sjenkestua_1.jpg" class="img-responsive img-rounded">    
           </div>
               <div class="col-md-8">
-              <h2></h2>
-              <p></p>
+              <h2><a name="tostua"></a><?php echo $lang['CAMPUS_UNDER_TITLE4']; ?></h2>
+              <p><?php echo $lang['CAMPUS_SJENKESTUA']; ?></p>
               </div>
+          </div>
           
+          <hr class="col-sm-12">
+          
+          <div class="row">
+          <div class="col-md-8">
+                <h2><a name="toplan"></a><?php echo $lang['CAMPUS_UNDER_TITLE5']; ?></h2>
+              <p><?php echo $lang['CAMPUS_PLAN']; ?></p>
+          </div>
+              <div class="col-md-4">
+                    <img src="pic/Fjerdingen_Plan.jpg" class="img-responsive img-rounded">
+              </div>
           </div>
         </div>
       </div>
