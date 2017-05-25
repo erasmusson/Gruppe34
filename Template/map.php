@@ -644,128 +644,206 @@
                     <!--Container for boxes on map -->
                     <div id="boxContainer">
                         <a href="javascript:switchToggle('acontent');">
-                            <div id="a" class="box category2"> </div>
+                            <div id="a" class="box category2">
+                                <div id="atxt">4Sound: Schous Plass</div>
+                            </div>
                         </a>
                         <a href="javascript:switchToggle('aacontent');">
-                            <div id="aa" class="box category4"> </div>
+                            <div id="aa" class="box category4">
+                                <div id="aatxt">Nedre Lokka</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('abcontent');">
-                            <div id="ab" class="box category4"> </div>
+                            <div id="ab" class="box category4">
+                                <div id="abtxt">Oslo Bonanza</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('accontent');">
-                            <div id="ac" class="box category4"> </div>
+                            <div id="ac" class="box category4">
+                                <div id="actxt">Syng</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('adcontent');">
-                            <div id="ad" class="box category3"> </div>
+                            <div id="ad" class="box category3">
+                                <div id="adtxt">Oslo City</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('aecontent');">
-                            <div id="ae" class="box category5"> </div>
+                            <div id="ae" class="box category5">
+                                <div id="aetxt">SIO Vulkan</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('afcontent');">
-                            <div id="af" class="box category4"> </div>
+                            <div id="af" class="box category4">
+                                <div id="aftxt">Verkstedet</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('agcontent');">
-                            <div id="ag" class="box category4"> </div>
+                            <div id="ag" class="box category4">
+                                <div id="agtxt">Territoriet</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('ahcontent');">
-                            <div id="ah" class="box category2"> </div>
+                            <div id="ah" class="box category2">
+                                <div id="ahtxt">Oslo Spektrum</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('aicontent');">
-                            <div id="ai" class="box category5"> </div>
+                            <div id="ai" class="box category5">
+                                <div id="aitxt">Sats: Spektrum</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('ajcontent');">
-                            <div id="aj" class="box category2"> </div>
+                            <div id="aj" class="box category2">
+                                <div id="ajtxt">Sentrum Scene</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('akcontent');">
-                            <div id="ak" class="box category5"> </div>
+                            <div id="ak" class="box category5">
+                                <div id="aktxt">Sats: Schouss Plass</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('alcontent');">
-                            <div id="al" class="box category5"> </div>
+                            <div id="al" class="box category5">
+                                <div id="altxt">Oslo Kettlebell Gym</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('amcontent');">
-                            <div id="am" class="box category4"> </div>
+                            <div id="am" class="box category4">
+                                <div id="amtxt">Skuret Bar og Scene</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('ancontent');">
-                            <div id="an" class="box category5"> </div>
+                            <div id="an" class="box category5">
+                                <div id="antxt">Stamina Key Bjørkvika</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('aocontent');">
-                            <div id="ao" class="box category5"> </div>
+                            <div id="ao" class="box category5">
+                                <div id="aotxt">Oslo Performance Center</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('apcontent');">
-                            <div id="ap" class="box category5"> </div>
+                            <div id="ap" class="box category5">
+                                <div id="aptxt">Torggata Bad Treningssenter</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('aqcontent');">
-                            <div id="aq" class="box category1"> </div>
+                            <div id="aq" class="box category1">
+                                <div id="aqtxt">Vitus Apoteket Jernbanetorget</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('bcontent');">
-                            <div id="b" class="box category7"> </div>
+                            <div id="b" class="box category7">
+                                <div id="btxt">Campus Brenneriveien</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('ccontent');">
-                            <div id="c" class="box category7"> </div>
+                            <div id="c" class="box category7">
+                                <div id="ctxt">Campus Fjerdingen</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('dcontent');">
-                            <div id="d" class="box category7"> </div>
+                            <div id="d" class="box category7">
+                                <div id="dtxt">Campus Vulkan</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('econtent');">
-                            <div id="e" class="box category5"> </div>
+                            <div id="e" class="box category5">
+                                <div id="etxt">Actic: Storgata</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('fcontent');">
-                            <div id="f" class="box category1"> </div>
+                            <div id="f" class="box category1">
+                                <div id="ftxt">Apoteket: Gunerius</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('gcontent');">
-                            <div id="g" class="box category3"> </div>
+                            <div id="g" class="box category3">
+                                <div id="gtxt">Byporten</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('hcontent');">
-                            <div id="h" class="box category1"> </div>
+                            <div id="h" class="box category1">
+                                <div id="htxt">Ditt apotek: Grunerløkka</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('icontent');">
-                            <div id="i" class="box category5"> </div>
+                            <div id="i" class="box category5">
+                                <div id="itxt">EVO: Grunerløkka</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('jcontent');">
-                            <div id="j" class="box category2"> </div>
+                            <div id="j" class="box category2">
+                                <div id="jtxt">Filter Musikk Sentralbord</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('kcontent');">
-                            <div id="k" class="box category5"> </div>
+                            <div id="k" class="box category5">
+                                <div id="ktxt">Fitness24Seven</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('mcontent');">
-                            <div id="m" class="box category2"> </div>
+                            <div id="m" class="box category2">
+                                <div id="mtxt">GitarHuset</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('ncontent');">
-                            <div id="n" class="box category3"> </div>
+                            <div id="n" class="box category3"> 
+                                <div id="ntxt">GlassMagasinet: StorTorvet</div>
+                            </div>
                         </a>
                         <a href="javascript:switchToggle('ocontent');">
-                            <div id="o" class="box category3"> </div>
+                            <div id="o" class="box category3">
+                                <div id="otxt">Gunerius Shoppingsenter</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('pcontent');">
-                            <div id="p" class="box category5"> </div>
+                            <div id="p" class="box category5">
+                                <div id="ptxt">Haralds Gym</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('qcontent');">
-                            <div id="q" class="box category2"> </div>
+                            <div id="q" class="box category2">
+                                <div id="qtxt">Hoornas Musikk</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('rcontent');">
-                            <div id="r" class="box category2"> </div>
+                            <div id="r" class="box category2">
+                                <div id="rtxt">John Dee</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('scontent');">
-                            <div id="s" class="box category4"> </div>
+                            <div id="s" class="box category4">
+                                <div id="stxt">KJ10</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('tcontent');">
-                            <div id="t" class="box category5"> </div>
+                            <div id="t" class="box category5">
+                                <div id="ttxt">Klatresenter</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('ucontent');">
-                            <div id="u" class="box category1"> </div>
+                            <div id="u" class="box category1">
+                                <div id="utxt">Legevakt Oslo</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('vcontent');">
-                            <div id="v" class="box category3"> </div>
+                            <div id="v" class="box category3">
+                                <div id="vtxt">Mathallen</div>
+                             </div>
                         </a>
                         <a href="javascript:switchToggle('wcontent');">
-                            <div id="w" class="box category5"> </div>
+                            <div id="w" class="box category5">
+                                <div id="wtxt">Mysore Yoga Oslo</div>
+                             </div>
                         </a>
                         <!-- End of box container -->
                     </div>
                     <!-- End of map -->
                 </div>
                 <!-- End of map content -->
-            </div>
+                </div>
             <!-- End row -->
         </div>
         <!-- End container -->

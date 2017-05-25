@@ -3,18 +3,27 @@
     
     // Function that hides all divs with box class except divID.
      var current;
+    var textId;
       function hideClassShowId(divId) {
             if(current == divId){
+                
                 $(".box").toggle();
                 $("#"+divId).toggle();
+                $("#" + textId).toggle();
                 $("#clickReturn").toggle();
-                    
+                
+                
             }
             else{
+                
+                $("#" + textId).hide();
                 $(".box").hide();
                 $("#"+divId).toggle();
+                textId = divId + "txt";
+                $("#" + textId).toggle();
                 $("#clickReturn").toggle();
                 current = divId;
+                
             }
           
     }
