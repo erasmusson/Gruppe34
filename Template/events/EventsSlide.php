@@ -1,5 +1,5 @@
 <!-- Title of events slide-->
-<h1 class=text-center>Highlighted events</h1>
+<h1 class=text-center><?php echo $lang['HOMEPAGE_SECOND_TITLE']; ?></h1>
 
 <!-- Row start -->
 <div class="row">

@@ -106,7 +106,7 @@
 
         <div class="container">
 
-
+            <!-- Campus -->
             <div class="row row-margin">
                 <div class="col-md-7 campusBilde">
                     <img src="pic/CampusBilde.jpg" class="img-responsive img-rounded" alt="Bild av Campus Fjerdingen">
@@ -125,12 +125,18 @@
                 </div>
             </div>
 
+            <!-- Events -->
             <div class="row row-margin">
                 <div class="col-md-12">
                     <?php require 'events/EventsSlide.php' ?>
                 </div>
+                
+                <a href="events.php" class="btn btn-primary" role="button">
+                        <?php echo $lang['HOMEPAGE_THIRD_BUTTON']; ?>
+                </a>
             </div>
 
+            <!-- Map -->
             <div class="row row-margin">
                 <div class="col-md-5 kartTekst">
                     <h1><?php echo $lang['HOMEPAGE_FIRST_TITLE']; ?></h1>
