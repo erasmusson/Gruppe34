@@ -41,53 +41,48 @@
 
     uasort($events,'cmp');
 ?>
+    <!-- End of connection -->
+    <!DOCTYPE html>
+    <html lang="no">
 
-<!-- End of connection -->
-      
-
-<!DOCTYPE html>
-<html lang="no">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Events - subside | Campus Fjerdingen </title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Events | Campus Fjerdingen </title>
         <link rel="icon" href="pic/logo_bw_1_SYy_icon.ico">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet"> </head>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-      
-    <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
-      
-  </head>
-  <body id="events">
-      
-        <!-- Fetches all parts of events -->
-      <div class="container-fluid">
-        <?php require 'navbar.php' ?>
-      </div>
-      
-      <div class="container-fluid">
-          <?php require 'events/slideshow.php' ?>
-      </div>
+    <body id="events">
+        <!-- Navbar -->
+        <div class="container-fluid">
+            <?php require 'navbar.php' ?>
+        </div>
+        <!-- Slideshow -->
+        <div class="container-fluid">
+            <?php require 'events/slideshow.php' ?>
+        </div>
+        
         <!-- Event content-->
         <div class="container event-container">
             <div class="row">
                 <div class="col-md-12" id="updateDiv">
-                    <a href="#" id="image2" onclick="window.location.reload(true);" ><img alt="Uppdateringssymbol" style="height:35px;" src="pic/refresh.png">               </a> <br/>
+                    <a tabindex="11" href="#" id="image2" onclick="window.location.reload(true);"><img alt="Uppdateringssymbol" style="height:35px;" src="pic/refresh.png"> </a>
+                    <br/> 
                 </div>
             </div>
             <?php require 'events/event-content.php' ?>
-            <div class="push"></div>
+                <div class="push"></div>
         </div>
-
         <!-- Fetches footer -->
         <?php require 'footer.php' ?>
-      
-    <!-- jquery og bootstrap script -->  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-  </body>
-</html>
+            <!-- jquery og bootstrap script -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/script.js"></script>
+    </body>
+
+    </html>

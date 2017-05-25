@@ -5,7 +5,7 @@
 
             <!-- Circle with sport -->
             <div class="circleWrapper" id="circleWrapper1">
-                <a target="_blank" href="https://www.visitoslo.com/no/hva-skjer/kalender/sport/">
+                <a tabindex="8" target="_blank" href="https://www.visitoslo.com/no/hva-skjer/kalender/sport/">
                     <div class="circles" id="circle1">
                     </div>
                 </a>
@@ -14,7 +14,7 @@
 
             <!-- Circle with Cinema -->
             <div class="circleWrapper" id="circleWrapper2">
-                <a target="_blank" href="http://www.nfkino.no/oslo/program/">
+                <a tabindex="9" target="_blank" href="http://www.nfkino.no/oslo/program/">
                     <div class="circles" id="circle2">
                     </div>
                 </a>
@@ -22,7 +22,7 @@
             </div>
 
             <!-- Circle with concerts -->
-            <div class="circleWrapper" id="circleWrapper3">
+            <div tabindex="10" class="circleWrapper" id="circleWrapper3">
                 <a target="_blank" href="http://www.ticketmaster.no/city/oslo/40001">
                     <div class="circles" id="circle3">
                     </div>

@@ -45,6 +45,7 @@ $lang['FOOTER_PICTURES'] = 'Bilder som ble brukt.';
 $lang['EVENTS_PIC_TITLE1'] = 'Klikk på bilde for og se<br>konserter i Oslo!';
 $lang['EVENTS_PIC_TITLE2'] = 'Klikk på bilde for og se<br>filmer på kino i Oslo!';
 $lang['EVENTS_PIC_TITLE3'] = 'Klikk på bilde for og se<br>sportarrangement i Oslo!';
+$lang['EVENT_LINK'] = 'Link to tickets';
 
 
 // Campus

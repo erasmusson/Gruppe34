@@ -9,6 +9,7 @@
             <p><?= $event['starts_at'] ?></p>
             <p><?= $event['location'] ?></p>
             <p><?= $event['description'] ?></p>
+            <a href="<?= $event['link'] ?>" target="_blank"><?php echo $lang['EVENT_LINK']; ?></a>
             <br/>
         </div>   
     <?php } }?>

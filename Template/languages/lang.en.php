@@ -47,7 +47,7 @@ $lang['FOOTER_CONTACT_LINK'] = 'Contact';
 $lang['EVENTS_PIC_TITLE1'] = 'Click on image for<br>concerts in Oslo!';
 $lang['EVENTS_PIC_TITLE2'] = 'Click on image for<br>movies in Oslo!';
 $lang['EVENTS_PIC_TITLE3'] = 'Click on image for<br>sport events in Oslo!';
-$lang['EVENTS_PIC_LINK'] = 'Click here!';
+$lang['EVENT_LINK'] = 'Link to tickets';
 
 
 // Campus
