@@ -233,7 +233,8 @@ body {
 
 .category-dropdown
 {
-    margin-left: -50px;
+    padding-left: 5px;
+    right: 0;
 }
 #boxContainer>* {
     display: inline-block;
@@ -251,8 +252,8 @@ body {
     display: none;
 }
 
-#menuBar{
-    text-align: right;
+#menuBar {
+    float: left;
 }
 .searchBox{
     display: inline;
@@ -516,4 +517,14 @@ body {
 }
 #boxContainer>* {
     display: inline-block;
+}
+
+
+
+.dropdown-left {
+    float: left;
+}
+
+#dropdown-right {
+    text-align: right;
 }

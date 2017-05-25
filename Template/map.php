@@ -8,9 +8,9 @@
     <title>Map</title>
     <?php require'connection.php'?>
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <!-- Custom CSS -->
-        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet" type="text/css">
         <!-- JavaScript / Jquery -->
         <script type="text/javascript">
             var currentZoom = 1.0;
@@ -63,15 +63,19 @@
         <!-- Start row -->
         <div class="row">
             <!-- Menubar on top of map -->
-            <div class="col-md-2">
                 <!-- Hamburger Menu -->
+                
+                <div class="col-md-2">
                 <a href="javascript:toggleInfoBar();">
                     <div id="whiteButton"> ☰ </div>
                 </a>
-            </div>
-            <div class="col-md-7"></div>
-            <div class="col-md-3" id="menuBar">
+                </div>
+            <div class="col-md-8 hidden-xs"></div>
                     <!-- Zoom in button -->
+                <div class="col-md-2 hidden-xs hidden-sm" id="dropdown-right">
+                    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
+                    
                     <a id="zoomIn" href="#" onclick="zoomIn()">
                         <button type="button" class="btn"> + </button>
                     </a>
@@ -79,9 +83,6 @@
                     <a id="zoomNormal" href="#" onclick="zoomReset()">
                         <button type="button" class="btn"> - </button>
                     </a>
-                    <!-- Category button -->
-                    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
                     <ul class="dropdown-menu category-dropdown">
                         <li>
                             <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
@@ -120,13 +121,14 @@
                             </label>
                         </li>
                     </ul>
-                    </div>
+                    <!-- Category button -->
+                    
+                </div>
                 <!-- End of category button -->
             </div>
             <!-- End of menubar on top of map -->
         </div>
         <!-- End of container-->
-    </div>
     <!--Start container -->
     <div class="container-fluid">
         <!-- Start row -->
