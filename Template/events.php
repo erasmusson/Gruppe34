@@ -46,12 +46,13 @@
       
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Events</title>
+    <title>Events - subside | Campus Fjerdingen </title>
+        <link rel="icon" href="pic/logo_bw_1_SYy_icon.ico">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -74,7 +75,7 @@
         <div class="container event-container">
             <div class="row">
                 <div class="col-md-12" id="updateDiv">
-                    <a href="#" id="image2" onclick="window.location.reload(true);" ><img style="height:35px;" src="pic/refresh.png">               </a> <br/>
+                    <a href="#" id="image2" onclick="window.location.reload(true);" ><img alt="Uppdateringssymbol" style="height:35px;" src="pic/refresh.png">               </a> <br/>
                 </div>
             </div>
             <?php require 'events/event-content.php' ?>

@@ -81,8 +81,8 @@ $lang['CATEGORY_HEALTH'] = 'Health';
 $lang['CATEGORY_PARTY'] = 'Party';
 $lang['CATEGORY_WORKOUT'] = 'Excersice';
 $lang['CATEGORY_CAMPUS'] = 'Campus';
-
-// Måste översättas till Norsk med. 
+$lang['SEARCH_NUMBERRESULTS'] = 'results are found.';
+$lang['SEARCH_SEARCHHERE'] = 'Search here..';
 $lang['MAP_TITLE'] = 'Map';
 $lang['MENU_CENTER_MAP'] = 'Center map';
 $lang['SEARCH_SHOWONMAPCLICK'] = 'The icon is now displayed on the map.';
@@ -92,3 +92,12 @@ $lang['SEARCH_SHOWONMAPCLICK'] = 'The icon is now displayed on the map.';
 
 $lang['PHOTOCRED_TITLE'] = 'Image credits';
 $lang['PHOTOCRED_WESTERDALS'] = 'All images on Campus Fjerdingen belongs to Westerdals Oslo ACT';
+
+//Contact
+$lang['CONTACT_TITLE'] = 'Contact us!';
+$lang['CONTACT_NAME'] = 'Name';
+$lang['CONTACT_NAME_TXT'] = 'Surname and lastname';
+$lang['CONTACT_EMAIL'] = 'Email adress';
+$lang['CONTACT_EMAIL_TXT'] = 'Example@domain.com';
+$lang['CONTACT_MSG'] = 'Message';
+$lang['CONTACT_SEND'] = 'Send';

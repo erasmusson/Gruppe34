@@ -4,7 +4,7 @@
     <?php foreach ($events as $event) {
         if($event['starts_at']->isFuture()) { ?>
         <div class="col-md-3 eventcard">
-            <img src="<?= $event['image_path'] ?>" class="image-responsive"  style="height: 150px;">
+            <img alt="Ikon for evenemang" src="<?= $event['image_path'] ?>" class="image-responsive"  style="height: 150px;">
             <h4><?= $event['title'] ?></h4>
             <p><?= $event['starts_at'] ?></p>
             <p><?= $event['location'] ?></p>

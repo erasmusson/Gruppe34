@@ -42,7 +42,7 @@
      
     <br>
 <br>
-        <?php echo $query->num_rows; ?> resultater funnet. 
+        <?php echo $query->num_rows; ?> <?php echo $lang['SEARCH_NUMBERRESULTS']; ?>
         <h4 id="clickReturn"><?php echo $lang['SEARCH_SHOWONMAPCLICK']; ?></h4>
         <hr>
 

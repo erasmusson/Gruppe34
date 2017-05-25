@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Map</title>
+    <title>Kart - subside | Campus Fjerdingen </title>
+        <link rel="icon" href="pic/logo_bw_1_SYy_icon.ico">
     <?php require'connection.php'?>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -15,12 +16,14 @@
         <script type="text/javascript">
             var currentZoom = 1.0;
             var forrige = '';
+            
             // Zooms in on map
             function zoomIn() {
                 $('#map').animate({
                     'zoom': currentZoom + .5
                 });
             }
+            
             // Reset zoom 
             function zoomReset() {
                 var currentZoom = 1.0;
@@ -28,6 +31,7 @@
                     'zoom': currentZoom
                 });
             }
+            
             // Shows or hides div when click on link where implemented.  
             function switchToggle(divId) {
                 $("#" + forrige).toggle();
@@ -35,10 +39,12 @@
                 $("#infoBar").show();
                 forrige = divId;
             }
+            
             // Shows infobar when press on meny
             function toggleInfoBar() {
                 $("#infoBar").toggle();
             }
+            
             // Shows and hides pins from category       
             function valueChanged() {
                 for (var i = 0; i < 7; i++) {
@@ -47,6 +53,7 @@
                 }
             }
 
+            // Scrolls right when click on button.
             function scrollRight() {
                 $('#mapContent').scrollLeft('600');
             }
@@ -58,77 +65,83 @@
     <div class="container-fluid">
         <?php require 'navbar.php' ?>
     </div>
+    
     <!-- Map content-->
     <div class="container-fluid">
+        
         <!-- Start row -->
         <div class="row">
+            
             <!-- Menubar on top of map -->
-                <!-- Hamburger Menu -->
-                
-                <div class="col-md-2">
+            <!-- Hamburger Menu -->
+
+            <div class="col-md-2">
                 <a href="javascript:toggleInfoBar();">
                     <div id="whiteButton"> ☰ </div>
                 </a>
-                </div>
-            <div class="col-md-8 hidden-xs"></div>
-                    <!-- Zoom in button -->
-                <div class="col-md-2 hidden-xs hidden-sm" id="dropdown-right">
-                    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
-                    
-                    <a id="zoomIn" href="#" onclick="zoomIn()">
-                        <button type="button" class="btn"> + </button>
-                    </a>
-                    <!-- Reset zoom button -->
-                    <a id="zoomNormal" href="#" onclick="zoomReset()">
-                        <button type="button" class="btn"> - </button>
-                    </a>
-                    <ul class="dropdown-menu category-dropdown">
-                        <li>
-                            <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
-                            <label for="chk">
-                                <?php echo $lang['CATEGORY_HEALTH']; ?>
-                            </label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
-                            <label for="chk2">
-                                <?php echo $lang['CATEGORY_MUSIC']; ?>
-                            </label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
-                            <label for="chk3">
-                                <?php echo $lang['CATEGORY_SHOPPING']; ?>
-                            </label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
-                            <label for="chk4">
-                                <?php echo $lang['CATEGORY_PARTY']; ?>
-                            </label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
-                            <label for="chk5">
-                                <?php echo $lang['CATEGORY_WORKOUT']; ?>
-                            </label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="Kategori7" id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
-                            <label for="chk7">
-                                <?php echo $lang['CATEGORY_CAMPUS']; ?>
-                            </label>
-                        </li>
-                    </ul>
-                    <!-- Category button -->
-                    
-                </div>
-                <!-- End of category button -->
             </div>
-            <!-- End of menubar on top of map -->
+            <div class="col-md-8 hidden-xs"></div>
+            
+            <!-- Zoom in button -->
+            <div class="col-md-2 hidden-xs hidden-sm" id="dropdown-right">
+                <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
+
+                <a id="zoomIn" href="#" onclick="zoomIn()">
+                    <button type="button" class="btn"> + </button>
+                </a>
+                
+                <!-- Reset zoom button -->
+                <a id="zoomNormal" href="#" onclick="zoomReset()">
+                    <button type="button" class="btn"> - </button>
+                </a>
+                <ul class="dropdown-menu category-dropdown">
+                    <li>
+                        <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
+                        <label for="chk">
+                            <?php echo $lang['CATEGORY_HEALTH']; ?>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Kategori2" id="chk2" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
+                        <label for="chk2">
+                            <?php echo $lang['CATEGORY_MUSIC']; ?>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Kategori3" id="chk3" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
+                        <label for="chk3">
+                            <?php echo $lang['CATEGORY_SHOPPING']; ?>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Kategori4" id="chk4" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
+                        <label for="chk4">
+                            <?php echo $lang['CATEGORY_PARTY']; ?>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Kategori5" id="chk5" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
+                        <label for="chk5">
+                            <?php echo $lang['CATEGORY_WORKOUT']; ?>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Kategori7" id="chk7" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
+                        <label for="chk7">
+                            <?php echo $lang['CATEGORY_CAMPUS']; ?>
+                        </label>
+                    </li>
+                </ul>
+                <!-- Category button -->
+
+            </div>
+            <!-- End of category button -->
         </div>
-        <!-- End of container-->
+        <!-- End of menubar on top of map -->
+    </div>
+    <!-- End of container-->
+    
     <!--Start container -->
     <div class="container-fluid">
         <!-- Start row -->
@@ -139,13 +152,16 @@
                 <br />
                 <form class="searchBox" method="get">
                     <label>
-                        <input type="text" name="keywords" class="form-control" autocomplete="off" placeholder="Søk her"> </label>
+                        <input type="text" name="keywords" class="form-control" autocomplete="off" placeholder="<?php echo $lang['SEARCH_SEARCHHERE']; ?>"> </label>
                     <br>
                     <input type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default"> </form>
-                <form class="searchBox"  method="get">
+                <form class="searchBox" method="get">
                     <input type="submit" name="reset" value="<?php echo $lang['MENU_RESET']; ?>" class="btn btn-default"> </form>
-                <button id="scrollRight" onclick="scrollRight()" class="btn btn-default"> <?php echo $lang['MENU_CENTER_MAP']; ?></button>
+                <button id="scrollRight" onclick="scrollRight()" class="btn btn-default">
+                    <?php echo $lang['MENU_CENTER_MAP']; ?>
+                </button>
                 <br/>
+                
                 <!-- Content Wrapper / Div with information about boxes. -->
                 <div id="contentWrapper"> <span class="allcontent" id="acontent"> 
                        
