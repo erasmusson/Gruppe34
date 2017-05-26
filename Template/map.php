@@ -38,6 +38,7 @@
                 $("#" + divId).toggle();
                 $("#infoBar").show();
                 forrige = divId;
+                
             }
 
             // Shows infobar when press on meny
@@ -57,22 +58,26 @@
             function scrollRight() {
                 $('#mapContent').scrollLeft('600');
             }
-            
+            /*
             var thiswillneverwork;
             
             function hoverthingy(whichDiv){
+                if(script.oddeven != 2){
                 if(thiswillneverwork != whichDiv){
                     $("#" + thiswillneverwork).hide();
                 }
                 thiswillneverwork = whichDiv;
                 
                    $("#" + thiswillneverwork).show();
-                 
+                }
             }
             
             function hoverend(){
+                if(script.oddeven != 2){
                 $("#" + thiswillneverwork).hide();
+                }
             }
+            */
         </script>
 </head>
 

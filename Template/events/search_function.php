@@ -1,27 +1,5 @@
-<script type="text/javascript">
-    // Function that hides all divs with box class except divID.
-    var current;
-    var textId;
 
-    function hideClassShowId(divId) {
-        if (current == divId) {
-            $(".box").toggle();
-            $("#" + divId).toggle();
-            $("#" + textId).toggle();
-            $("#clickReturn").toggle();
-        }
-        else {
-            $("#" + textId).hide();
-            $(".box").hide();
-            $("#" + divId).toggle();
-            textId = divId + "txt";
-            $("#" + textId).toggle();
-            $("#clickReturn").toggle();
-            current = divId;
-        }
-    }
-</script>
-
+<script src="js/script.js"></script>
 <!-- Search function -->
 <?php 
         $db = new mysqli('localhost', 'root', 'root', 'campusfjerdingen', 8889);
