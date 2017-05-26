@@ -104,8 +104,8 @@ $lang['MENU_SUBMIT'] = 'Søk';
 $lang['MAP_TITLE'] = 'Kart';
 $lang['MENU_CENTER_MAP'] = 'Sentrer Kart';
 $lang['SEARCH_SHOWONMAPCLICK'] = 'Ikonet vises nå på kartet!';
-$lang['SEARCH_NUMBERRESULTS'] = 'results are found.';
-$lang['SEARCH_SEARCHHERE'] = 'Search here.';
+$lang['SEARCH_NUMBERRESULTS'] = 'Resultater Funnet';
+$lang['SEARCH_SEARCHHERE'] = 'Søk Her!';
 
 
 // Photocred
@@ -114,11 +114,11 @@ $lang['PHOTOCRED_TITLE'] = 'Eierskap av bilder';
 $lang['PHOTOCRED_WESTERDALS'] = 'Alle bilder av Campus Fjerdingen tillhører Westerdals Oslo ACT';
 
 //Contact
-$lang['CONTACT_TITLE'] = 'Contact us!';
-$lang['CONTACT_NAME'] = 'Name';
-$lang['CONTACT_NAME_TXT'] = 'Surname and lastname';
-$lang['CONTACT_EMAIL'] = 'Email adress';
-$lang['CONTACT_EMAIL_TXT'] = 'Example@domain.com';
-$lang['CONTACT_MSG'] = 'Message';
+$lang['CONTACT_TITLE'] = 'Kontakt Oss!';
+$lang['CONTACT_NAME'] = 'Navn';
+$lang['CONTACT_NAME_TXT'] = 'EtterNavn';
+$lang['CONTACT_EMAIL'] = 'E-post Adresse';
+$lang['CONTACT_EMAIL_TXT'] = 'Eksempel@Domene.No';
+$lang['CONTACT_MSG'] = 'Melding';
 $lang['CONTACT_SEND'] = 'Send';
 ?>
