@@ -1,7 +1,7 @@
 
 
 
-<div class="nav-wrapper">
+<div class="sidebar-wrapper">
     <div class="col-md-3" id="leftCol">
         <div id="navi" class="clearfix">  
         <nav class="nav-sidebar sidebar-fixed-left">
@@ -16,8 +16,6 @@
             </div> 
         </div>
     </div>
-
-
 
 
 <script src="http//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
