@@ -42,6 +42,7 @@ $lang['FOOTER_ADRESS'] = 'Adress';
 $lang['FOOTER_CONTACT_TITLE'] = 'Contact us';
 $lang['FOOTER_CONTACT_CONTENT'] = "If you have any questions, don't hesitate to contact us. Click on the link below.";
 $lang['FOOTER_CONTACT_LINK'] = 'Contact';
+$lang['FOOTER_PICTURES'] = 'Picture Sources';
 
 // Events
 $lang['EVENTS_PIC_TITLE1'] = 'Click on image for<br>concerts in Oslo!';

@@ -14,7 +14,7 @@ $lang['MENU_MAP'] = 'Kart';
 $lang['MENU_EVENTS'] = 'Eventer';
 $lang['MENU_CAMPUS'] = 'Campus';
 $lang['MENU_CONTACT'] = 'Kontakt';
-$lang['MENU_LANGUAGE'] = 'Langugage';
+$lang['MENU_LANGUAGE'] = 'Language';
 $lang['MENU_RESET'] = 'Tilbakestill';
 
 // Homepage
