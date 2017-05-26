@@ -35,10 +35,9 @@
         <!-- Custom CSS -->
         <link href="css/custom.css" rel="stylesheet" type="text/css">
     </head>
-
-        
     <body id="home">
 
+        <!-- HEADER BILDE -->
         <header class="masthead">
             <div class="container-fluid">
                 <div class="row">
@@ -46,7 +45,8 @@
                 </div>
             </div>
         </header>
-
+        
+        <!-- eksklusiv navigation bar til index.php -->
         <div class="nav-wrapper">
             <div class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="container-fluid">
@@ -104,6 +104,8 @@
             </div>
         </div>
 
+        
+        <!-- starten av innholdet i index.php -->
         <div class="container">
 
             <!-- Campus -->
@@ -153,8 +155,6 @@
                     <img src="pic/mapindex.png" class="img-responsive img-rounded img-shadow" alt="Kart over nærområdet">
                 </div>
             </div>
-
-
             <div class="push"></div>
         </div>
         <?php require 'footer.php' ?>
