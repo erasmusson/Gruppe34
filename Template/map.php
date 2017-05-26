@@ -70,14 +70,14 @@
     <div class="container-fluid">
 
         <!-- Start row -->
-        <div class="row">
+        <div class="row" style="padding-top: 5px;">
 
             <!-- Menubar on top of map -->
             <!-- Hamburger Menu -->
 
             <div class="col-md-2">
                 <a tabindex="8" href="javascript:toggleInfoBar();">
-                    <div id="whiteButton"> ☰ </div>
+                    <div id="whiteButton"> <span class="glyphicon glyphicon-menu-hamburger"></span> </div>
                 </a>
             </div>
             <div class="col-md-8 hidden-xs"></div>
@@ -85,22 +85,23 @@
 
             <!-- Zoom in button -->
             <div class="col-md-2 hidden-xs hidden-sm" id="dropdown-right">
-                <button tabindex="9" class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
+                
 
-                <a id="zoomIn" tabindex="10" href="#" onclick="zoomIn()">
-                    <button type="button" class="btn"> + </button>
+                <a id="zoomIn" tabindex="9" href="#" onclick="zoomIn()">
+                    <button type="button" class="btn"> <span class="glyphicon glyphicon-plus"></span> </button>
                 </a>
             <!-- End of Zoom in button -->
 
                 <!-- Reset zoom button -->
-                <a id="zoomNormal" tabindex="11" href="#" onclick="zoomReset()">
-                    <button type="button" class="btn"> - </button>
+                <a id="zoomNormal" tabindex="10" href="#" onclick="zoomReset()">
+                    <button type="button" class="btn"> <span class="glyphicon glyphicon-minus"></span> </button>
                 </a>
                 
             <!-- End of Reset zoom button -->
                 
                 <!-- Category button -->
+                <button tabindex="11" class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <?php echo $lang['CATEGORY']; ?> <span class="caret"></span></button>
                 <ul class="dropdown-menu category-dropdown">
                     <li>
                         <input type="checkbox" name="Kategori1" id="chk1" onclick="showHide()" checked="checked" value="1" onchange="valueChanged()" />
