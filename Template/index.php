@@ -51,7 +51,7 @@
             <div class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <!-- navbaren blir collapsable når skjermen 
+                        <!-- navbaren blir collapsable når skjermen  -->
                         <a class="navbar-brand navbar-brand-centered hidden-xs" href="index.php"><img src="pic/Logo_BW_1.png" alt="Campus Fjerdingen Logotyp" class="img-circle logo"></a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>

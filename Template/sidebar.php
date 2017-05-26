@@ -17,10 +17,6 @@
         </div>
     </div>
 
-
-<script src="http//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
-<script src="jquery.localscroll.js" type="text/javascript"></script>
-<script src="jquery.scrollTo.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function() {
             $('#tohome').localScroll({duration:800});
@@ -38,8 +34,3 @@ $(document).ready(function() {
             $('#toplan').localScroll({duration:800});
 }); 
 </script>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
