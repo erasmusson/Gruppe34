@@ -21,10 +21,10 @@
                 <h3><?php echo $lang['FOOTER_NAVIGATION']; ?></h3>
                 <ul>
                     <li><a href="index.php"><?php echo $lang['FOOTER_NAVIGATION_HOME']; ?></a></li>
-                    <li><a href="kart.php"><?php echo $lang['FOOTER_NAVIGATION_MAP']; ?></a></li>
+                    <li><a href="map.php"><?php echo $lang['FOOTER_NAVIGATION_MAP']; ?></a></li>
                     <li><a href="events.php"><?php echo $lang['FOOTER_NAVIGATION_EVENTS']; ?></a></li>
                     <li><a href="campus-main.php"><?php echo $lang['FOOTER_NAVIGATION_CAMPUS']; ?></a></li>
-                    <li><a href="#"><?php echo $lang['FOOTER_NAVIGATION_SUPPORT']; ?></a></li>    
+                    <li><a href="contact.php"><?php echo $lang['FOOTER_NAVIGATION_SUPPORT']; ?></a></li>    
                 </ul>
             </div>
             <div class="col-md-4">
