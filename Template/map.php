@@ -83,10 +83,10 @@
             <div class="col-md-8 hidden-xs"></div>
             <!-- End hamburger Menu -->
 
-            <!-- Zoom in button -->
+            <!-- dropdown menu wrapper -->
             <div class="col-md-2 hidden-xs hidden-sm" id="dropdown-right">
                 
-
+                <!-- Zoom in button -->
                 <a id="zoomIn" tabindex="9" href="#" onclick="zoomIn()">
                     <button type="button" class="btn"> <span class="glyphicon glyphicon-plus"></span> </button>
                 </a>
@@ -94,7 +94,7 @@
 
                 <!-- Reset zoom button -->
                 <a id="zoomNormal" tabindex="10" href="#" onclick="zoomReset()">
-                    <button type="button" class="btn"> <span class="glyphicon glyphicon-minus"></span> </button>
+                    <button  type="button" class="btn"> <span class="glyphicon glyphicon-minus"></span></button>
                 </a>
                 
             <!-- End of Reset zoom button -->

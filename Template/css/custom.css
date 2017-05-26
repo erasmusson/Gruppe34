@@ -526,5 +526,15 @@ body {
     text-align: right;
 }
 
+
 /*End map*/
 
+
+
+#zoomIn {
+    display: inline-block;
+}
+
+#zoomNormal {
+    display: inline-block;
+}
