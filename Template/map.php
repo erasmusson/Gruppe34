@@ -60,7 +60,7 @@
         </script>
 </head>
 
-<body>
+<body id="kart">
     <!-- Fetches navigation -->
     <div class="container-fluid">
         <?php require 'navbar.php' ?>
@@ -729,7 +729,7 @@
                     <div id="boxContainer">
                         <a href="javascript:switchToggle('acontent');">
                             <div id="a" class="box category2">
-                                <div id="atxt">4Sound: Schous Plass</div>
+                                <div id="atxt" class="karttxt">4Sound: Schous Plass</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('aacontent');">
