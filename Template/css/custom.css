@@ -350,8 +350,8 @@ body {
 }
 
 #atxt, #aatxt, #abtxt, #actxt, #adtxt, #aetxt, #aftxt, #agtxt, #ahtxt, #aitxt, #ajtxt, #aktxt, #altxt, #amtxt, #antxt, #aotxt, #aptxt, #aqtxt, #btxt, #ctxt, #dtxt, #etxt, #ftxt, #gtxt, #htxt, #itxt, #jtxt, #ktxt, #ltxt, #mtxt, #ntxt, #otxt, #ptxt, #qtxt, #rtxt, #stxt, #ttxt, #utxt, #vtxt, #wtxt{
-    top: -55px;
-    left: -100px;
+    top: -60px;
+    left: -90px;
     width: 200px;
     height: auto;
     position: absolute;
@@ -548,4 +548,5 @@ body {
     margin-bottom: 20px;
     border-radius: 25px;
     padding: 5px;
+    z-index: 9999;
 }
