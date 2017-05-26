@@ -7,7 +7,12 @@ $(document).ready(function () {
     "use strict";
     
     var $body   = $(document.body),
-        navHeight = $('.navbar').outerHeight(true) + 10;
+        navHeight = $('.navbar').outerHeight(true) + 10,
+        array = ['Home', 'Hjem'],
+        array1 = ['Kart', 'Map'],
+        array2 = ['Events', 'Eventer'],
+        array3 = ['Campus', 'Campus'],
+        array4 = ['Contact', 'Kontakt'];
     
     $('#sidebar').affix({
         offset: {
@@ -23,11 +28,7 @@ $(document).ready(function () {
         }
     });
     
-    var array = ['Home', 'Hjem'],
-        array1 = ['Kart', 'Map'],
-        array2 = ['Events', 'Eventer'],
-        array3 = ['Campus', 'Campus'],
-        array4 = ['Contact', 'Kontakt'];
+    
     
     
     $(array).each(function () {
