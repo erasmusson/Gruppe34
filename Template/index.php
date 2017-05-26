@@ -61,22 +61,22 @@
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="index.php">
+                                <a tabindex="1" href="index.php">
                                     <?php echo $lang['MENU_HOME']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="map.php">
+                                <a tabindex="2" href="map.php">
                                     <?php echo $lang['MENU_MAP']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="events.php">
+                                <a tabindex="3" href="events.php">
                                     <?php echo $lang['MENU_EVENTS']; ?>
                                 </a>
                             </li>
                             <li>
-                                <a href="campus-main.php">
+                                <a tabindex="4" href="campus-main.php">
                                     <?php echo $lang['MENU_CAMPUS']; ?>
                                 </a>
                             </li>
@@ -85,17 +85,17 @@
                         <ul class="nav navbar-nav navbar-right">
 
                             <li>
-                                <a href="contact.php">
+                                <a tabindex="5" href="contact.php">
                                     <?php echo $lang['MENU_CONTACT']; ?>
                                 </a>
                             </li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <a tabindex="6" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                     <?php echo $lang['MENU_LANGUAGE']; ?>
                                         <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="?lang=no">Norsk</a></li>
-                                    <li><a href="?lang=en">English</a></li>
+                                    <li><a tabindex="6" href="?lang=no">Norsk</a></li>
+                                    <li><a tabindex="7" href="?lang=en">English</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -119,7 +119,7 @@
                     </p>
 
 
-                    <a href="campus-main.php" class="btn btn-primary" role="button">
+                    <a tabindex="8" href="campus-main.php" class="btn btn-primary" role="button">
                         <?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?>
                     </a>
                 </div>
@@ -131,7 +131,7 @@
                     <?php require 'events/EventsSlide.php' ?>
                 </div>
                 
-                <a href="events.php" class="btn btn-primary" role="button">
+                <a tabindex="9" href="events.php" class="btn btn-primary" role="button">
                         <?php echo $lang['HOMEPAGE_THIRD_BUTTON']; ?>
                 </a>
             </div>
@@ -144,7 +144,7 @@
                         <?php echo $lang['HOMEPAGE_FIRST_SECTION']; ?>
                     </p>
 
-                    <a href="map.php" class="btn btn-primary" role="button">
+                    <a tabindex="10" href="map.php" class="btn btn-primary" role="button">
                         <?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?>
                     </a>
                 </div>
