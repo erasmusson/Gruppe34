@@ -1,7 +1,7 @@
 
 
 
-<div class="sidebar-wrapper">
+<div class="sidebar-wrapper hidden-xs hidden-sm">
     <div class="col-md-3" id="leftCol">
         <div id="navi" class="clearfix">  
         <nav class="nav-sidebar sidebar-fixed-left">

@@ -51,6 +51,7 @@
             <div class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <!-- navbaren blir collapsable når skjermen 
                         <a class="navbar-brand navbar-brand-centered hidden-xs" href="index.php"><img src="pic/Logo_BW_1.png" alt="Campus Fjerdingen Logotyp" class="img-circle logo"></a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
@@ -133,7 +134,7 @@
                     <?php require 'events/EventsSlide.php' ?>
                 </div>
                 
-                <a tabindex="9" href="events.php" class="btn btn-primary" role="button">
+                <a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
                         <?php echo $lang['HOMEPAGE_THIRD_BUTTON']; ?>
                 </a>
             </div>
@@ -155,6 +156,8 @@
                     <img src="pic/mapindex.png" class="img-responsive img-rounded img-shadow" alt="Kart over nærområdet">
                 </div>
             </div>
+            
+            <!-- pusher ned footeren sånn den blir sticky --> 
             <div class="push"></div>
         </div>
         <?php require 'footer.php' ?>

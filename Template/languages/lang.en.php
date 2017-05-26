@@ -97,6 +97,7 @@ $lang['PHOTOCRED_WESTERDALS'] = 'All images on Campus Fjerdingen belongs to West
 
 //Contact
 $lang['CONTACT_TITLE'] = 'Contact us!';
+$lang['CONTACT_TITLE_TEXT'] = 'Contact us here, or by e-mail: dunnat16@student.westerdals.no'
 $lang['CONTACT_NAME'] = 'Name';
 $lang['CONTACT_NAME_TXT'] = 'Surname and lastname';
 $lang['CONTACT_EMAIL'] = 'Email adress';

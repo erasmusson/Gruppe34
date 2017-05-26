@@ -61,11 +61,6 @@
   #sidebar.affix-bottom {
     position: relative;
   }
-
-  #sidebar.affix {
-    position: fixed;
-    width:228px;
-  }
 }
 
 #mainCol h2 {

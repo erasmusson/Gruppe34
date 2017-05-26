@@ -45,7 +45,7 @@ $lang['FOOTER_PICTURES'] = 'Bilder som ble brukt.';
 $lang['EVENTS_PIC_TITLE1'] = 'Klikk på bilde for og se<br>konserter i Oslo!';
 $lang['EVENTS_PIC_TITLE2'] = 'Klikk på bilde for og se<br>filmer på kino i Oslo!';
 $lang['EVENTS_PIC_TITLE3'] = 'Klikk på bilde for og se<br>sportarrangement i Oslo!';
-$lang['EVENT_LINK'] = 'Link to tickets';
+$lang['EVENT_LINK'] = 'Link til biletter';
 
 
 // Campus
@@ -115,10 +115,11 @@ $lang['PHOTOCRED_WESTERDALS'] = 'Alle bilder av Campus Fjerdingen tillhører Wes
 
 //Contact
 $lang['CONTACT_TITLE'] = 'Kontakt Oss!';
+$lang['CONTACT_TITLE_TEXT'] = 'Kontakt oss her, eller via mail: dunnat16@student.westerdals.no';
 $lang['CONTACT_NAME'] = 'Navn';
-$lang['CONTACT_NAME_TXT'] = 'EtterNavn';
+$lang['CONTACT_NAME_TXT'] = 'Etternavn';
 $lang['CONTACT_EMAIL'] = 'E-post Adresse';
-$lang['CONTACT_EMAIL_TXT'] = 'Eksempel@Domene.No';
+$lang['CONTACT_EMAIL_TXT'] = 'Eksempel@domene.no';
 $lang['CONTACT_MSG'] = 'Melding';
 $lang['CONTACT_SEND'] = 'Send';
 ?>

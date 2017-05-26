@@ -20,10 +20,12 @@
                 
                 <!-- Title -->
                 <div class="col-md-12">
-                    <h1><?php echo $lang['CONTACT_TITLE']; ?></h1></div>
+                    <h1><?php echo $lang['CONTACT_TITLE']; ?></h1>
+                    <p><?php echo $lang['CONTACT_TITLE_TEXT']; ?></p>
+                </div>
                 
                 <!-- First name and surname -->
-                <form class="form-horizontal" role="form" method="post" action="mailto:dunnat16@student.westerdals.no">
+                <form class="form-horizontal hidden-xs hidden-sm" role="form" method="post" action="mailto:dunnat16@student.westerdals.no">
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">
                             <?php echo $lang['CONTACT_NAME']; ?>
