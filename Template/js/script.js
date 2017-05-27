@@ -66,14 +66,16 @@ var thiswillneverwork;
         if (current == divId) {
             if(oddeven == 2){
                 oddeven = 1;
+                $("#clickReturn").hide();
             }
             else if(oddeven == 1){
                 oddeven = 2;
+                $("#clickReturn").show();
             }
             $(".box").toggle();
             $("#" + divId).toggle();
             $("#" + textId).toggle();
-            $("#clickReturn").toggle();
+            
         }
         else {
             oddeven = 2;
@@ -82,7 +84,7 @@ var thiswillneverwork;
             $("#" + divId).toggle();
             textId = divId + "txt";
             $("#" + textId).toggle();
-            $("#clickReturn").toggle();
+            $("#clickReturn").show();
             current = divId;
         }
     }
