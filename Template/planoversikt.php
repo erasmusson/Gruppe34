@@ -105,66 +105,66 @@
                   <div class="plan">
                   <?php echo $lang['PLAN_TITLE1']; ?>
                   </div>
-                  </br>
+                  <br>
                   <img src="pic/Plan1.png"  class="img-responsive img-rounded">
               </div>
           <a name="toplan2"></a>
           </div>
-          </br>
-          </br>
+          <br>
+          <br>
           
           <hr class="col-sm-12">
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <div class="row">
             <div class="col-md-7">
                 <div class="plan">
                 <?php echo $lang['PLAN_TITLE2']; ?>
                 </div>
-                </br>
+                <br>
                 <img src="pic/Plan2.png" class="img-responsive img rounded">
               </div>
             <a name="toplan3"></a>
           </div>
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <hr class="col-sm-12">
           
-          </br>
-          </br>
+          <br>
+          <br>
           
         <div class="row">
             <div class="col-md-7">
                 <div class="plan">
                 <?php echo $lang['PLAN_TITLE3']; ?>
                 </div>
-                </br>
+                <br>
                 <img src="pic/Plan3.png" class="img-responsive img rounded">
               </div>
             <a name="toplan4"></a>
           </div>
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <hr class="col-sm-12">
           
-          </br>
-          </br>
+          <br>
+          <br>
 
         <div class="row">
             <div class="col-md-9">
                 <div class="plan">
-                </br>
+                <br>
                 <?php echo $lang['PLAN_TITLE4']; ?>
                 </div>
-                </br>
+                <br>
             </div>
-            </br>
+            <br>
             <a name="toplan5"></a>
         </div>
 
@@ -172,79 +172,84 @@
           
         <div class="row">
             <div class="col-md-7">
-                </br>
+                <br>
                 <div class="plan">
                 <?php echo $lang['PLAN_TITLE5']; ?>
                 </div>
-                </br>
+                <br>
                 <img src="pic/Plan5.png" class="img-responsive img rounded">
               </div>
             <a name="toplan6"></a>
           </div>
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <hr class="col-sm-12">
           
-          </br>
-          </br>
+          <br>
+          <br>
           
         <div class="row">
             <div class="col-md-7">
                 <div class="plan">
                 <?php echo $lang['PLAN_TITLE6']; ?>
                 </div>
-                </br>
+                <br>
                 <img src="pic/Plan6.png" class="img-responsive img rounded">
               </div>
             <a name="toplanu1"></a>
           </div>
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <hr class="col-sm-12">
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <div class="row">
             <div class="col-md-7">
                 <div class="plan">
                 <?php echo $lang['PLAN_TITLEU1']; ?>
                 </div>
-                </br>
+                <br>
                 <img src="pic/PlanU1.png" class="img-responsive img rounded">
               </div>
             <a name="toplanu2"></a>
           </div>
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <hr class="col-sm-12">
           
-          </br>
-          </br>
+          <br>
+          <br>
           
           <div class="row">
             <div class="col-md-7">
                 <div class="plan">
                <?php echo $lang['PLAN_TITLEU2']; ?>
                 </div>
-                </br>
+                <br>
                 <img src="pic/PlanU2.png" class="img-responsive img rounded">
               </div>
           </div>
           
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
 
+          <div class="col-md-12">
+                   <a href="campus-main.php" class="btn btn-primary" role="button" style="">
+                        <?php echo $lang['CAMPUS_CONTENT_BACK']; ?>
+                </a></div>
         </div>
+              
       </div>
           <div class="push"></div>
       </div>

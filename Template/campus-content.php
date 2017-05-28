@@ -27,11 +27,7 @@
     <?php require 'navbar.php' ?>
     
       <div class="container">
-      <div class="col-md-12" id="mainCol">
           <br>
-          
-          <br/>
-          <br/>
           
           <div class="row">
               <div class="col-md-8">
@@ -39,16 +35,23 @@
                   <br/>
                   <p><?php echo $lang['FJERDINGEN_CONTENT']; ?></p>
                   <br/>
-                <hr class="col-md-12">
-                  <div class="open">
-              <?php echo $lang['FJERDINGEN_OPEN']; ?>
-                </div>
-              </div>
+                
+          </div> 
               <div class="col-md-4">
+                  <br>
+                  <br>
+                  <br>
                   <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
               </div>
-
-          </div>                              
+                <div class="col-md-12 open">
+              <?php echo $lang['FJERDINGEN_OPEN']; ?>
+              </div>
+               <div class="col-md-12">
+                   <br>
+                   <a href="campus-main.php" class="btn btn-primary" role="button" style="">
+                        <?php echo $lang['CAMPUS_CONTENT_BACK']; ?>
+                </a></div>
+                             
         </div>
           <div class="push"></div>
       </div>

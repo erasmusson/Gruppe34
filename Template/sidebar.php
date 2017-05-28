@@ -11,7 +11,7 @@
     <div class="col-md-3" id="leftCol">
         <div id="navi" class="clearfix">  
         <nav class="nav-sidebar sidebar-fixed-left">
-                <ul class="sidebar-nav-fixed affix" id="sidebar" style="list-style-type:none">
+                <ul class="sidebar-nav-fixed" id="sidebar" style="list-style-type:none">
                       <li class= "active"><a href="#tohome"><?php echo $lang['CAMPUS_SIDEBAR_HOME']; ?></a></li>
                       <li><a href="#tokantine"><?php echo $lang['CAMPUS_SIDEBAR_KANTINA']; ?></a></li>
                       <li><a href="#tobiblio"><?php echo $lang['CAMPUS_SIDEBAR_BIBLIO']; ?></a></li>

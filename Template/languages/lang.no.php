@@ -147,6 +147,7 @@ Vaterland
 Her er det ingen bemannet resepsjon
 </br>
 Byggets åpningstid: Døgnåpent';
+$lang['CAMPUS_CONTENT_BACK'] = "Gå tilbake";
 
 //Planoversikt Content
 $lang['PLAN_TITLE1'] = 'Hovedetasje (Inngangsetasje)';

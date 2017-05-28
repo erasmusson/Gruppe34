@@ -51,13 +51,9 @@
 @media (min-width: 979px) {
         
   #sidebar.affix-top {
-    position: static;
+    position: fixed;
   	margin-top:30px;
   	width:228px;
-  }
-  
-  #sidebar.affix-bottom {
-    position: relative;
   }
 }
   /*     
@@ -113,11 +109,6 @@
           </div>
           
           <hr class="col-sm-12">
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
           
           
          <div class="row">
@@ -131,16 +122,10 @@
       		<p><?php echo $lang['CAMPUS_KANTINA']; ?></p>
             <p><?php echo $lang['KANTINA_OPEN']; ?></p>
                  <a name="tobiblio"></a>
-          <br/>
-          <br/>
             </div>
         </div>
           
           <hr class="col-sm-12">
-            </br>
-            </br>
-            </br>
-            </br>
           
           <div class="row">
               <div class="col-md-8">
@@ -155,11 +140,6 @@
           </div>
           
           <hr class="col-sm-12">
-</br>
-</br>
-</br>
-</br>
-</br>
 
 
           <div class="row">
@@ -172,12 +152,7 @@
               <p><?php echo $lang['SJENKESTUA_OPEN']; ?></p>
               </div>
           </div>
-</br>
-</br>   
           <hr class="col-sm-12">
-</br>
-</br>
-</br>
           
           <div class="row">
           <div class="col-md-8">
@@ -190,8 +165,6 @@
           </div>
         </div>
       </div>
-</br>
-</br>
           <div class="push"></div>
       </div>
 

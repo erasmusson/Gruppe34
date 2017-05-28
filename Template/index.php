@@ -134,9 +134,10 @@
                     <?php require 'events/EventsSlide.php' ?>
                 </div>
                 
-                <a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
+                <div class="col-md-12 text-center"><a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
                         <?php echo $lang['HOMEPAGE_THIRD_BUTTON']; ?>
-                </a>
+                </a></div>
+                
             </div>
 
             <!-- Map -->

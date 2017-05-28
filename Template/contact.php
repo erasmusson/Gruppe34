@@ -58,6 +58,7 @@
                     </div>
                 </form>
             </div>
+             <div class="push"></div>
         </div>
         <!-- Fetches footer -->
         <?php require 'footer.php' ?>
