@@ -1,5 +1,6 @@
-
+<!-- Footer -->
 <div id="footer">
+    <!-- Footer når siden er i mobil skjermstørrelse -->
     <div class="container hidden-md hidden-lg">
         <div class="row">
             <div class="col-xs-6">
@@ -15,6 +16,8 @@
             </div>
         </div>
     </div>
+    
+    <!-- Footer når siden er i normal skjermstørrelse -->
     <div class="container hidden-xs hidden-sm">
         <div class="row">
             <div class="col-md-4">

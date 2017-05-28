@@ -1,10 +1,11 @@
 <?php
+// metode som gjør at nettsiden husker hvilke språk brukeren valgte.
 session_start();
-header('Cache-control: private'); // IE 6 FIX
+header('Cache-control: private');
 if(isSet($_GET['lang']))
 {
 $lang = $_GET['lang'];
-// register the session and set the cookie
+// registrer en session også setter inn en cookie.
 $_SESSION['lang'] = $lang;
 setcookie('lang', $lang, time() + (3600 * 24 * 30));
 }
@@ -20,6 +21,8 @@ else
 {
 $lang = 'en';
 }
+
+// skifter på språkene, hvor default er norsk.
 switch ($lang) {
 
 case 'no':

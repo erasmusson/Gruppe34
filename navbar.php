@@ -6,7 +6,7 @@ function reload() {
 }
 </script>
 
-
+<!-- Felles navbar til alle sidene -->
 <div class="nav-wrapper">
 <nav class="navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -25,7 +25,7 @@ function reload() {
                 <li><a tabindex="1" href="index.php"><?php echo $lang['MENU_HOME']; ?></a></li>
                 <li><a tabindex="2" href="map.php"><?php echo $lang['MENU_MAP']; ?></a></li>
                 <li><a tabindex="3" href="events.php"><?php echo $lang['MENU_EVENTS']; ?></a></li>
-                <li><a tabindex="4" href="campus-main.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
+                <li><a tabindex="4" href="campus.php"><?php echo $lang['MENU_CAMPUS']; ?></a></li>
             </ul>
             
              <ul class="nav navbar-nav navbar-right">
