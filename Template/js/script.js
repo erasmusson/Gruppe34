@@ -65,16 +65,18 @@ var thiswillneverwork;
     function hideClassShowId(divId) {
         if (current == divId) {
             if(oddeven == 2){
-                oddeven = 1;
                 $("#clickReturn").hide();
+                valueChanged();
             }
             else if(oddeven == 1){
                 oddeven = 2;
                 $("#clickReturn").show();
+                
+                $(".box").toggle();
+                $("#" + divId).toggle();
+                $("#" + textId).toggle();
             }
-            $(".box").toggle();
-            $("#" + divId).toggle();
-            $("#" + textId).toggle();
+            
             
             
             
