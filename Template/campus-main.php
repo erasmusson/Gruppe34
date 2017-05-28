@@ -14,10 +14,7 @@
     
       <style>
           
-    .affix-top,.affix{
-	position: fixed;
-}
-          
+    /*Navbar design*/      
 .nav-sidebar { 
     width: 100%;
     padding: 8px 0; 
@@ -50,6 +47,7 @@
     text-overflow: ellipsis; 
 }
 
+/*Sidebarens posisjon*/
 @media (min-width: 979px) {
         
   #sidebar.affix-top {
@@ -62,20 +60,33 @@
     position: relative;
   }
 }
+  /*     
+    Might actually be useless
+          
+.affix-top,.affix{
+	position: fixed;
+}
+          
 
 #mainCol h2 {
 	padding-top: 55px;
     margin-top: -55px;
 }
+        */
       </style>
       
+      
   </head>
+    
+<a name="tohome"></a>
+    
   <body id="campus">
       
         <?php require 'navbar.php' ?>
       
 
       <div class="container">
+
           <div class="row">
               <?php require 'sidebar.php' ?>
       
@@ -89,7 +100,7 @@
           
           <div class="row">
               <div class="col-md-8">
-                  <h2><a name="tohome"></a><?php echo $lang['CAMPUS_UNDER_TITLE']; ?></h2>
+                  <h2><?php echo $lang['CAMPUS_UNDER_TITLE']; ?></h2>
                   <br/>
                   <p><?php echo $lang['CAMPUS_CONTENT']; ?></p>
                   <br/>
@@ -97,10 +108,17 @@
               </div>
               <div class="col-md-4">
                   <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
+                  <a name="tokantine"></a>
               </div>
           </div>
           
           <hr class="col-sm-12">
+          </br>
+          </br>
+          </br>
+          </br>
+          </br>
+          
           
          <div class="row">
              <div class="col-md-4">
@@ -108,41 +126,60 @@
              </div>
              <br/>
              <div class="col-md-8">
-          <h2><a name="tokantine"></a><?php echo $lang['CAMPUS_UNDER_TITLE2']; ?></h2>
+          <h2><?php echo $lang['CAMPUS_UNDER_TITLE2']; ?></h2>
                  
       		<p><?php echo $lang['CAMPUS_KANTINA']; ?></p>
+            <p><?php echo $lang['KANTINA_OPEN']; ?></p>
+                 <a name="tobiblio"></a>
           <br/>
           <br/>
             </div>
         </div>
           
           <hr class="col-sm-12">
+            </br>
+            </br>
+            </br>
+            </br>
           
           <div class="row">
               <div class="col-md-8">
-                <h2><a name="tobiblio"></a><?php echo $lang['CAMPUS_UNDER_TITLE3']; ?></h2>
+                <h2><?php echo $lang['CAMPUS_UNDER_TITLE3']; ?></h2>
                   <p><?php echo $lang['CAMPUS_BIBLIO']; ?></p>
+                  <p><?php echo $lang['BIBLIO_OPEN']; ?></p>
               </div>
                 <div class="col-md-4">
                   <img src="pic/Fjerdingen_1.jpg" class="img-responsive img-rounded">
+                    <a name="tostua"></a>
               </div>
           </div>
           
           <hr class="col-sm-12">
+</br>
+</br>
+</br>
+</br>
+</br>
 
-          
-          
+
           <div class="row">
           <div class="col-md-4">
             <img src="pic/Sjenkestua_1.jpg" class="img-responsive img-rounded">    
           </div>
               <div class="col-md-8">
-              <h2><a name="tostua"></a><?php echo $lang['CAMPUS_UNDER_TITLE4']; ?></h2>
+              <h2><?php echo $lang['CAMPUS_UNDER_TITLE4']; ?></h2>
               <p><?php echo $lang['CAMPUS_SJENKESTUA']; ?></p>
+              <p><?php echo $lang['SJENKESTUA_OPEN']; ?></p>
               </div>
           </div>
+</br>
+</br>
+
           
           <hr class="col-sm-12">
+</br>
+</br>
+</br>
           
           <div class="row">
           <div class="col-md-8">

@@ -1,4 +1,10 @@
+<style>
 
+    .sidebar-wrapper {
+        font-size: 20px; 
+    }
+
+</style>
 
 
 <div class="sidebar-wrapper hidden-xs hidden-sm">

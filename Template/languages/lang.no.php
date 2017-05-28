@@ -48,39 +48,96 @@ $lang['EVENTS_PIC_TITLE3'] = 'Klikk på bilde for og se<br>sportarrangement i Os
 $lang['EVENT_LINK'] = 'Link til biletter';
 
 
-// Campus
+// Campus-Main
 $lang['CAMPUS_TITLE'] = 'Campus Fjerdingen';
 $lang['CAMPUS_UNDER_TITLE'] = 'Velkommen til Campus Fjerdingen';
 $lang['CAMPUS_CONTENT'] = 'På Campus Fjerdingen finner du elever fra flere ulike fagfelt. Avdelingene kunstfag, kommunikasjon, teknologi og ledelse har det meste av sin undervisning her.
-Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.';
+Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.
+</br>
+</br>
+<a href="campus-content.php">Les Mer</a>';
 
 $lang['CAMPUS_UNDER_TITLE2'] = 'Kantina';
 $lang['CAMPUS_KANTINA'] = 'Både på campus Vulkan og campus Fjerdingen finner du en fantastisk kantine med variert og sunn mat. Der er også vegetarianertilbud.
-Åpningstider
-Frokost	08.30-15.00
-Lunsj 		11.00 - 15.15
-Stenger		15.30
-
 Meny - Hentes fra Oslolunsj.no';
+$lang['KANTINA_OPEN'] = 'Åpningstider:
+</br>
+Frokost:	08.30-15.00
+</br>
+Lunsj: 	11.00 - 15.15
+</br>
+Stenger:	15.30';
+
 $lang['CAMPUS_UNDER_TITLE3'] = 'Bibliotek';
 $lang['CAMPUS_BIBLIO'] = 'Biblioteket på Westerdals Oslo ACT er fordelt på Campus Fjerdingen og Campus Vulkan.
-Her er det et godt utvalg av bøker, film, spill, databaser og tidsskrifter. Du kan låne på tvers av campus, og bibliotekarene hjelper deg gjerne.
-Åpningstider: I byggets åpningstid
-Bibliotekarene er tilgjengelige for spørsmål og veiledning mandag -fredag 
-09.00 - 15.30';
+Her er det et godt utvalg av bøker, film, spill, databaser og tidsskrifter. Du kan låne på tvers av campus, og bibliotekarene hjelper deg gjerne.';
+$lang['BIBLIO_OPEN'] = 'Åpningstider: I byggets åpningstid.
+</br>
+Bibliotekarene er tilgjengelige for spørsmål og veiledning 
+</br>
+Mandag - Fredag: 09.00 - 15.30';
+
 $lang['CAMPUS_UNDER_TITLE4'] = 'Skjenkestua';
-$lang['CAMPUS_SJENKESTUA'] = 'Sjenkestua
-I første etasje på Campus Fjerdingen finner du Puttis Sjenkestue, verdens beste bar*.
-Her tilbys det blant annet en halvliter øl til en studentvennlig pris.
+$lang['CAMPUS_SJENKESTUA'] = 'I første etasje på Campus Fjerdingen finner du Puttis Sjenkestue, verdens beste bar. Her tilbys det blant annet en halvliter øl til en studentvennlig pris.';
+$lang['SJENKESTUA_OPEN'] = 'Åpningstider:
+</br>
+Torsdag: 15.30 - 24.00
+</br>
+Fredag: 15.00 - 24.00'; 
  
- 
-Åpningstider: 
-Torsdag 15.30 - 24.00
-Fredag: 15.00 - 24.00
-';
 
 $lang['CAMPUS_UNDER_TITLE5'] = 'Problemer med å finne frem?';
-$lang['CAMPUS_PLAN'] = 'Få hjelp til å finne frem på skolen med vår planoversikt';
+$lang['CAMPUS_PLAN'] = 'Få hjelp til å finne frem på skolen med vår planoversikt
+</br>
+</br>
+<a href="Planoversikt.php">Finn Frem</a>';
+$lang['PLAN_TITLE'] = 'Planoversikt for Campus Fjerdingen';
+
+//Campus-Content
+$lang['FJERDINGEN_CONTENT'] = 'Campus Fjerdingen er Westerdals største campus og ligger på Christian Kroghs gate 32 nær sentrum.
+Campuset er nyrenovert og åpnet høsten 2016 med helt nye undervisningslokaler som strekker seg over åtte plan, mange arbeidsrom, kantine, bibliotek og bar!
+</br>
+</br>
+ 
+Dette nye campuset ligger sentralt plassert ved Akerselva på nedre del av Grünerløkka, med gåavstand til Torggata. I nærheten av Fjerdingen vil du finne mange små kafeer, restauranter og barer. Bydelen er også et populært shoppingområde.
+Like nord for Grünerløkka finner du Torshov, med kultursentrene Soria Moria og Trikkestallen. Et roligere område med store parker og avslappende kafeer.
+</br>
+</br>
+
+Bygget er tilpasset for undervisning på dagtid, men passer godt til prosjektarbeid i grupper eller for seg selv på kveldstid.
+Studentlivet handler selvsagt om mer enn bare studier, og bygget er derfor rustet for studentfester, utstillinger, konserter og andre typer arrangementer.';
+
+$lang['FJERDINGEN_OPEN'] = 'Resepsjonen er bemannet:
+</br>
+mandag - fredag 08.00 - 16.00
+</br>
+</br>
+Byggets åpningstid: 
+</br>
+07.30 - 24.00, lørdag og søndag 10.00 - 23.00';
+
+//Planoversikt Content
+$lang['PLAN_TITLE1'] = 'Hovedetasje (Inngangsetasje)';
+$lang['PLAN_TITLE2'] = '2. Etajse';
+$lang['PLAN_TITLE3'] = '3. Etasje';
+$lang['PLAN_TITLE4'] = 'I Fjerde etasje finner vi lærere og ansatte';
+$lang['PLAN_TITLE5'] = '5. Etasje';
+$lang['PLAN_TITLE6'] = '6. Etasje';
+$lang['PLAN_TITLEU1'] = 'Underetasje 1';
+$lang['PLAN_TITLEU2'] = 'Underetasje 2';
+
+
+
+
+//Planoversikt Sidebar
+$lang['FJERDINGEN_PLAN1'] = 'Plan 1';
+$lang['FJERDINGEN_PLAN2'] = 'Plan 2';
+$lang['FJERDINGEN_PLAN3'] = 'Plan 3';
+$lang['FJERDINGEN_PLAN4'] = 'Plan 4';
+$lang['FJERDINGEN_PLAN5'] = 'Plan 5';
+$lang['FJERDINGEN_PLAN6'] = 'Plan 6';
+$lang['FJERDINGEN_PLANU1'] = 'Plan U1';
+$lang['FJERDINGEN_PLANU2'] = 'Plan U2';
 
 //Campus Sidebar
 $lang['CAMPUS_SIDEBAR_HOME'] = 'Hjem';
