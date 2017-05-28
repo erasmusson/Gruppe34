@@ -28,11 +28,11 @@
             <div class="row">
                 <div class="col-md-8">
                     <h2><?php echo $lang['CAMPUS_TITLE']; ?></h2>
-                    <br/>
+                    <br>
                     <p>
                         <?php echo $lang['FJERDINGEN_CONTENT']; ?>
                     </p>
-                    <br/>
+                    <br>
 
                 </div>
                 <div class="col-md-4">

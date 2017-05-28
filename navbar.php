@@ -16,7 +16,7 @@ function reload() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand navbar-brand-centered hidden-xs hidden-sm" tabindex="-1" href="index.php"><img src="pic/Logo_BW_1.png" class="img-circle logo"></a>
+            <a class="navbar-brand navbar-brand-centered hidden-xs hidden-sm" tabindex="-1" href="index.php"><img alt="logo" src="pic/Logo_BW_1.png" class="img-circle logo"></a>
         
         </div>
         

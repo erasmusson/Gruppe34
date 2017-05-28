@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Planoversikt | Campus Fjerdingen </title>
-    <link rel="icon" href="../pic/logo_bw_1_SYy_icon.ico">
+    <link rel="icon" href="pic/logo_bw_1_SYy_icon.ico">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -18,7 +18,7 @@
 
 </head>
 
-<a name="toplan1"></a>
+<a id="toplan1"></a>
 
 <body id="plansikt">
 
@@ -49,7 +49,7 @@
                                 <br>
                                 <img src="pic/Plan1.png" alt="Planoversikt over plan 1" class="img-responsive img-rounded">
                             </div>
-                            <a name="toplan2"></a>
+                            <a id="toplan2"></a>
                         </div>
                         <br>
                         <br>
@@ -68,7 +68,7 @@
                                 <br>
                                 <img src="pic/Plan2.png" alt="Planoversikt over plan 2" class="img-responsive img rounded">
                             </div>
-                            <a name="toplan3"></a>
+                            <a id="toplan3"></a>
                         </div>
 
                         <br>
@@ -88,7 +88,7 @@
                                 <br>
                                 <img src="pic/Plan3.png" alt="Planoversikt over plan 3" class="img-responsive img rounded">
                             </div>
-                            <a name="toplan4"></a>
+                            <a id="toplan4"></a>
                         </div>
 
                         <br>
@@ -109,7 +109,7 @@
                                 <br>
                             </div>
                             <br>
-                            <a name="toplan5"></a>
+                            <a id="toplan5"></a>
                         </div>
 
                         <hr class="col-sm-12">
@@ -124,7 +124,7 @@
                                 <br>
                                 <img src="pic/Plan5.png" alt="Planoversikt over plan 5" class="img-responsive img rounded">
                             </div>
-                            <a name="toplan6"></a>
+                            <a id="toplan6"></a>
                         </div>
 
                         <br>
@@ -143,7 +143,7 @@
                                 <br>
                                 <img src="pic/Plan6.png" alt="Planoversikt over plan 6" class="img-responsive img rounded">
                             </div>
-                            <a name="toplanu1"></a>
+                            <a id="toplanu1"></a>
                         </div>
 
                         <br>
@@ -163,7 +163,7 @@
                                 <br>
                                 <img src="pic/PlanU1.png" alt="Planoversikt over plan U1" class="img-responsive img rounded">
                             </div>
-                            <a name="toplanu2"></a>
+                            <a id="toplanu2"></a>
                         </div>
 
                         <br>

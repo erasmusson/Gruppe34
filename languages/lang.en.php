@@ -98,7 +98,7 @@ $lang['CAMPUS_UNDER_TITLE5'] = 'Need help getting around?';
 $lang['CAMPUS_PLAN'] = 'Never get lost with our handy overview.
 </br>
 </br>
-<a href="Planoversikt.php">Get help</a>';
+<a href="planoversikt.php">Get help</a>';
 $lang['PLAN_TITLE'] = 'Plan overview for Campus Fjerdingen';
 
 //Campus-Content
@@ -149,7 +149,7 @@ Vaterland
 There is no manned reception
 </br>
 Building opening hours: Open 24 hours';
-$lang['CAMPUS_CONTENT_LINK'] = 'Back';
+$lang['CAMPUS_CONTENT_BACK'] = 'Back';
 
 //Plan overview Content
 $lang['PLAN_TITLE1'] = 'Main Floor (Entrance Floor)';

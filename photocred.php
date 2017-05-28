@@ -35,7 +35,7 @@
                 <br>
                 <br>
 
-                <img alt="Bild av Not" src="pic/musikk.png"> <img src="pic/refresh.png"> <img src="pic/football.png"> <img src="pic/drink.png">
+                <img alt="Bild av Not" src="pic/musikk.png"> <img alt="Bild av refresh" src="pic/refresh.png"> <img alt="Bild av fotball" src="pic/football.png"> <img src="pic/drink.png">
                 <br>
                 <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <br>

@@ -16,7 +16,7 @@
 
 </head>
 
-<a name="tohome"></a>
+<a id="tohome"></a>
 
 <body id="campus">
 
@@ -50,7 +50,7 @@
                             </div>
                             <div class="col-md-4">
                                 <img alt="Bild av fjerdingen" src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
-                                <a name="tokantine"></a>
+                                <a id="tokantine"></a>
                             </div>
                         </div>
 
@@ -71,7 +71,7 @@
                                 <p>
                                     <?php echo $lang['KANTINA_OPEN']; ?>
                                 </p>
-                                <a name="tobiblio"></a>
+                                <a id="tobiblio"></a>
                             </div>
                         </div>
 
@@ -90,7 +90,7 @@
                             </div>
                             <div class="col-md-4">
                                 <img alt="Bild av Bibliotek" src="pic/Fjerdingen_1.jpg" class="img-responsive img-rounded">
-                                <a name="tostua"></a>
+                                <a id="tostua"></a>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@
                         <!-- Campus information -->
                         <div class="row">
                             <div class="col-md-8">
-                                <h2><a name="toplan"></a><?php echo $lang['CAMPUS_UNDER_TITLE5']; ?></h2>
+                                <h2><a id="toplan"></a><?php echo $lang['CAMPUS_UNDER_TITLE5']; ?></h2>
                                 <p>
                                     <?php echo $lang['CAMPUS_PLAN']; ?>
                                 </p>

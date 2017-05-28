@@ -25,7 +25,7 @@
                 </div>
                 
                 <!-- First name and surname -->
-                <form class="form-horizontal hidden-xs hidden-sm" role="form" method="post" action="mailto:dunnat16@student.westerdals.no">
+                <form class="form-horizontal hidden-xs hidden-sm" method="post" action="mailto:dunnat16@student.westerdals.no">
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">
                             <?php echo $lang['CONTACT_NAME']; ?>
@@ -44,7 +44,7 @@
                     </div>
                     <!-- Send message -->
                     <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label">
+                        <label class="col-sm-2 control-label">
                             <?php echo $lang['CONTACT_MSG']; ?>
                         </label>
                         <div class="col-sm-10">
