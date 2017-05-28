@@ -25,7 +25,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <title>Framside | Campus Fjerdingen </title>
         <link rel="icon" href="pic/logo_bw_1_SYy_icon.ico">
 
@@ -35,6 +35,7 @@
         <!-- Custom CSS -->
         <link href="css/custom.css" rel="stylesheet" type="text/css">
     </head>
+
     <body id="home">
 
         <!-- HEADER BILDE -->
@@ -45,14 +46,14 @@
                 </div>
             </div>
         </header>
-        
+
         <!-- eksklusiv navigation bar til index.php -->
         <div class="nav-wrapper">
             <div class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <!-- navbaren blir collapsable når skjermen  -->
-                        <a class="navbar-brand navbar-brand-centered hidden-xs" href="index.php"><img src="pic/Logo_BW_1.png" alt="Campus Fjerdingen Logotyp" class="img-circle logo"></a>
+                        <a class="navbar-brand navbar-brand-centered hidden-xs" href="index.php"><img alt="Bild av logotyp" src="pic/Logo_BW_1.png" alt="Campus Fjerdingen Logotyp" class="img-circle logo"></a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -105,7 +106,7 @@
             </div>
         </div>
 
-        
+
         <!-- starten av innholdet i index.php -->
         <div class="container">
 
@@ -133,11 +134,13 @@
                 <div class="col-md-12">
                     <?php require 'events/EventsSlide.php' ?>
                 </div>
-                
-                <div class="col-md-12 text-center"><a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
+
+                <div class="col-md-12 text-center">
+                    <a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
                         <?php echo $lang['HOMEPAGE_THIRD_BUTTON']; ?>
-                </a></div>
-                
+                    </a>
+                </div>
+
             </div>
 
             <!-- Map -->
@@ -157,8 +160,8 @@
                     <img src="pic/mapindex.png" class="img-responsive img-rounded img-shadow" alt="Kart over nærområdet">
                 </div>
             </div>
-            
-            <!-- pusher ned footeren sånn den blir sticky --> 
+
+            <!-- pusher ned footeren sånn den blir sticky -->
             <div class="push"></div>
         </div>
         <?php require 'footer.php' ?>
