@@ -93,7 +93,7 @@ $lang['CAMPUS_UNDER_TITLE5'] = 'Problemer med å finne frem?';
 $lang['CAMPUS_PLAN'] = 'Få hjelp til å finne frem på skolen med vår planoversikt
 </br>
 </br>
-<a href="Planoversikt.php">Finn Frem</a>';
+<a href="planoversikt.php">Finn Frem</a>';
 $lang['PLAN_TITLE'] = 'Planoversikt for Campus Fjerdingen';
 
 //Campus-Content

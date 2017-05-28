@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Planoversikt | Campus Fjerdingen </title>
-    <link rel="icon" href="../pic/logo_bw_1_SYy_icon.ico">
+    <link rel="icon" href="pic/logo_bw_1_SYy_icon.ico">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
