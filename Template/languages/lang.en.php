@@ -113,14 +113,42 @@ The new campus is centrally located by the Akerselva river on the southmost part
  
 the campus is built with daytime educating in mind, but it’s a good fit for project work in groups or on your own in the evening hours. Life as a student doesn’t just revolve around the studies, and the location is well equipped for parties, exhibitions, concerts and other types of events.";
 
-$lang['FJERDINGEN_OPEN'] = 'The reception is manned: 
+$lang['FJERDINGEN_OPEN'] = 'Reception is manned: 
 </br>
 Monday - Friday 08.00 - 16.00
 </br>
 </br>
 Building opening hours: 
 </br>
-07:30 - 24:00, Saturday and Sunday 10:00 - 23:00';
+07:30 - 24:00, Saturday and Sunday 10:00 - 23:00
+</br>
+Campus Vulkan
+</br>
+Reseption is manned: 
+</br>
+Monday - Friday 08.00 - 22.00
+</br>
+</br>
+Building opening hours: 
+</br>
+Monday - Friday 08.00 - 22.00, 
+</br>
+Saturday 10.00 - 18.00 og Sunday 10.00 - 20.00
+ </br>
+Campus Brenneriveien
+</br>
+There is no manned reception
+</br>
+Building opening hours: 
+</br>
+07.30 - 24.00, Saturday og Sunday 10.00 - 23.00
+</br>
+</br>
+Vaterland
+</br>
+There is no manned reception
+</br>
+Building opening hours: Open 24 hours';
 
 //Plan overview Content
 $lang['PLAN_TITLE1'] = 'Main Floor (Entrance Floor)';

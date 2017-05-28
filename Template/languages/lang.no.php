@@ -66,7 +66,10 @@ Frokost:	08.30-15.00
 </br>
 Lunsj: 	11.00 - 15.15
 </br>
-Stenger:	15.30';
+Stenger:	15.30
+</br>
+</br>
+Meny finner du på Oslolunsj.no';
 
 $lang['CAMPUS_UNDER_TITLE3'] = 'Bibliotek';
 $lang['CAMPUS_BIBLIO'] = 'Biblioteket på Westerdals Oslo ACT er fordelt på Campus Fjerdingen og Campus Vulkan.
@@ -114,7 +117,36 @@ mandag - fredag 08.00 - 16.00
 </br>
 Byggets åpningstid: 
 </br>
-07.30 - 24.00, lørdag og søndag 10.00 - 23.00';
+07.30 - 24.00, lørdag og søndag 10.00 - 23.00
+</br>
+</br>
+Campus Vulkan
+</br>
+Resepsjon er bemannet: 
+</br>
+Mandag - Fredag 08.00 - 22.00
+</br>
+</br>
+Byggets åpningstid: 
+</br>
+Mandag - Fredag 08.00 - 22.00, 
+</br>
+lørdag 10.00 - 18.00 og søndag 10.00 - 20.00
+ </br>
+Campus Brenneriveien
+</br>
+Her er det ingen bemannet resepsjon
+</br>
+Byggets åpningstid: 
+</br>
+07.30 - 24.00, lørdag og søndag 10.00 - 23.00
+</br>
+</br>
+Vaterland
+</br>
+Her er det ingen bemannet resepsjon
+</br>
+Byggets åpningstid: Døgnåpent';
 
 //Planoversikt Content
 $lang['PLAN_TITLE1'] = 'Hovedetasje (Inngangsetasje)';

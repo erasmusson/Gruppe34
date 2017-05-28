@@ -48,7 +48,7 @@
                   <img src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
               </div>
 
-          </div>
+          </div>                              
         </div>
           <div class="push"></div>
       </div>

@@ -173,9 +173,7 @@
               </div>
           </div>
 </br>
-</br>
-
-          
+</br>   
           <hr class="col-sm-12">
 </br>
 </br>
@@ -192,6 +190,8 @@
           </div>
         </div>
       </div>
+</br>
+</br>
           <div class="push"></div>
       </div>
 
