@@ -55,7 +55,7 @@ $lang['CAMPUS_CONTENT'] = 'På Campus Fjerdingen finner du elever fra flere ulik
 Bygget har mange forskjellige klasserom tilpasset studentenes behov, studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. De administrative avdelingene våre, studieavdelingen, markedsavdelingen og administrasjonen, holder også til her.
 </br>
 </br>
-<a href="campus-content.php">Les Mer</a>';
+<a href="Campus/campus-content.php">Les Mer</a>';
 
 $lang['CAMPUS_UNDER_TITLE2'] = 'Kantina';
 $lang['CAMPUS_KANTINA'] = 'Både på campus Vulkan og campus Fjerdingen finner du en fantastisk kantine med variert og sunn mat. Der er også vegetarianertilbud.
@@ -93,7 +93,7 @@ $lang['CAMPUS_UNDER_TITLE5'] = 'Problemer med å finne frem?';
 $lang['CAMPUS_PLAN'] = 'Få hjelp til å finne frem på skolen med vår planoversikt
 </br>
 </br>
-<a href="Planoversikt.php">Finn Frem</a>';
+<a href="Campus/planoversikt.php">Finn Frem</a>';
 $lang['PLAN_TITLE'] = 'Planoversikt for Campus Fjerdingen';
 
 //Campus-Content
