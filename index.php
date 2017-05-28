@@ -77,7 +77,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a tabindex="4" href="campus-main.php">
+                                <a tabindex="4" href="campus.php">
                                     <?php echo $lang['MENU_CAMPUS']; ?>
                                 </a>
                             </li>
