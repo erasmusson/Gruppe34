@@ -12,66 +12,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <!-- Custom CSS -->
         <link href="css/custom.css" rel="stylesheet" type="text/css">
-        <!-- JavaScript / Jquery -->
-        <script type="text/javascript">
-            var currentZoom = 1.0;
-            var forrige = '';
-
-            // Zooms in on map
-            function zoomIn() {
-                $('#map').animate({
-                    'zoom': currentZoom + .5
-                });
-            }
-
-            // Reset zoom 
-            function zoomReset() {
-                var currentZoom = 1.0;
-                $('#map').animate({
-                    'zoom': currentZoom
-                });
-            }
-
-            // Shows or hides div when click on link where implemented.  
-            function switchToggle(divId) {
-                $("#" + forrige).toggle();
-                $("#" + divId).toggle();
-                $("#infoBar").show();
-                forrige = divId;
-                
-            }
-
-            // Shows infobar when press on meny
-            function toggleInfoBar() {
-                $("#infoBar").toggle();
-            }
-
-
-            // Scrolls right when click on button.
-            function scrollRight() {
-                $('#mapContent').scrollLeft('600');
-            }
-            /*
-            var thiswillneverwork;
-            
-            function hoverthingy(whichDiv){
-                if(script.oddeven != 2){
-                if(thiswillneverwork != whichDiv){
-                    $("#" + thiswillneverwork).hide();
-                }
-                thiswillneverwork = whichDiv;
-                
-                   $("#" + thiswillneverwork).show();
-                }
-            }
-            
-            function hoverend(){
-                if(script.oddeven != 2){
-                $("#" + thiswillneverwork).hide();
-                }
-            }
-            */
-        </script>
 </head>
 
 <body id="kart">
