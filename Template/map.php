@@ -46,13 +46,6 @@
                 $("#infoBar").toggle();
             }
 
-            // Shows and hides pins from category       
-            function valueChanged() {
-                for (var i = 0; i < 7; i++) {
-                    if ($('#chk' + (i + 1)).is(":checked")) $('.category' + (i + 1)).show();
-                    else $('.category' + (i + 1)).hide();
-                }
-            }
 
             // Scrolls right when click on button.
             function scrollRight() {

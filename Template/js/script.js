@@ -76,6 +76,8 @@ var thiswillneverwork;
             $("#" + divId).toggle();
             $("#" + textId).toggle();
             
+            
+            
         }
         else {
             oddeven = 2;
@@ -105,4 +107,21 @@ var thiswillneverwork;
                 if(oddeven != 2){
                 $("#" + thiswillneverwork).hide();
                 }
+            }
+
+
+            // Shows and hides pins from category       
+            function valueChanged() {
+                
+                oddeven = 1;
+                $("#" + textId).hide();
+                $(".box").hide();
+                textId = "";
+                current = "";
+                
+                for (var i = 0; i < 7; i++) {
+                    if ($('#chk' + (i + 1)).is(":checked")) $('.category' + (i + 1)).show();
+                    else $('.category' + (i + 1)).hide();
+                    }
+                
             }
