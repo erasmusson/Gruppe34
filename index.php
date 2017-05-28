@@ -18,9 +18,8 @@
 ?>
 
 
-    <!DOCTYPE html>
-    <html lang="no">
-
+<!DOCTYPE html>
+<html lang="no">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,6 +34,7 @@
         <!-- Custom CSS -->
         <link href="css/custom.css" rel="stylesheet" type="text/css">
     </head>
+    
     <body id="home">
 
         <!-- HEADER BILDE -->
@@ -84,7 +84,6 @@
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
-
                             <li>
                                 <a tabindex="5" href="contact.php">
                                     <?php echo $lang['MENU_CONTACT']; ?>
@@ -121,8 +120,7 @@
                         <?php echo $lang['HOMEPAGE_THIRD_SECTION']; ?>
                     </p>
 
-
-                    <a tabindex="8" href="campus-main.php" class="btn btn-primary" role="button">
+                    <a tabindex="8" href="campus.php" class="btn btn-primary" role="button">
                         <?php echo $lang['HOMEPAGE_SECOND_BUTTON']; ?>
                     </a>
                 </div>
@@ -134,10 +132,11 @@
                     <?php require 'events/EventsSlide.php' ?>
                 </div>
                 
-                <div class="col-md-12 text-center"><a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
+                <div class="col-md-12 text-center">
+                    <a tabindex="9" href="events.php" class="btn btn-primary" role="button" style="">
                         <?php echo $lang['HOMEPAGE_THIRD_BUTTON']; ?>
-                </a></div>
-                
+                    </a>
+                </div>                
             </div>
 
             <!-- Map -->
@@ -152,7 +151,9 @@
                         <?php echo $lang['HOMEPAGE_FIRST_BUTTON']; ?>
                     </a>
                 </div>
+                
                 <div class="col-md-1"></div>
+                
                 <div class="col-md-6 kartBilde">
                     <img src="pic/mapindex.png" class="img-responsive img-rounded img-shadow" alt="Kart over nærområdet">
                 </div>
@@ -163,14 +164,10 @@
         </div>
         <?php require 'footer.php' ?>
 
-
-            <!-- jquery og bootstrap script -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-
-
-            <!-- Custom javascript -->
-            <script src="js/script.js"></script>
+        <!-- jquery og bootstrap script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Custom javascript -->
+        <script src="js/script.js"></script>
     </body>
-
-    </html>
+</html>

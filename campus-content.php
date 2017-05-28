@@ -20,6 +20,7 @@
 
 <body>
 
+    <!-- Fetches navbar -->
     <?php require 'navbar.php' ?>
         <div class="container">
             <br>
@@ -33,14 +34,15 @@
                         <?php echo $lang['FJERDINGEN_CONTENT']; ?>
                     </p>
                     <br>
-
                 </div>
+                
                 <div class="col-md-4">
                     <br>
                     <br>
                     <br>
                     <img alt="Bild av Campus Fjerdingen" src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
                 </div>
+                
                 <div class="col-md-12 open">
                     <?php echo $lang['FJERDINGEN_OPEN']; ?>
                 </div>
@@ -54,16 +56,16 @@
                 </div>
 
             </div>
-            <div class="push"></div>
+            
+        <div class="push"></div>
         </div>
-
+    
+        <!-- Fetches Footer -->
         <?php require 'footer.php' ?>
-
-
-            <!-- jquery og bootstrap script -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/script.js"></script>
+        <!-- jquery og bootstrap script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
 
 </body>
 

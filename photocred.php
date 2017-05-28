@@ -17,16 +17,13 @@
 </head>
 
 <body>
-
     <!-- Fetches all parts of events -->
     <div class="container-fluid">
         <?php require 'navbar.php' ?>
     </div>
 
     <div class="container">
-
         <div class="row">
-
             <div id="photoCreditContainer" class="col-md-12">
                 <h3><?php echo $lang['PHOTOCRED_TITLE']; ?></h3>
 
@@ -35,7 +32,7 @@
                 <br>
                 <br>
 
-                <img alt="Bild av Not" src="pic/musikk.png"> <img alt="Bild av refresh" src="pic/refresh.png"> <img alt="Bild av fotball" src="pic/football.png"> <img src="pic/drink.png">
+                <img alt="Bild av Not" src="pic/musikk.png"> <img alt="Bild av refresh" src="pic/refresh.png"> <img alt="Bild av fotball" src="pic/football.png"> <img src="pic/drink.png" alt="drink">
                 <br>
                 <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <br>
@@ -70,23 +67,19 @@
                 <div>Icons made by <a href="http://www.flaticon.com/authors/retinaicons" title="Retinaicons">Retinaicons</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <br>
                 <br>
-
                 <?php echo $lang['PHOTOCRED_WESTERDALS']; ?>
-
             </div>
         </div>
-
     </div>
 
     <div class="push"></div>
 
     <!-- Fetches footer -->
     <?php require 'footer.php' ?>
-
-        <!-- jquery og bootstrap script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
+    <!-- jquery og bootstrap script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

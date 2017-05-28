@@ -152,11 +152,18 @@
                 <br />
                 <form class="searchBox" method="get">
                     <label>
-                        <input tabindex="12" type="text" name="keywords" class="form-control" autocomplete="off" placeholder="<?php echo $lang['SEARCH_SEARCHHERE']; ?>"> </label>
+                        <input tabindex="12" type="text" name="keywords" class="form-control" autocomplete="off" placeholder="<?php echo $lang['SEARCH_SEARCHHERE']; ?>"> 
+                    </label>
                     <br>
-                    <input tabindex="13" type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default"> </form>
+                    <input tabindex="13" type="submit" value="<?php echo $lang['MENU_SUBMIT']; ?>" class="btn btn-default"> 
+                </form>
+                
+                <!-- Reset button -->
                 <form class="searchBox" method="get">
-                    <input tabindex="14" type="submit" name="reset" value="<?php echo $lang['MENU_RESET']; ?>" class="btn btn-default"> </form>
+                    <input tabindex="14" type="submit" name="reset" value="<?php echo $lang['MENU_RESET']; ?>" class="btn btn-default"> 
+                </form>
+                
+                <!-- Center Map button -->
                 <button tabindex="15" id="scrollRight" onclick="scrollRight()" class="btn btn-default">
                     <?php echo $lang['MENU_CENTER_MAP']; ?>
                 </button>
@@ -929,10 +936,10 @@
     </div>
     <!-- Fetches footer -->
     <?php require'footer.php' ?>
-        <!-- jquery og bootstrap script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
+    <!-- jquery og bootstrap script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -6,12 +6,33 @@
     use Carbon\Carbon;
     Carbon::setLocale('no');
 
-    $language = ($_COOKIE['lang']!='' ? $_COOKIE['lang'] : ''); 
+    if(isSet($_GET['lang']))
+{
+$lang = $_GET['lang'];
+    
+// registrer en session også setter inn en cookie.
+$_SESSION['lang'] = $lang;
+    
+setcookie('lang', $lang, time() + (3600 * 24 * 30));
+}
+else if(isSet($_SESSION['lang']))
+{
+$lang = $_SESSION['lang'];
+}
+else if(isSet($_COOKIE['lang']))
+{
+$lang = $_COOKIE['lang'];
+}
+else
+{
+$lang = 'en';
+}
 
-    switch ($language) {
+
+    switch ($lang) {
     case 'no':
         $statement = $connection->prepare('SELECT * FROM events');
-        $statement->execute();
+        $statement->execute();  
     break;
             
     case 'en':
@@ -20,7 +41,7 @@
     break;
             
     default:
-        $statement = $connection->prepare('SELECT * FROM events');
+        $statement = $connection->prepare('SELECT * FROM eventseng');
         $statement->execute();
     } 
 
@@ -65,13 +86,13 @@
         <div class="container-fluid">
             <?php require 'events/slideshow.php' ?>
         </div>
-        
+
         <!-- Event content-->
         <div class="container event-container">
             <div class="row">
                 <div class="col-md-12" id="updateDiv">
                     <a tabindex="11" href="#" id="image2" onclick="window.location.reload(true);"><img alt="Uppdateringssymbol" style="height:35px;" src="pic/refresh.png"> </a>
-                    <br/> 
+                    <br/>
                 </div>
             </div>
             <?php require 'events/event-content.php' ?>

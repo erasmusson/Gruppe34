@@ -1,9 +1,8 @@
-
 <?php require 'common.php' ?>
 <script>
-function reload() {
-    window.reload();
-}
+    function reload() {
+        window.reload();
+    }
 </script>
 
 <!-- Felles navbar til alle sidene -->
@@ -17,7 +16,6 @@ function reload() {
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand navbar-brand-centered hidden-xs hidden-sm" tabindex="-1" href="index.php"><img alt="logo" src="pic/Logo_BW_1.png" class="img-circle logo"></a>
-        
         </div>
         
         <div class="collapse navbar-collapse" id="navbar">
@@ -30,17 +28,16 @@ function reload() {
             
              <ul class="nav navbar-nav navbar-right">
                 <li><a tabindex="5" href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $lang['MENU_LANGUAGE']; ?>
-                <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a tabindex="6" href="?lang=no" onclick="window.location.reload(true);" >Norsk</a></li>
-                    <li><a tabindex="7" href="?lang=en" onclick="window.location.reload(true);" >English</a></li>
-                </ul>
-              </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $lang['MENU_LANGUAGE']; ?>
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="6" href="?lang=no" onclick="window.location.reload(true);" >Norsk</a></li>
+                        <li><a tabindex="7" href="?lang=en" onclick="window.location.reload(true);" >English</a></li>
+                    </ul>
+                </li>
             </ul>
-        </div>
-        
+        </div>    
     </div>
 </nav>
 </div>

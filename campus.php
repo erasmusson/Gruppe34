@@ -19,26 +19,28 @@
 <a id="tohome"></a>
 
 <body id="campus">
-
+    
+    <!-- Fetches navbar -->
     <?php require 'navbar.php' ?>
 
         <div class="container">
 
             <div class="row">
+                
                 <!-- Fetch sidebar -->
-
                 <?php require 'sidebar.php' ?>
 
                     <div class="col-md-9" id="mainCol">
 
                         <br>
 
-                        <!-- Campus information -->
+                        <!-- Campus title -->
                         <h1><?php echo $lang['CAMPUS_TITLE']; ?></h1>
                         <br/>
                         <br/>
 
                         <div class="row">
+                            <!-- Campus Content -->
                             <div class="col-md-8">
                                 <h2><?php echo $lang['CAMPUS_UNDER_TITLE']; ?></h2>
                                 <br/>
@@ -48,6 +50,8 @@
                                 <br/>
                                 <br/>
                             </div>
+                            
+                            <!-- Campus pic -->
                             <div class="col-md-4">
                                 <img alt="Bild av fjerdingen" src="pic/Fjerdingen_2.jpg" class="img-responsive img-rounded">
                                 <a id="tokantine"></a>
@@ -56,12 +60,15 @@
 
                         <hr class="col-sm-12">
 
-                        <!-- Canteen information -->
+                        <!-- Canteen  -->
                         <div class="row">
+                            <!-- Canteen pic -->
                             <div class="col-md-4">
                                 <img alt="Bild av kantina" src="pic/Fjerdingen_Kantina1.jpg" class="img-responsive img-rounded">
                             </div>
                             <br/>
+                            
+                            <!-- Canteen Content -->
                             <div class="col-md-8">
                                 <h2><?php echo $lang['CAMPUS_UNDER_TITLE2']; ?></h2>
 
@@ -77,8 +84,10 @@
 
                         <hr class="col-sm-12">
 
-                        <!-- Library information -->
+                        <!-- Library  -->
                         <div class="row">
+                            
+                            <!-- Library Content -->
                             <div class="col-md-8">
                                 <h2><?php echo $lang['CAMPUS_UNDER_TITLE3']; ?></h2>
                                 <p>
@@ -88,6 +97,8 @@
                                     <?php echo $lang['BIBLIO_OPEN']; ?>
                                 </p>
                             </div>
+                            
+                            <!-- Library pic -->
                             <div class="col-md-4">
                                 <img alt="Bild av Bibliotek" src="pic/Fjerdingen_1.jpg" class="img-responsive img-rounded">
                                 <a id="tostua"></a>
@@ -96,11 +107,15 @@
 
                         <hr class="col-sm-12">
 
-                        <!-- Bar information -->
+                        <!-- Bar -->
                         <div class="row">
+                            
+                            <!-- Bar pic-->
                             <div class="col-md-4">
                                 <img alt="Bild av bar" src="pic/Sjenkestua_1.jpg" class="img-responsive img-rounded">
                             </div>
+                            
+                            <!-- Bar content -->
                             <div class="col-md-8">
                                 <h2><?php echo $lang['CAMPUS_UNDER_TITLE4']; ?></h2>
                                 <p>
@@ -113,14 +128,18 @@
                         </div>
                         <hr class="col-sm-12">
 
-                        <!-- Campus information -->
+                        <!-- Campus  -->
                         <div class="row">
+                            
+                            <!-- Campus content -->
                             <div class="col-md-8">
                                 <h2><a id="toplan"></a><?php echo $lang['CAMPUS_UNDER_TITLE5']; ?></h2>
                                 <p>
                                     <?php echo $lang['CAMPUS_PLAN']; ?>
                                 </p>
                             </div>
+                            
+                            <!-- Campus picture  -->
                             <div class="col-md-4">
                                 <img alt="Bild av fjerdingen" src="pic/Fjerdingen_Plan.jpg" class="img-responsive img-rounded">
                             </div>
@@ -132,10 +151,10 @@
 
         <?php require 'footer.php' ?>
 
-            <!-- jquery og bootstrap script -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/script.js"></script>
+        <!-- jquery og bootstrap script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

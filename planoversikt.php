@@ -32,14 +32,12 @@
                 <!-- Fetches navigaton to the left-->
                 <?php require 'plansidebar.php' ?>
 
-                    <div class="col-md-9" id="mainCol">
-
+                <div class="col-md-9" id="mainCol">
                         <br>
-
                         <h1><?php echo $lang['CAMPUS_TITLE']; ?></h1>
                         <br/>
                         <br/>
-                        
+
                         <!-- Plan 1-->
                         <div class="row">
                             <div class="col-md-7">
@@ -58,7 +56,7 @@
 
                         <br>
                         <br>
-                        
+
                         <!-- Plan 2-->
                         <div class="row">
                             <div class="col-md-7">
@@ -78,7 +76,7 @@
 
                         <br>
                         <br>
-                        
+
                         <!-- Plan 3-->
                         <div class="row">
                             <div class="col-md-7">
@@ -98,7 +96,7 @@
 
                         <br>
                         <br>
-                        
+
                         <!-- Plan 4-->
                         <div class="row">
                             <div class="col-md-9">
@@ -113,7 +111,7 @@
                         </div>
 
                         <hr class="col-sm-12">
-                        
+
                         <!-- Plan 5-->
                         <div class="row">
                             <div class="col-md-7">

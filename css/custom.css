@@ -582,6 +582,7 @@ body {
 }
 
 /*Planoversikt */
+
 .nav-sidebar {
     width: 100%;
     padding: 8px 0;
@@ -613,7 +614,6 @@ body {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
-
 #mainCol h2 {
     padding-top: 55px;
     margin-top: -55px;

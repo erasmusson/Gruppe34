@@ -1,5 +1,3 @@
-
-<script src="js/script.js"></script>
 <!-- Search function -->
 <?php 
         $db = new mysqli('localhost', 'root', 'root', 'campusfjerdingen', 8889);
