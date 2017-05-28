@@ -41,7 +41,7 @@
         <header class="masthead">
             <div class="container-fluid">
                 <div class="row">
-                    <img src="pic/tester-ting.png" alt="Bilde av Campus Fjerdingen" class="img-responsive forside">
+                    <img src="pic/forsidebilde.png" alt="Bilde av Campus Fjerdingen" class="img-responsive forside">
                 </div>
             </div>
         </header>
