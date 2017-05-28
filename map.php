@@ -51,26 +51,7 @@
             function scrollRight() {
                 $('#mapContent').scrollLeft('600');
             }
-            /*
-            var thiswillneverwork;
             
-            function hoverthingy(whichDiv){
-                if(script.oddeven != 2){
-                if(thiswillneverwork != whichDiv){
-                    $("#" + thiswillneverwork).hide();
-                }
-                thiswillneverwork = whichDiv;
-                
-                   $("#" + thiswillneverwork).show();
-                }
-            }
-            
-            function hoverend(){
-                if(script.oddeven != 2){
-                $("#" + thiswillneverwork).hide();
-                }
-            }
-            */
         </script>
 </head>
 
@@ -742,197 +723,197 @@
                     <!--Container for boxes on map -->
                     <div id="boxContainer">
                         <a href="javascript:switchToggle('acontent');" >
-                            <div id="a" class="box category2" onmouseover="javascript:hoverthingy('atxt');" onmouseout="javascript:hoverend();">
+                            <div id="a" class="box category2" onmouseover="javascript:hoverstart('atxt');" onmouseout="javascript:hoverend();">
                                 <div id="atxt" class="karttxt">4Sound: Schous Plass</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('aacontent');" >
-                            <div id="aa" class="box category4" onmouseover="javascript:hoverthingy('aatxt');" onmouseout="javascript:hoverend();">
+                            <div id="aa" class="box category4" onmouseover="javascript:hoverstart('aatxt');" onmouseout="javascript:hoverend();">
                                 <div id="aatxt" class="karttxt">Nedre Lokka</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('abcontent');">
-                            <div id="ab" class="box category4" onmouseover="javascript:hoverthingy('abtxt');" onmouseout="javascript:hoverend();">
+                            <div id="ab" class="box category4" onmouseover="javascript:hoverstart('abtxt');" onmouseout="javascript:hoverend();">
                                 <div id="abtxt" class="karttxt">Oslo Bonanza</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('accontent');">
-                            <div id="ac" class="box category4" onmouseover="javascript:hoverthingy('actxt');" onmouseout="javascript:hoverend();">
+                            <div id="ac" class="box category4" onmouseover="javascript:hoverstart('actxt');" onmouseout="javascript:hoverend();">
                                 <div id="actxt" class="karttxt">Syng</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('adcontent');">
-                            <div id="ad" class="box category3" onmouseover="javascript:hoverthingy('adtxt');" onmouseout="javascript:hoverend();">
+                            <div id="ad" class="box category3" onmouseover="javascript:hoverstart('adtxt');" onmouseout="javascript:hoverend();">
                                 <div id="adtxt" class="karttxt">Oslo City</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('aecontent');">
-                            <div id="ae" class="box category5" onmouseover="javascript:hoverthingy('aetxt');" onmouseout="javascript:hoverend();">
+                            <div id="ae" class="box category5" onmouseover="javascript:hoverstart('aetxt');" onmouseout="javascript:hoverend();">
                                 <div id="aetxt" class="karttxt">SIO Vulkan</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('afcontent');">
-                            <div id="af" class="box category4" onmouseover="javascript:hoverthingy('aftxt');" onmouseout="javascript:hoverend();">
+                            <div id="af" class="box category4" onmouseover="javascript:hoverstart('aftxt');" onmouseout="javascript:hoverend();">
                                 <div id="aftxt" class="karttxt">Verkstedet</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('agcontent');">
-                            <div id="ag" class="box category4" onmouseover="javascript:hoverthingy('agtxt');" onmouseout="javascript:hoverend();">
+                            <div id="ag" class="box category4" onmouseover="javascript:hoverstart('agtxt');" onmouseout="javascript:hoverend();">
                                 <div id="agtxt" class="karttxt">Territoriet</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ahcontent');">
-                            <div id="ah" class="box category2" onmouseover="javascript:hoverthingy('ahtxt');" onmouseout="javascript:hoverend();">
+                            <div id="ah" class="box category2" onmouseover="javascript:hoverstart('ahtxt');" onmouseout="javascript:hoverend();">
                                 <div id="ahtxt" class="karttxt">Oslo Spektrum</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('aicontent');">
-                            <div id="ai" class="box category5" onmouseover="javascript:hoverthingy('aitxt');" onmouseout="javascript:hoverend();">
+                            <div id="ai" class="box category5" onmouseover="javascript:hoverstart('aitxt');" onmouseout="javascript:hoverend();">
                                 <div id="aitxt" class="karttxt">Sats: Spektrum</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ajcontent');">
-                            <div id="aj" class="box category2" onmouseover="javascript:hoverthingy('ajtxt');" onmouseout="javascript:hoverend();">
+                            <div id="aj" class="box category2" onmouseover="javascript:hoverstart('ajtxt');" onmouseout="javascript:hoverend();">
                                 <div id="ajtxt" class="karttxt">Sentrum Scene</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('akcontent');">
-                            <div id="ak" class="box category5" onmouseover="javascript:hoverthingy('aktxt');" onmouseout="javascript:hoverend();">
+                            <div id="ak" class="box category5" onmouseover="javascript:hoverstart('aktxt');" onmouseout="javascript:hoverend();">
                                 <div id="aktxt" class="karttxt">Sats: Schouss Plass</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('alcontent');">
-                            <div id="al" class="box category5" onmouseover="javascript:hoverthingy('altxt');" onmouseout="javascript:hoverend();">
+                            <div id="al" class="box category5" onmouseover="javascript:hoverstart('altxt');" onmouseout="javascript:hoverend();">
                                 <div id="altxt" class="karttxt">Oslo Kettlebell Gym</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('amcontent');">
-                            <div id="am" class="box category4" onmouseover="javascript:hoverthingy('amtxt');" onmouseout="javascript:hoverend();">
+                            <div id="am" class="box category4" onmouseover="javascript:hoverstart('amtxt');" onmouseout="javascript:hoverend();">
                                 <div id="amtxt" class="karttxt">Skuret Bar og Scene</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ancontent');">
-                            <div id="an" class="box category5" onmouseover="javascript:hoverthingy('antxt');" onmouseout="javascript:hoverend();">
+                            <div id="an" class="box category5" onmouseover="javascript:hoverstart('antxt');" onmouseout="javascript:hoverend();">
                                 <div id="antxt" class="karttxt">Stamina Key Bjørkvika</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('aocontent');">
-                            <div id="ao" class="box category5" onmouseover="javascript:hoverthingy('aotxt');" onmouseout="javascript:hoverend();">
+                            <div id="ao" class="box category5" onmouseover="javascript:hoverstart('aotxt');" onmouseout="javascript:hoverend();">
                                 <div id="aotxt" class="karttxt">Oslo Performance Center</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('apcontent');">
-                            <div id="ap" class="box category5" onmouseover="javascript:hoverthingy('aptxt');" onmouseout="javascript:hoverend();">
+                            <div id="ap" class="box category5" onmouseover="javascript:hoverstart('aptxt');" onmouseout="javascript:hoverend();">
                                 <div id="aptxt" class="karttxt">Torggata Bad Treningssenter</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('aqcontent');">
-                            <div id="aq" class="box category1" onmouseover="javascript:hoverthingy('aqtxt');" onmouseout="javascript:hoverend();">
+                            <div id="aq" class="box category1" onmouseover="javascript:hoverstart('aqtxt');" onmouseout="javascript:hoverend();">
                                 <div id="aqtxt" class="karttxt">Vitus Apoteket Jernbanetorget</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('bcontent');">
-                            <div id="b" class="box category7" onmouseover="javascript:hoverthingy('btxt');" onmouseout="javascript:hoverend();">
+                            <div id="b" class="box category7" onmouseover="javascript:hoverstart('btxt');" onmouseout="javascript:hoverend();">
                                 <div id="btxt" class="karttxt">Campus Brenneriveien</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ccontent');">
-                            <div id="c" class="box category7" onmouseover="javascript:hoverthingy('ctxt');" onmouseout="javascript:hoverend();">
+                            <div id="c" class="box category7" onmouseover="javascript:hoverstart('ctxt');" onmouseout="javascript:hoverend();">
                                 <div id="ctxt" class="karttxt">Campus Fjerdingen</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('dcontent');">
-                            <div id="d" class="box category7" onmouseover="javascript:hoverthingy('dtxt');" onmouseout="javascript:hoverend();">
+                            <div id="d" class="box category7" onmouseover="javascript:hoverstart('dtxt');" onmouseout="javascript:hoverend();">
                                 <div id="dtxt" class="karttxt">Campus Vulkan</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('econtent');">
-                            <div id="e" class="box category5" onmouseover="javascript:hoverthingy('etxt');" onmouseout="javascript:hoverend();">
+                            <div id="e" class="box category5" onmouseover="javascript:hoverstart('etxt');" onmouseout="javascript:hoverend();">
                                 <div id="etxt" class="karttxt">Actic: Storgata</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('fcontent');">
-                            <div id="f" class="box category1" onmouseover="javascript:hoverthingy('ftxt');" onmouseout="javascript:hoverend();">
+                            <div id="f" class="box category1" onmouseover="javascript:hoverstart('ftxt');" onmouseout="javascript:hoverend();">
                                 <div id="ftxt" class="karttxt">Apoteket: Gunerius</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('gcontent');">
-                            <div id="g" class="box category3" onmouseover="javascript:hoverthingy('gtxt');" onmouseout="javascript:hoverend();">
+                            <div id="g" class="box category3" onmouseover="javascript:hoverstart('gtxt');" onmouseout="javascript:hoverend();">
                                 <div id="gtxt" class="karttxt">Byporten</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('hcontent');">
-                            <div id="h" class="box category1" onmouseover="javascript:hoverthingy('htxt');" onmouseout="javascript:hoverend();">
+                            <div id="h" class="box category1" onmouseover="javascript:hoverstart('htxt');" onmouseout="javascript:hoverend();">
                                 <div id="htxt" class="karttxt">Ditt apotek: Grunerløkka</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('icontent');">
-                            <div id="i" class="box category5" onmouseover="javascript:hoverthingy('itxt');" onmouseout="javascript:hoverend();">
+                            <div id="i" class="box category5" onmouseover="javascript:hoverstart('itxt');" onmouseout="javascript:hoverend();">
                                 <div id="itxt" class="karttxt">EVO: Grunerløkka</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('jcontent');">
-                            <div id="j" class="box category2" onmouseover="javascript:hoverthingy('jtxt');" onmouseout="javascript:hoverend();">
+                            <div id="j" class="box category2" onmouseover="javascript:hoverstart('jtxt');" onmouseout="javascript:hoverend();">
                                 <div id="jtxt" class="karttxt">Filter Musikk Sentralbord</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('kcontent');">
-                            <div id="k" class="box category5" onmouseover="javascript:hoverthingy('ktxt');" onmouseout="javascript:hoverend();">
+                            <div id="k" class="box category5" onmouseover="javascript:hoverstart('ktxt');" onmouseout="javascript:hoverend();">
                                 <div id="ktxt" class="karttxt">Fitness24Seven</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('mcontent');">
-                            <div id="m" class="box category2" onmouseover="javascript:hoverthingy('mtxt');" onmouseout="javascript:hoverend();">
+                            <div id="m" class="box category2" onmouseover="javascript:hoverstart('mtxt');" onmouseout="javascript:hoverend();">
                                 <div id="mtxt" class="karttxt">GitarHuset</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ncontent');">
-                            <div id="n" class="box category3" onmouseover="javascript:hoverthingy('ntxt');" onmouseout="javascript:hoverend();">
+                            <div id="n" class="box category3" onmouseover="javascript:hoverstart('ntxt');" onmouseout="javascript:hoverend();">
                                 <div id="ntxt" class="karttxt">GlassMagasinet: StorTorvet</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ocontent');">
-                            <div id="o" class="box category3" onmouseover="javascript:hoverthingy('otxt');" onmouseout="javascript:hoverend();">
+                            <div id="o" class="box category3" onmouseover="javascript:hoverstart('otxt');" onmouseout="javascript:hoverend();">
                                 <div id="otxt" class="karttxt">Gunerius Shoppingsenter</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('pcontent');">
-                            <div id="p" class="box category5" onmouseover="javascript:hoverthingy('ptxt');" onmouseout="javascript:hoverend();">
+                            <div id="p" class="box category5" onmouseover="javascript:hoverstart('ptxt');" onmouseout="javascript:hoverend();">
                                 <div id="ptxt" class="karttxt">Haralds Gym</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('qcontent');">
-                            <div id="q" class="box category2" onmouseover="javascript:hoverthingy('qtxt');" onmouseout="javascript:hoverend();">
+                            <div id="q" class="box category2" onmouseover="javascript:hoverstart('qtxt');" onmouseout="javascript:hoverend();">
                                 <div id="qtxt" class="karttxt">Hoornas Musikk</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('rcontent');">
-                            <div id="r" class="box category2" onmouseover="javascript:hoverthingy('rtxt');" onmouseout="javascript:hoverend();">
+                            <div id="r" class="box category2" onmouseover="javascript:hoverstart('rtxt');" onmouseout="javascript:hoverend();">
                                 <div id="rtxt" class="karttxt">John Dee</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('scontent');">
-                            <div id="s" class="box category4" onmouseover="javascript:hoverthingy('stxt');" onmouseout="javascript:hoverend();">
+                            <div id="s" class="box category4" onmouseover="javascript:hoverstart('stxt');" onmouseout="javascript:hoverend();">
                                 <div id="stxt" class="karttxt">KJ10</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('tcontent');">
-                            <div id="t" class="box category5" onmouseover="javascript:hoverthingy('ttxt');" onmouseout="javascript:hoverend();">
+                            <div id="t" class="box category5" onmouseover="javascript:hoverstart('ttxt');" onmouseout="javascript:hoverend();">
                                 <div id="ttxt" class="karttxt">Klatresenter</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('ucontent');">
-                            <div id="u" class="box category1" onmouseover="javascript:hoverthingy('utxt');" onmouseout="javascript:hoverend();">
+                            <div id="u" class="box category1" onmouseover="javascript:hoverstart('utxt');" onmouseout="javascript:hoverend();">
                                 <div id="utxt" class="karttxt">Legevakt Oslo</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('vcontent');">
-                            <div id="v" class="box category3" onmouseover="javascript:hoverthingy('vtxt');" onmouseout="javascript:hoverend();">
+                            <div id="v" class="box category3" onmouseover="javascript:hoverstart('vtxt');" onmouseout="javascript:hoverend();">
                                 <div id="vtxt" class="karttxt">Mathallen</div>
                             </div>
                         </a>
                         <a href="javascript:switchToggle('wcontent');">
-                            <div id="w" class="box category5" onmouseover="javascript:hoverthingy('wtxt');" onmouseout="javascript:hoverend();">
+                            <div id="w" class="box category5" onmouseover="javascript:hoverstart('wtxt');" onmouseout="javascript:hoverend();">
                                 <div id="wtxt" class="karttxt">Mysore Yoga Oslo</div>
                             </div>
                         </a>

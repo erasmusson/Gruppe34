@@ -56,74 +56,69 @@ $(document).ready(function () {
 
 
 var current;
-    var textId;
-    var oddeven;
-
-var thiswillneverwork;
+var textId;
+var oddeven;
+var lastHovered;
             
    
-    function hideClassShowId(divId) {
-        if (current == divId) {
-            if(oddeven == 2){
-                $("#clickReturn").hide();
-                valueChanged();
-            }
-            else if(oddeven == 1){
-                oddeven = 2;
-                $("#clickReturn").show();
-                
-                $(".box").toggle();
-                $("#" + divId).toggle();
-                $("#" + textId).toggle();
-            }
-            
-            
-            
-            
+function hideClassShowId(divId) {
+    if (current == divId) {
+        if(oddeven == 2){
+            $("#clickReturn").hide();
+            valueChanged();
         }
-        else {
+        else if(oddeven == 1){
             oddeven = 2;
-            $("#" + textId).hide();
-            $(".box").hide();
-            $("#" + divId).toggle();
-            textId = divId + "txt";
-            $("#" + textId).toggle();
             $("#clickReturn").show();
-            current = divId;
+
+            $(".box").toggle();
+            $("#" + divId).toggle();
+            $("#" + textId).toggle();
         }
     }
+    else {
+        oddeven = 2;
+        $("#" + textId).hide();
+        $(".box").hide();
+        $("#" + divId).toggle();
+        textId = divId + "txt";
+        $("#" + textId).toggle();
+        $("#clickReturn").show();
+        current = divId;
+    }
+}
 
 
-            function hoverthingy(whichDiv){
-                if(oddeven != 2){
-                if(thiswillneverwork != whichDiv){
-                    $("#" + thiswillneverwork).hide();
-                }
-                thiswillneverwork = whichDiv;
-                
-                   $("#" + thiswillneverwork).show();
-                }
-            }
-            
-            function hoverend(){
-                if(oddeven != 2){
-                $("#" + thiswillneverwork).hide();
-                }
-            }
+function hoverstart(hoveredDiv){
+    if(oddeven != 2){
+        if(lastHovered != hoveredDiv){
+            $("#" + lastHovered).hide();
+        }
+        lastHovered = hoveredDiv;
+        $("#" + lastHovered).show();
+    }
+}
 
+function hoverend(){
+    if(oddeven != 2){
+        $("#" + lastHovered).hide();
+    }
+}
 
-            // Shows and hides pins from category       
-            function valueChanged() {
-                
-                oddeven = 1;
-                $("#" + textId).hide();
-                $(".box").hide();
-                textId = "";
-                current = "";
-                
-                for (var i = 0; i < 7; i++) {
-                    if ($('#chk' + (i + 1)).is(":checked")) $('.category' + (i + 1)).show();
-                    else $('.category' + (i + 1)).hide();
-                    }
-                
-            }
+// Shows and hides pins from category       
+function valueChanged() {
+    oddeven = 1;
+    $("#" + textId).hide();
+    $(".box").hide();
+    textId = "";
+    current = "";
+
+    checkBoxes();
+}
+
+function checkBoxes() {
+    for (var i = 0; i < 7; i++) {
+        if ($('#chk' + (i + 1)).is(":checked")) $('.category' + (i + 1)).show();
+        else $('.category' + (i + 1)).hide();
+        }
+}
