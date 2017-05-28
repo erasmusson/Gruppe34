@@ -57,7 +57,7 @@ $lang['CAMPUS_UNDER_TITLE'] = 'Welcome to Campus Fjerdingen';
 $lang['CAMPUS_CONTENT'] = 'Students from several different courses study at campus fjerdingen. Arts, communication, technology and leadership have most of their classes here. the campus has several different classrooms specially built for different purposes, studios, special rooms and rehearsal rooms for music-production, light and sound design, popular music and programming. the administrative departments, academic affairs, marketing and administration is also located here.
 </br>
 </br>
-<a href="Campus/campus-content.php">Read More</a>';
+<a href="campus-content.php">Read More</a>';
 $lang['CAMPUS_UNDER_TITLE2'] = 'Canteen';
 $lang['CAMPUS_KANTINA'] = 'In Campus Vulkan and Campus Fjerdingen you can find a fantastic canteen with varied and healthy food, they also have a vegan alternative.
 </br>
@@ -98,7 +98,7 @@ $lang['CAMPUS_UNDER_TITLE5'] = 'Need help getting around?';
 $lang['CAMPUS_PLAN'] = 'Never get lost with our handy overview.
 </br>
 </br>
-<a href="../Campus/planoversikt.php">Get help</a>';
+<a href="Planoversikt.php">Get help</a>';
 $lang['PLAN_TITLE'] = 'Plan overview for Campus Fjerdingen';
 
 //Campus-Content

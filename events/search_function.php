@@ -2,7 +2,7 @@
 <script src="js/script.js"></script>
 <!-- Search function -->
 <?php 
-        $db = new mysqli('localhost', 'root', 'root', 'campusfjerdingen', 8889);
+        $db = new mysqli('localhost', 'root', 'root', 'campusfjerdingen', 3306);
 
         if(isset($_GET['reset'])){
         }

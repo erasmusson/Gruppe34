@@ -1,11 +1,10 @@
 <?php
-// Gjør slik at siden husker hvilke språk brukeren har valgt ved bruk av cookies.
 session_start();
 header('Cache-control: private'); // IE 6 FIX
 if(isSet($_GET['lang']))
 {
 $lang = $_GET['lang'];
-// registrerer sesjonen og setter opp cookien.
+// register the session and set the cookie
 $_SESSION['lang'] = $lang;
 setcookie('lang', $lang, time() + (3600 * 24 * 30));
 }
@@ -23,7 +22,6 @@ $lang = 'en';
 }
 switch ($lang) {
 
-//velger mellom norsk og engelsk via navbaren.
 case 'no':
 $lang_file = 'lang.no.php';
 break;
