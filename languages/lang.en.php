@@ -149,7 +149,7 @@ Vaterland
 There is no manned reception
 </br>
 Building opening hours: Open 24 hours';
-$lang['CAMPUS_CONTENT_LINK'] = 'Back';
+$lang['CAMPUS_CONTENT_BACK'] = 'Back';
 
 //Plan overview Content
 $lang['PLAN_TITLE1'] = 'Main Floor (Entrance Floor)';
